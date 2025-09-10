@@ -1,0 +1,1 @@
+[TUBA ÖZDİNÇ- EEM.1_2 DERS KAYITLARI(üni epostası ile girilmelidir*)](https://ktunedutr-my.sharepoint.com/personal/tozdinc_ktun_edu_tr/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Ftozdinc%5Fktun%5Fedu%5Ftr%2FDocuments%2FKay%C4%B1tlar&FolderCTID=0x012000291D55C32FCAE64898B2735FB8DF9CC7&view=0)
