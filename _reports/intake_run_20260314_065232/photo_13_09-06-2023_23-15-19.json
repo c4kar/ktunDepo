@@ -1,0 +1,38 @@
+{
+  "original_name": "photo_13@09-06-2023_23-15-19.jpg",
+  "new_name": "sinav_elektrik-alan-soru_2021_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_13@09-06-2023_23-15-19.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektrik-alan-soru_2021_v1.jpg",
+  "size_kb": 71.326171875,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "elektrik alan",
+      "gerilim hesaplaması",
+      "silindirik koordinatlar"
+    ],
+    "year_guess": "2021",
+    "has_solutions": true,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "El yazısı sınav sorusu çözümü. Elektromanyetik alan teorisi dersi için değerli materyal.",
+    "confidence": 0.9,
+    "suggested_filename_hint": "elektrik-alan-soru"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2221,
+    "output": 213
+  },
+  "processed_at": "2026-03-14T06:55:27.009628",
+  "needs_ocr": true,
+  "docling_info": null
+}

@@ -1,0 +1,18 @@
+{
+  "run_id": "intake_run_20260310_232902",
+  "course": "",
+  "started_at": "2026-03-10T23:29:09.718352",
+  "duration_seconds": 7.65569,
+  "total_files": 1,
+  "statistics": {
+    "accepted": 0,
+    "rejected": 0,
+    "review": 0,
+    "ocr_queue": 0
+  },
+  "token_usage": {
+    "input": 0,
+    "output": 0
+  },
+  "files": []
+}

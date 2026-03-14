@@ -1,0 +1,37 @@
+{
+  "original_name": "photo_79@05-07-2023_10-52-20.jpg",
+  "new_name": "lms_elektromanyetik-lms-sunum_tarihsiz_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_79@05-07-2023_10-52-20.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/LMS/lms_elektromanyetik-lms-sunum_tarihsiz_v1.jpg",
+  "size_kb": 101.111328125,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "lms_sunumu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "elektromanyetik",
+      "alan teorisi"
+    ],
+    "year_guess": null,
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "Elektromanyetik Alan Teorisi dersi LMS sunumu olarak görünüyor. EEM-4 dönemine uygun içerik.",
+    "confidence": 0.8,
+    "suggested_filename_hint": "elektromanyetik-lms-sunum"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2405,
+    "output": 208
+  },
+  "processed_at": "2026-03-14T07:00:58.371766",
+  "needs_ocr": true,
+  "docling_info": null
+}

@@ -1,0 +1,38 @@
+{
+  "original_name": "Final_Cozum.pdf",
+  "new_name": "cozum_final-cozum-ac_2031_v1.pdf",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/devre_analizi_2/Final_Cozum.pdf",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/cozum_final-cozum-ac_2031_v1.pdf",
+  "size_kb": 1145.1845703125,
+  "page_count": 5,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_cozumu",
+    "course_name": "devre_analizi_2",
+    "semester_guess": "EEM-2",
+    "topics": [
+      "ac_devre_analizi",
+      "kompleks_guc",
+      "fazor_analizi",
+      "thevenin_esdegseri"
+    ],
+    "year_guess": "2031",
+    "has_solutions": true,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "El yazısı AC devre analizi final sınavı çözümleri. Kompleks güç, fazör analizi ve Thévenin eşdeğeri konularında detaylı çözümler içeriyor. EEM-2 seviyesinde devre analizi için değerli materyal.",
+    "confidence": 0.95,
+    "suggested_filename_hint": "final-cozum-ac"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 4300,
+    "output": 259
+  },
+  "processed_at": "2026-03-11T02:17:38.333979",
+  "needs_ocr": true
+}

@@ -1,0 +1,38 @@
+{
+  "original_name": "photo_70@03-07-2023_21-37-29.jpg",
+  "new_name": "sinav_elektrostatik-potansiyel-soru_2023_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_70@03-07-2023_21-37-29.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektrostatik-potansiyel-soru_2023_v1.jpg",
+  "size_kb": 56.69140625,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "elektrostatik",
+      "çizgi yük",
+      "elektrik potansiyeli"
+    ],
+    "year_guess": "2023",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "Elektromanyetik alan teorisi dersine ait çoktan seçmeli sınav sorusu. Çizgi yükün elektrik potansiyeli hesabı konusunu içeriyor. EEM-4 müfredatına uygun, değerli materyal.",
+    "confidence": 0.95,
+    "suggested_filename_hint": "elektrostatik-potansiyel-soru"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2267,
+    "output": 254
+  },
+  "processed_at": "2026-03-14T07:00:09.399731",
+  "needs_ocr": true,
+  "docling_info": null
+}

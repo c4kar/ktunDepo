@@ -1,0 +1,10 @@
+{
+  "original_name": "Kompanzasyon_Temiz_Cozum.pdf",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/devre_analizi_2/Kompanzasyon_Temiz_Cozum.pdf",
+  "final_decision": "REJECTED",
+  "rejection_type": "technical",
+  "error_type": "EmptyFileError",
+  "error_message": "Dosya 2.0KB, minimum 5KB gerekli",
+  "processed_at": "2026-03-11T02:13:50.555732",
+  "token_usage": {}
+}

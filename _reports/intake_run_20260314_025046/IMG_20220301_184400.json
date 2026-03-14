@@ -1,0 +1,37 @@
+{
+  "original_name": "IMG_20220301_184400.jpg",
+  "new_name": "not_lojik-devre-notlari_2022_v4.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/lojik_devre_tasarimi/Tahta Fotoğraflar/IMG_20220301_184400.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/lojik-devre-tasarimi/not_lojik-devre-notlari_2022_v4.jpg",
+  "size_kb": 3875.2158203125,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "ders_notu",
+    "course_name": "lojik-devre-tasarimi",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "lojik devreleri",
+      "boolean cebir",
+      "devre analizi"
+    ],
+    "year_guess": "2022",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "El yazısı ders notu, lojik devre tasarımı konularını içeriyor, EEM-4 dönemine uygun materyal",
+    "confidence": 0.8,
+    "suggested_filename_hint": "lojik-devre-notlari"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2764,
+    "output": 216
+  },
+  "processed_at": "2026-03-14T02:52:53.085093",
+  "needs_ocr": true
+}

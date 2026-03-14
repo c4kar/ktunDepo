@@ -1,0 +1,42 @@
+{
+  "original_name": "2016-2017 Final.pdf",
+  "new_name": "sinav_2017-final-sorulari_2017_v1.pdf",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/lojik_devre_tasarimi/Çıkmışlar/2016-2017 Final.pdf",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/lojik-devre-tasarimi/sinav_2017-final-sorulari_2017_v1.pdf",
+  "size_kb": 1830.029296875,
+  "page_count": 4,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "lojik-devre-tasarimi",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "ASM şeması",
+      "kontrol üniteleri",
+      "durum makinesi",
+      "FF tasarımı",
+      "kod çözücü",
+      "MUX",
+      "decoder",
+      "lojik devreleri"
+    ],
+    "year_guess": "2017",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "Selçuk Üniversitesi EEM bölümü Lojik Devre Tasarımı dersi final sınavı. ASM şemaları, kontrol üniteleri, FF tasarımı gibi konuları kapsayan değerli sınav soruları içeriyor. El yazısı çözümler de mevcut.",
+    "confidence": 0.95,
+    "suggested_filename_hint": "2017-final-sorulari"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 4335,
+    "output": 296
+  },
+  "processed_at": "2026-03-14T02:59:05.813768",
+  "needs_ocr": true
+}

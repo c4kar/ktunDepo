@@ -1,0 +1,38 @@
+{
+  "original_name": "photo_33@14-06-2023_09-26-36.jpg",
+  "new_name": "sinav_elektromanyetik-sinav-soru_2023_v4.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_33@14-06-2023_09-26-36.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-soru_2023_v4.jpg",
+  "size_kb": 62.20703125,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "elektromanyetik",
+      "metalik yapılar",
+      "iletkenlik"
+    ],
+    "year_guess": "2023",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "Elektromanyetik Alan Teorisi dersine ait sınav sorusu. Elektrik-Elektronik Mühendisliği müfredatına uygun değerli materyal.",
+    "confidence": 0.9,
+    "suggested_filename_hint": "elektromanyetik-sinav-soru"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2405,
+    "output": 231
+  },
+  "processed_at": "2026-03-14T06:57:11.621083",
+  "needs_ocr": true,
+  "docling_info": null
+}

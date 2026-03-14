@@ -1,0 +1,39 @@
+{
+  "original_name": "photo_108@12-06-2025_20-42-41.jpg",
+  "new_name": null,
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_108@12-06-2025_20-42-41.jpg",
+  "final_path": null,
+  "size_kb": 38.083984375,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "diger",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "şartlı geçer",
+      "bütünleme sınavları",
+      "ders açılış tarihleri"
+    ],
+    "year_guess": "2025",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "REJECTED",
+    "decision_reason": "Bu materyal sadece idari duyuru içeriği (şartlı geçer DC dersleri açılış tarihi). Teknik ders içeriği bulunmuyor, öğrenciler için eğitim değeri yok.",
+    "confidence": 0.95,
+    "suggested_filename_hint": "dc-dersleri-duyuru"
+  },
+  "duplicate_check": null,
+  "final_decision": "REJECTED",
+  "token_usage": {
+    "input": 2385,
+    "output": 244
+  },
+  "processed_at": "2026-03-14T07:03:23.254244",
+  "needs_ocr": true,
+  "docling_info": null,
+  "error": "LLM red: Bu materyal sadece idari duyuru içeriği (şartlı geçer DC dersleri açılış tarihi). Teknik ders içeriği bulunmuyor, öğrenciler için eğitim değeri yok."
+}

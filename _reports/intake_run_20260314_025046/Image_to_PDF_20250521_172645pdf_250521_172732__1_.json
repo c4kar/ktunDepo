@@ -1,0 +1,39 @@
+{
+  "original_name": "Image to PDF 20250521 172645pdf_250521_172732 (1).pdf",
+  "new_name": "not_sonlu-durum-makinesi_tarihsiz_v1.pdf",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/lojik_devre_tasarimi/Diğer/Image to PDF 20250521 172645pdf_250521_172732 (1).pdf",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/lojik-devre-tasarimi/not_sonlu-durum-makinesi_tarihsiz_v1.pdf",
+  "size_kb": 6109.3212890625,
+  "page_count": 16,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "ders_notu",
+    "course_name": "lojik-devre-tasarimi",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "sonlu durum makineleri",
+      "flip-flop",
+      "sıralı devreler",
+      "durum diyagramları",
+      "lojik tasarım"
+    ],
+    "year_guess": null,
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "El yazısı lojik devre tasarımı ders notu. Sonlu durum makineleri, flip-flop devreleri ve sıralı devre analizi içeriyor. EEM-4 döneminde lojik devre tasarımı dersi için değerli materyal.",
+    "confidence": 0.95,
+    "suggested_filename_hint": "sonlu-durum-makinesi"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 4317,
+    "output": 269
+  },
+  "processed_at": "2026-03-14T02:59:45.341622",
+  "needs_ocr": true
+}

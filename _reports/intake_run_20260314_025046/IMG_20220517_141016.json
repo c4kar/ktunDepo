@@ -1,0 +1,38 @@
+{
+  "original_name": "IMG_20220517_141016.jpg",
+  "new_name": "not_lojik-devre-tahta-notu_2022_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/lojik_devre_tasarimi/Tahta Fotoğraflar/IMG_20220517_141016.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/lojik-devre-tasarimi/not_lojik-devre-tahta-notu_2022_v1.jpg",
+  "size_kb": 4716.337890625,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "ders_notu",
+    "course_name": "lojik-devre-tasarimi",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "lojik devreler",
+      "sayisal tasarim",
+      "flip-flop",
+      "sayac devreler"
+    ],
+    "year_guess": "2022",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "Lojik devre tasarımı dersi için değerli tahta notu. Flip-flop ve sayaç devreleri içeren teknik çizimler ve formüller mevcut.",
+    "confidence": 0.9,
+    "suggested_filename_hint": "lojik-devre-tahta-notu"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2764,
+    "output": 237
+  },
+  "processed_at": "2026-03-14T02:50:58.503925",
+  "needs_ocr": true
+}

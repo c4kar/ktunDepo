@@ -1,0 +1,111 @@
+# agent/config.yaml
+# ktunDepo Agent Yapılandırma Dosyası
+# Bu dosyayı değiştirerek agent davranışını kodlamadan ayarlayabilirsin
+
+quality:
+  reject_threshold: 30          # Bu skorun altındaki materyaller reddedilir
+  llm_threshold: 60             # Bu skorun altındakiler LLM'e gönderilir (30-60 arası)
+  manual_review: true           # ACCEPTED olanlar direkt depoya girmeden önce _review'e düşsün
+  min_file_size_kb: 50          # Minimum dosya boyutu (KB)
+  max_file_size_mb: 200         # Maksimum dosya boyutu - video hariç (MB)
+  max_video_size_mb: 500        # Video dosyaları için maksimum boyut (MB)
+  min_pages: 2                  # Minimum PDF sayfa sayısı
+  supported_extensions:         # Kabul edilen dosya uzantıları
+    - ".pdf"
+    - ".pptx"
+    - ".docx"
+    - ".mp4"
+    - ".mkv"
+
+duplicate_detection:
+  reject_similarity: 0.92       # Bu benzerlik üzeri → kesin duplicate → red
+  warn_similarity: 0.75         # 0.75-0.92 arası → LLM'e sor
+  check_pages: 3                # Duplicate kontrolü için embed edilecek sayfa sayısı
+
+ocr:
+  engine: "docling"             # docling | mistral | tesseract
+  language: "tr"                # OCR dili
+  format_model: "anthropic/claude-3.5-sonnet-20241022"  # Markdown formatlaması için model (OpenRouter)
+  tesseract_lang: "tur"         # Tesseract için Türkçe dil paketi
+
+docling:
+  enabled: false
+  mode: "off"                   # off | shadow | enforce
+  min_extracted_chars: 180
+  optimize_pdf_over_mb: 20       # taranmış PDF bu boyut üstündeyse optimize etmeyi dene
+  optimize_min_saving_percent: 20
+  optimize_max_pages: 120
+  optimize_dpi: 150
+  optimize_jpeg_quality: 60
+
+llm:
+  quality_model: "anthropic/claude-3-haiku-20240307"  # Kalite değerlendirme modeli (hızlı + ucuz)
+  fallback_model: "openai/gpt-4o-mini"                # API hatasında yedek model
+  timeout_seconds: 30           # API çağrısı zaman aşımı
+  max_text_chars: 8000          # Dosyadan LLM'e gönderilecek max karakter
+
+embedding:
+  model: "intfloat/multilingual-e5-large"  # Lokal embedding modeli
+  batch_size: 32                # Batch embedding boyutu
+  max_seq_length: 512           # Maksimum token uzunluğu
+
+git:
+  auto_commit: true             # Otomatik commit aktif mi
+  commit_on_accept: true        # Her kabulden sonra commit at
+  daily_push_time: "03:00"      # Günlük toplu push saati (UTC)
+  branch: "main"                # Varsayılan branch
+  commit_prefix: "feat"         # Commit mesajı prefix'i
+
+telegram:
+  daily_upload_limit: 10        # Kullanıcı başına günlük yükleme limiti
+  hourly_group_limit: 30        # Grup başına saatlik limit
+  min_file_size_kb: 50          # Bot spam engellemek için minimum boyut
+  allowed_material_types:       # İzin verilen materyal türleri
+    - "Ders Notu"
+    - "Sınav Sorusu"
+    - "Sunum"
+    - "Özet"
+    - "Laboratuvar"
+    - "Diğer"
+
+paths:
+  incoming: "_incoming"         # Geçici tampon klasörü
+  vector_db: "vector_db"        # Vektör veritabanı klasörü
+  logs: "agent/logs"            # Log klasörü
+  prompts: "agent/prompts"      # Prompt şablonları klasörü
+
+logging:
+  level: "INFO"                 # DEBUG | INFO | WARNING | ERROR | CRITICAL
+  max_log_size_mb: 50           # Maksimum log dosyası boyutu
+  retention_days: 30            # Log saklama süresi (gün)
+  format: "%(asctime)s | %(levelname)s | %(name)s | %(message)s"
+
+maintenance:
+  triggers:                     # Bakım modunu tetikleyen durumlar
+    - "git push failed"
+    - "git merge conflict"
+    - "qdrant connection failed"
+    - "disk_usage > 90%"
+    - "corruption_detected"
+  health_check_interval: 86400  # Sağlık kontrolü aralığı (saniye) - 24 saat
+  health_check_time: "03:00"    # Günlük sağlık kontrolü saati
+
+# Dönem ve ders klasör yapısı
+semesters:
+  pattern: "EEM-{N}"            # Dönem klasör adı şablonu
+  current_max: 8                # Maksimum dönem sayısı (EEM-1'den EEM-8'e)
+
+# LLM kullanım kuralları (referans için)
+llm_usage:
+  allowed:
+    - "Heuristik filtreden geçmiş materyalin nihai kalite kararı"
+    - "OCR çıktısını Markdown'a formatlamak"
+    - "Kullanıcının Telegram sorusunu anlamak (intent detection)"
+    - "Bu konuda yeterli materyal var mı kararı"
+  forbidden:
+    - "Dosya boyutu/uzantı/sayfa sayısı kontrolü"
+    - "Duplicate tespiti (vektör similarity kullan)"
+    - "Git commit/push işlemleri"
+    - "Klasör oluşturma, dosya taşıma"
+    - "Log yazma"
+    - "Health check"

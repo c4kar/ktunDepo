@@ -1,0 +1,40 @@
+{
+  "original_name": "Devre analizi2 2003 soru ve cevap anahtarı.pdf",
+  "new_name": "cozum_devre-analizi-final-2003_2003_v1.pdf",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/devre_analizi_2/Devre analizi2 2003 soru ve cevap anahtarı.pdf",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/cozum_devre-analizi-final-2003_2003_v1.pdf",
+  "size_kb": 1496.140625,
+  "page_count": 4,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_cozumu",
+    "course_name": "devre_analizi_2",
+    "semester_guess": "EEM-2",
+    "topics": [
+      "devre_analizi",
+      "thevenin_esdeggeri",
+      "laplace_donusumu",
+      "ac_devre_analizi",
+      "empedans",
+      "generator_sistemleri"
+    ],
+    "year_guess": "2003",
+    "has_solutions": true,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "Devre Analizi-II final sınavı soruları ve çözümleri. EEM-2 dönemi için çok değerli materyal. Soruların yanı sıra çözümleri de mevcut. İçerik açık ve okunabilir.",
+    "confidence": 0.95,
+    "suggested_filename_hint": "devre-analizi-final-2003"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 4314,
+    "output": 267
+  },
+  "processed_at": "2026-03-11T02:18:40.491885",
+  "needs_ocr": true
+}

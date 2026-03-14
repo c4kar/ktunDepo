@@ -1,0 +1,38 @@
+{
+  "original_name": "photo_2026-03-04_00-50-26.jpg",
+  "new_name": "sinav_devre-analizi-soru_tarihsiz_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/devre_analizi_2/images/photo_2026-03-04_00-50-26.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_devre-analizi-soru_tarihsiz_v1.jpg",
+  "size_kb": 69.0322265625,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "devre_analizi_2",
+    "semester_guess": "EEM-2",
+    "topics": [
+      "devre_analizi",
+      "reaktif_guc",
+      "rms_degerleri",
+      "ac_devreler"
+    ],
+    "year_guess": null,
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "Devre Analizi II dersi için AC devre sorusu. Devre şeması ve çoktan seçmeli soru formatında. EEM-2 dönem içeriğine uygun.",
+    "confidence": 0.95,
+    "suggested_filename_hint": "devre-analizi-soru"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2398,
+    "output": 231
+  },
+  "processed_at": "2026-03-11T02:28:12.178999",
+  "needs_ocr": true
+}

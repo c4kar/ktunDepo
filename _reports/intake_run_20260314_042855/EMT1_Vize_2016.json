@@ -1,0 +1,48 @@
+{
+  "original_name": "EMT1_Vize_2016.pdf",
+  "new_name": null,
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Sinavlar/Vize/EMT1_Vize_2016.pdf",
+  "final_path": null,
+  "size_kb": 708.462890625,
+  "page_count": 5,
+  "has_text_layer": true,
+  "analysis_mode": "text",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-2",
+    "topics": [
+      "elektromanyetik",
+      "alan teorisi"
+    ],
+    "year_guess": "2016",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "REVIEW",
+    "decision_reason": "Dosya adı EMT1 vize sınavını işaret ediyor ancak görüntü içeriği sadece CamScanner etiketi gösteriyor, gerçek sınav içeriği görülemiyor.",
+    "confidence": 0.3,
+    "suggested_filename_hint": "emt1-vize-2016"
+  },
+  "duplicate_check": null,
+  "final_decision": "REVIEW",
+  "token_usage": {
+    "input": 1229,
+    "output": 219
+  },
+  "processed_at": "2026-03-14T04:33:19.362261",
+  "needs_ocr": true,
+  "docling_info": {
+    "mode": "enforce",
+    "extraction_success": true,
+    "extracted_chars": 1347,
+    "quality_score": 100,
+    "reason": "ok",
+    "optimized": false,
+    "old_size_mb": 0.0,
+    "new_size_mb": 0.0,
+    "saved_percent": 0.0
+  },
+  "error": "Manuel inceleme: Dosya adı EMT1 vize sınavını işaret ediyor ancak görüntü içeriği sadece CamScanner etiketi gösteriyor, gerçek sınav içeriği görülemiyor."
+}

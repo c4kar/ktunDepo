@@ -1,0 +1,39 @@
+{
+  "original_name": "photo_35@14-06-2023_09-30-04.jpg",
+  "new_name": "sinav_elektromanyetik-coktan-secmeli_2023_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_35@14-06-2023_09-30-04.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-coktan-secmeli_2023_v1.jpg",
+  "size_kb": 34.806640625,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "elektromanyetik alan",
+      "manyetik akı yoğunluğu",
+      "dikdörtgen döngü",
+      "çoklu seçim sorusu"
+    ],
+    "year_guess": "2023",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "EEM-4 Elektromanyetik Alan Teorisi dersi için çoktan seçmeli sınav sorusu. Manyetik akı yoğunluğu ve dikdörtgen döngü konularını içeren değerli materyal.",
+    "confidence": 0.95,
+    "suggested_filename_hint": "elektromanyetik-coktan-secmeli"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 1545,
+    "output": 273
+  },
+  "processed_at": "2026-03-14T06:57:21.450317",
+  "needs_ocr": true,
+  "docling_info": null
+}

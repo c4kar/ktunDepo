@@ -1,0 +1,38 @@
+{
+  "original_name": "IMG_20220517_141023.jpg",
+  "new_name": "not_lojik-devre-not_2022_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/lojik_devre_tasarimi/Tahta Fotoğraflar/IMG_20220517_141023.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/lojik-devre-tasarimi/not_lojik-devre-not_2022_v1.jpg",
+  "size_kb": 121.4736328125,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "ders_notu",
+    "course_name": "lojik-devre-tasarimi",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "lojik devreler",
+      "devre diyagramları",
+      "tasarım",
+      "şematik çizim"
+    ],
+    "year_guess": "2022",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "Lojik devre tasarımı konusunda el yazısı ders notu. Devre şemaları ve açıklamalar içeriyor. EEM öğrencileri için değerli materyal.",
+    "confidence": 0.85,
+    "suggested_filename_hint": "lojik-devre-not"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2109,
+    "output": 237
+  },
+  "processed_at": "2026-03-14T02:53:52.680297",
+  "needs_ocr": true
+}

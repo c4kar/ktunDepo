@@ -1,0 +1,38 @@
+{
+  "original_name": "IMG_20220405_175310.jpg",
+  "new_name": "not_durum-makinesi-ders-notu_2022_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/lojik_devre_tasarimi/Tahta Fotoğraflar/IMG_20220405_175310.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/lojik-devre-tasarimi/not_durum-makinesi-ders-notu_2022_v1.jpg",
+  "size_kb": 4736.4541015625,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "ders_notu",
+    "course_name": "lojik-devre-tasarimi",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "sonlu-durum-makineleri",
+      "durum-diagramlari",
+      "durum-tablolari",
+      "lojik-devre-analizi"
+    ],
+    "year_guess": "2022",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "Lojik devre tasarımı dersi kapsamında sonlu durum makineleri konusunu ele alan değerli bir beyaz tahta ders notu. Durum diyagramları ve durum tabloları içeriyor.",
+    "confidence": 0.85,
+    "suggested_filename_hint": "durum-makinesi-ders-notu"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2764,
+    "output": 257
+  },
+  "processed_at": "2026-03-14T02:52:01.885786",
+  "needs_ocr": true
+}

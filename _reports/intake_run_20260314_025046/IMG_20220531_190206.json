@@ -1,0 +1,38 @@
+{
+  "original_name": "IMG_20220531_190206.jpg",
+  "new_name": "not_karnaugh-harita-notlari_2022_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/lojik_devre_tasarimi/Tahta Fotoğraflar/IMG_20220531_190206.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/lojik-devre-tasarimi/not_karnaugh-harita-notlari_2022_v1.jpg",
+  "size_kb": 5272.84765625,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "ders_notu",
+    "course_name": "lojik-devre-tasarimi",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "lojik devreleri",
+      "karnaugh haritası",
+      "boolean cebirası",
+      "sadeştirme"
+    ],
+    "year_guess": "2022",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "Lojik devre tasarımına ait el yazısı ders notu. Karnaugh haritaları ve boolean cebirası konularını içeren değerli materyal.",
+    "confidence": 0.85,
+    "suggested_filename_hint": "karnaugh-harita-notlari"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2764,
+    "output": 231
+  },
+  "processed_at": "2026-03-14T02:57:09.082618",
+  "needs_ocr": true
+}

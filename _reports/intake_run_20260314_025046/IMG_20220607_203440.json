@@ -1,0 +1,37 @@
+{
+  "original_name": "IMG_20220607_203440.jpg",
+  "new_name": "not_direnc-devre-analizi_2022_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/lojik_devre_tasarimi/Tahta Fotoğraflar/IMG_20220607_203440.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/lojik-devre-tasarimi/not_direnc-devre-analizi_2022_v1.jpg",
+  "size_kb": 6117.39453125,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "ders_notu",
+    "course_name": "lojik-devre-tasarimi",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "direnç devreleri",
+      "kirchhoff yasaları",
+      "devre analizi"
+    ],
+    "year_guess": "2022",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "El yazısı ders notu, devre analizi konuları içeriyor, EEM-4 seviyesine uygun",
+    "confidence": 0.8,
+    "suggested_filename_hint": "direnç-devre-analizi"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2764,
+    "output": 211
+  },
+  "processed_at": "2026-03-14T02:57:50.244489",
+  "needs_ocr": true
+}

@@ -1,0 +1,39 @@
+{
+  "original_name": "photo_2026-03-04_00-51-37.jpg",
+  "new_name": "sinav_devre2-final-2021_2021_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/devre_analizi_2/images/photo_2026-03-04_00-51-37.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_devre2-final-2021_2021_v1.jpg",
+  "size_kb": 88.306640625,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "devre_analizi_2",
+    "semester_guess": "EEM-2",
+    "topics": [
+      "devre_analizi",
+      "ac_devreler",
+      "guc_hesabi",
+      "laplace_donusumu",
+      "transformator"
+    ],
+    "year_guess": "2021",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "Devre Analizi-II final sınavı soruları. EEM-2 dönem dersi için son derece değerli materyal. AC devreler, güç hesabı, transformatör ve Laplace dönüşümü konularını içeriyor.",
+    "confidence": 0.95,
+    "suggested_filename_hint": "devre2-final-2021"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2398,
+    "output": 253
+  },
+  "processed_at": "2026-03-11T02:32:46.483909",
+  "needs_ocr": true
+}

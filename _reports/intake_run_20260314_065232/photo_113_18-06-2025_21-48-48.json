@@ -1,0 +1,39 @@
+{
+  "original_name": "photo_113@18-06-2025_21-48-48.jpg",
+  "new_name": "cozum_elektromanyetik-soru-cozum_tarihsiz_v2.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_113@18-06-2025_21-48-48.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/cozum_elektromanyetik-soru-cozum_tarihsiz_v2.jpg",
+  "size_kb": 71.498046875,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_cozumu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "elektriksel kuvvet",
+      "coulomb kanunu",
+      "nokta yükler",
+      "elektrik alan"
+    ],
+    "year_guess": null,
+    "has_solutions": true,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "El yazısı çözümlü elektromanyetik soru/sınav çözümü, net okunabilir, EEM-4 dönemine uygun içerik",
+    "confidence": 0.9,
+    "suggested_filename_hint": "elektromanyetik-soru-cozum"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2773,
+    "output": 232
+  },
+  "processed_at": "2026-03-14T07:03:55.444531",
+  "needs_ocr": true,
+  "docling_info": null
+}

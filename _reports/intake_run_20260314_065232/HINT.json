@@ -1,0 +1,10 @@
+{
+  "original_name": "HINT.json",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/HINT.json",
+  "final_decision": "REJECTED",
+  "rejection_type": "technical",
+  "error_type": "UnsupportedFormatError",
+  "error_message": "Desteklenmeyen format: .json. Desteklenen: .docx, .jpeg, .jpg, .mkv, .mp4, .pdf, .png, .pptx",
+  "processed_at": "2026-03-14T07:04:04.978180",
+  "token_usage": {}
+}

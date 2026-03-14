@@ -1,0 +1,40 @@
+{
+  "original_name": "photo_101@20-03-2025_17-41-05.jpg",
+  "new_name": "not_elektromanyetik-formul-notlari_tarihsiz_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_101@20-03-2025_17-41-05.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/not_elektromanyetik-formul-notlari_tarihsiz_v1.jpg",
+  "size_kb": 140.9228515625,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "ders_notu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "elektromanyetik alanlar",
+      "potansiyel",
+      "elektrik alan",
+      "formüller",
+      "vektör analizi"
+    ],
+    "year_guess": null,
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "El yazısı elektromanyetik ders notları. Formüller, potansiyel hesaplamaları ve elektrik alan konuları içeriyor. EEM-4 dönemindeki elektromanyetik alan teorisi dersi için değerli materyal.",
+    "confidence": 0.9,
+    "suggested_filename_hint": "elektromanyetik-formul-notlari"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2405,
+    "output": 257
+  },
+  "processed_at": "2026-03-14T07:02:46.043956",
+  "needs_ocr": true,
+  "docling_info": null
+}

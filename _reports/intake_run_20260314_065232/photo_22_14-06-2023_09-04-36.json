@@ -1,0 +1,39 @@
+{
+  "original_name": "photo_22@14-06-2023_09-04-36.jpg",
+  "new_name": "sinav_elektromanyetik-soru-2023_2023_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_22@14-06-2023_09-04-36.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-soru-2023_2023_v1.jpg",
+  "size_kb": 24.5498046875,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "elektrik_alan",
+      "iletkenlik",
+      "akım_yoğunluğu",
+      "elektromanyetik"
+    ],
+    "year_guess": "2023",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "EEM-4 elektromanyetik alan teorisi dersi için değerli sınav sorusu. Özilethkenlik ve elektrik alan hesabı içeren çok seçmeli soru.",
+    "confidence": 0.95,
+    "suggested_filename_hint": "elektromanyetik-soru-2023"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 1734,
+    "output": 242
+  },
+  "processed_at": "2026-03-14T06:56:12.354754",
+  "needs_ocr": true,
+  "docling_info": null
+}

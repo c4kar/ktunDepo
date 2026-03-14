@@ -1,0 +1,38 @@
+{
+  "original_name": "IMG_20220531_180706.jpg",
+  "new_name": "not_tahta-lojik-devre_2022_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/lojik_devre_tasarimi/Tahta Fotoğraflar/IMG_20220531_180706.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/lojik-devre-tasarimi/not_tahta-lojik-devre_2022_v1.jpg",
+  "size_kb": 4976.2978515625,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "ders_notu",
+    "course_name": "lojik-devre-tasarimi",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "lojik devreler",
+      "boole cebiri",
+      "karnaugh haritaları",
+      "devre analizi"
+    ],
+    "year_guess": "2022",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "Lojik devre tasarımı dersine ait tahta yazısı, matematiksel notasyonlar ve devre şemaları içeriyor. EEM-4 döneminde değerli materyal.",
+    "confidence": 0.85,
+    "suggested_filename_hint": "tahta-lojik-devre"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2764,
+    "output": 238
+  },
+  "processed_at": "2026-03-14T02:53:58.414937",
+  "needs_ocr": true
+}

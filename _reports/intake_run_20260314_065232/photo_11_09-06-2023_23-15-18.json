@@ -1,0 +1,38 @@
+{
+  "original_name": "photo_11@09-06-2023_23-15-18.jpg",
+  "new_name": "cozum_elektromanyetik-cozum-hesap_2023_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_11@09-06-2023_23-15-18.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/cozum_elektromanyetik-cozum-hesap_2023_v1.jpg",
+  "size_kb": 68.150390625,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_cozumu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "elektriksel direnç",
+      "hesaplamalar",
+      "fiziksel sabitler"
+    ],
+    "year_guess": "2023",
+    "has_solutions": true,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "El yazısı çözümlü soru, elektromanyetik alan teorisi konusu, okunabilir kalitede",
+    "confidence": 0.9,
+    "suggested_filename_hint": "elektromanyetik-cozum-hesap"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2221,
+    "output": 216
+  },
+  "processed_at": "2026-03-14T06:55:17.698801",
+  "needs_ocr": true,
+  "docling_info": null
+}

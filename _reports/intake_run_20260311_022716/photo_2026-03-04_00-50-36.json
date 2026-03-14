@@ -1,0 +1,38 @@
+{
+  "original_name": "photo_2026-03-04_00-50-36.jpg",
+  "new_name": "sinav_ac-devre-sinav_tarihsiz_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/devre_analizi_2/images/photo_2026-03-04_00-50-36.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_ac-devre-sinav_tarihsiz_v3.jpg",
+  "size_kb": 23.6728515625,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "devre_analizi_2",
+    "semester_guess": "EEM-2",
+    "topics": [
+      "RLC devreler",
+      "AC analiz",
+      "empedans",
+      "frekans analizi"
+    ],
+    "year_guess": null,
+    "has_solutions": true,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "AC devre analizi sınav sorusu, çoktan seçmeli cevaplar mevcut, EEM-2 Devre Analizi dersi için uygun",
+    "confidence": 0.9,
+    "suggested_filename_hint": "ac-devre-sinav"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 1904,
+    "output": 219
+  },
+  "processed_at": "2026-03-11T02:29:19.942278",
+  "needs_ocr": true
+}

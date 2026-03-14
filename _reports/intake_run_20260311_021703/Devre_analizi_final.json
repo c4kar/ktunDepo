@@ -1,0 +1,40 @@
+{
+  "original_name": "Devre analizi final.pdf",
+  "new_name": "not_ac-devre-analizi-notlar_tarihsiz_v1.pdf",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/devre_analizi_2/Devre analizi final.pdf",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/not_ac-devre-analizi-notlar_tarihsiz_v1.pdf",
+  "size_kb": 4713.546875,
+  "page_count": 25,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "ders_notu",
+    "course_name": "devre_analizi_2",
+    "semester_guess": "EEM-2",
+    "topics": [
+      "AC analiz",
+      "fazör",
+      "güç analizi",
+      "endüktans",
+      "kapasitans",
+      "alternatif akım devreleri"
+    ],
+    "year_guess": null,
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "El yazısıyla hazırlanmış AC devre analizi ders notları. EEM-2 dönemine uygun, AC devrelerin temel konularını içeriyor. Fazör diyagramlar, güç hesaplamaları ve reaktif elemanlar konularını kapsıyor.",
+    "confidence": 0.9,
+    "suggested_filename_hint": "ac-devre-analizi-notlar"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 4313,
+    "output": 263
+  },
+  "processed_at": "2026-03-11T02:19:22.358347",
+  "needs_ocr": true
+}

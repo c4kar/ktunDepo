@@ -1,0 +1,40 @@
+{
+  "original_name": "2017-2018 Bütünleme.pdf",
+  "new_name": "sinav_2018-butunleme-cozumlu_2018_v1.pdf",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/lojik_devre_tasarimi/Çıkmışlar/2017-2018 Bütünleme.pdf",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/lojik-devre-tasarimi/sinav_2018-butunleme-cozumlu_2018_v1.pdf",
+  "size_kb": 2043.240234375,
+  "page_count": 4,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "lojik-devre-tasarimi",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "ASM",
+      "durum diyagrami",
+      "FF tasarimi",
+      "kod cozucu",
+      "MUX",
+      "lojik devre"
+    ],
+    "year_guess": "2018",
+    "has_solutions": true,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "Selçuk Üniversitesi EEM Bölümü Lojik Devre Tasarım Bütünleme Sınavı. Çözümlü sorular içeren değerli materyal.",
+    "confidence": 0.95,
+    "suggested_filename_hint": "2018-butunleme-cozumlu"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 4336,
+    "output": 253
+  },
+  "processed_at": "2026-03-14T02:59:59.472139",
+  "needs_ocr": true
+}

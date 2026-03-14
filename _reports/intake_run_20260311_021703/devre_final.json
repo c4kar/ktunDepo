@@ -1,0 +1,39 @@
+{
+  "original_name": "devre final.pdf",
+  "new_name": "sinav_devre-final-sorular_tarihsiz_v1.pdf",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/devre_analizi_2/devre final.pdf",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_devre-final-sorular_tarihsiz_v1.pdf",
+  "size_kb": 23357.6875,
+  "page_count": 25,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "devre_analizi_2",
+    "semester_guess": "EEM-2",
+    "topics": [
+      "ac_devre_analizi",
+      "impedans",
+      "guc_hesabi",
+      "rms_degerler",
+      "fazor_analizi"
+    ],
+    "year_guess": null,
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "Devre analizi konusunda el yazısı sınav soruları. AC devre analizi, impedans, güç hesapları, fazör analizi gibi EEM-2 dönemine uygun konular içeriyor. 25 sayfalık kapsamlı materyal.",
+    "confidence": 0.95,
+    "suggested_filename_hint": "devre-final-sorular"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 4286,
+    "output": 255
+  },
+  "processed_at": "2026-03-11T02:20:04.335928",
+  "needs_ocr": true
+}

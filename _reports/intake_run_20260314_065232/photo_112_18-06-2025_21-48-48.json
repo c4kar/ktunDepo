@@ -1,0 +1,40 @@
+{
+  "original_name": "photo_112@18-06-2025_21-48-48.jpg",
+  "new_name": "not_manyetik-kuvvet-hesaplama_tarihsiz_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_112@18-06-2025_21-48-48.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/not_manyetik-kuvvet-hesaplama_tarihsiz_v1.jpg",
+  "size_kb": 79.662109375,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "ders_notu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "manyetik alan",
+      "kuvvet hesabı",
+      "vektör çarpımı",
+      "KODLA",
+      "manyetik kuvvet"
+    ],
+    "year_guess": null,
+    "has_solutions": true,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "Elektromanyetik alan teorisi dersi için değerli el yazısı ders notu. Manyetik alan kuvvet hesaplamaları, vektör çarpımları ve çözüm adımları içeriyor. EEM-4 seviyesi için uygun.",
+    "confidence": 0.9,
+    "suggested_filename_hint": "manyetik-kuvvet-hesaplama"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2739,
+    "output": 268
+  },
+  "processed_at": "2026-03-14T07:03:50.216832",
+  "needs_ocr": true,
+  "docling_info": null
+}

@@ -1,0 +1,36 @@
+{
+  "original_name": "4172_Devre_Analizi_2_Final_Defter_Notu_2700_TL_260211_095634.pdf",
+  "new_name": "not_devreanalizi2finaldefternotu_tarihsiz_v1pdf",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/devre_analizi_2/4172_Devre_Analizi_2_Final_Defter_Notu_2700_TL_260211_095634.pdf",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/not_devreanalizi2finaldefternotu_tarihsiz_v1pdf",
+  "size_kb": 2523.4033203125,
+  "page_count": 44,
+  "has_text_layer": true,
+  "analysis_mode": "text",
+  "llm_analysis": {
+    "material_type": "ders_notu",
+    "course_name": "devre_analizi_2",
+    "semester_guess": "EEM-2",
+    "topics": [
+      "devre analizi",
+      "final konuları"
+    ],
+    "year_guess": null,
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "Devre Analizi 2 dersi için kapsamlı final defter notu. 44 sayfalık materyal EEM-2 öğrencileri için çok değerli.",
+    "confidence": 0.95,
+    "suggested_filename_hint": "devre_analizi_2_final_defter_notu"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 1315,
+    "output": 203
+  },
+  "processed_at": "2026-03-11T02:13:46.198409",
+  "needs_ocr": true
+}

@@ -1,0 +1,38 @@
+{
+  "original_name": "photo_18@14-06-2023_09-03-12.jpg",
+  "new_name": "sinav_elektrik-aku-kure-sorusu_2023_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_18@14-06-2023_09-03-12.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektrik-aku-kure-sorusu_2023_v1.jpg",
+  "size_kb": 19.244140625,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "elektrik akı yoğunluğu",
+      "elektrik yükü",
+      "elektromanyetik hesaplamalar"
+    ],
+    "year_guess": "2023",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "Elektromanyetik alan teorisi dersi için çok değerli sınav sorusu. Küresel yapı ve elektrik akı yoğunluğu hesaplama sorusu EEM-4 seviyesi için uygun.",
+    "confidence": 0.95,
+    "suggested_filename_hint": "elektrik-aku-kure-sorusu"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 1715,
+    "output": 254
+  },
+  "processed_at": "2026-03-14T06:55:52.599227",
+  "needs_ocr": true,
+  "docling_info": null
+}

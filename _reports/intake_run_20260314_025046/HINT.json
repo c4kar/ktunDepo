@@ -1,0 +1,10 @@
+{
+  "original_name": "HINT.json",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/lojik_devre_tasarimi/HINT.json",
+  "final_decision": "REJECTED",
+  "rejection_type": "technical",
+  "error_type": "UnsupportedFormatError",
+  "error_message": "Desteklenmeyen format: .json. Desteklenen: .docx, .jpeg, .jpg, .mkv, .mp4, .pdf, .png, .pptx",
+  "processed_at": "2026-03-14T03:00:20.373845",
+  "token_usage": {}
+}

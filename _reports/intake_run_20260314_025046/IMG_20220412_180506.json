@@ -1,0 +1,38 @@
+{
+  "original_name": "IMG_20220412_180506.jpg",
+  "new_name": "not_adc-dac-ders-notu_2022_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/lojik_devre_tasarimi/Tahta Fotoğraflar/IMG_20220412_180506.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/lojik-devre-tasarimi/not_adc-dac-ders-notu_2022_v1.jpg",
+  "size_kb": 4778.8837890625,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "ders_notu",
+    "course_name": "lojik-devre-tasarimi",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "ADC",
+      "DAC",
+      "sayısal devreler",
+      "dönüştürücüler"
+    ],
+    "year_guess": "2022",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "Lojik devre tasarımı dersine ait ADC/DAC konularını içeren tahta yazısı ders notu. EEM-4 döneminde değerli materyal.",
+    "confidence": 0.85,
+    "suggested_filename_hint": "adc-dac-ders-notu"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2764,
+    "output": 233
+  },
+  "processed_at": "2026-03-14T02:50:53.107468",
+  "needs_ocr": true
+}

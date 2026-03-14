@@ -1,0 +1,39 @@
+{
+  "original_name": "photo_75@05-07-2023_10-28-09.jpg",
+  "new_name": "sinav_manyetik-aki-soru_2023_v5.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_75@05-07-2023_10-28-09.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_manyetik-aki-soru_2023_v5.jpg",
+  "size_kb": 96.630859375,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "elektromanyetik alan",
+      "manyetik akı",
+      "iletken",
+      "manyetik alan yoğunluğu"
+    ],
+    "year_guess": "2023",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "EEM-4 elektromanyetik dersi sınav sorusu. Manyetik akı hesaplama problemi içeriyor. Çoktan seçmeli format. Değerli sınav materyali.",
+    "confidence": 0.9,
+    "suggested_filename_hint": "manyetik-aki-soru"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2773,
+    "output": 250
+  },
+  "processed_at": "2026-03-14T07:00:33.475952",
+  "needs_ocr": true,
+  "docling_info": null
+}

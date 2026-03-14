@@ -1,0 +1,38 @@
+{
+  "original_name": "IMG_20220531_190209.jpg",
+  "new_name": "not_lojik-devre-notlari_2022_v5.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/lojik_devre_tasarimi/Tahta Fotoğraflar/IMG_20220531_190209.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/lojik-devre-tasarimi/not_lojik-devre-notlari_2022_v5.jpg",
+  "size_kb": 5517.8134765625,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "ders_notu",
+    "course_name": "lojik-devre-tasarimi",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "lojik devreleri",
+      "devre analizi",
+      "boolean fonksiyonlar",
+      "karnough haritası"
+    ],
+    "year_guess": "2022",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "Lojik devre tasarımı dersine ait el yazısı ders notu. Boolean fonksiyonlar, lojik kapılar ve devre çizimleri görülüyor. EEM-4 dönemi için değerli materyal.",
+    "confidence": 0.85,
+    "suggested_filename_hint": "lojik-devre-notlari"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2764,
+    "output": 252
+  },
+  "processed_at": "2026-03-14T02:57:15.428892",
+  "needs_ocr": true
+}

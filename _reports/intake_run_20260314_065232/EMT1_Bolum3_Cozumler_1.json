@@ -1,0 +1,40 @@
+{
+  "original_name": "EMT1_Bolum3_Cozumler_1.pdf",
+  "new_name": "cozum_emt1-bolum3-cozumler_tarihsiz_v1.pdf",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Cozumler/EMT1_Bolum3_Cozumler_1.pdf",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/cozum_emt1-bolum3-cozumler_tarihsiz_v1.pdf",
+  "size_kb": 1169.375,
+  "page_count": 12,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_cozumu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "static electric fields",
+      "elektrostatik",
+      "elektrik alan",
+      "kuvvet hesaplamaları",
+      "vektör analizi"
+    ],
+    "year_guess": null,
+    "has_solutions": true,
+    "language": "en",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "Elektromanyetik Alan Teorisi dersi için çözümlü sınav soruları/problem çözümleri. Chapter 3 Static Electric Fields konusu kapsamında detaylı matematiksel çözümler içeriyor. EEM-4 dönemine uygun içerik.",
+    "confidence": 0.95,
+    "suggested_filename_hint": "emt1-bolum3-cozumler"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 4315,
+    "output": 267
+  },
+  "processed_at": "2026-03-14T06:53:32.976776",
+  "needs_ocr": true,
+  "docling_info": null
+}

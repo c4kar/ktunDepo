@@ -1,0 +1,2 @@
+# Bu dosya _incoming klasörünün Git'te kalmasını sağlar
+# Klasör içeriği .gitignore ile yoksayılır

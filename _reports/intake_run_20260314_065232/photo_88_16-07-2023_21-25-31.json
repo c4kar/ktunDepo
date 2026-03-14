@@ -1,0 +1,38 @@
+{
+  "original_name": "photo_88@16-07-2023_21-25-31.jpg",
+  "new_name": "sinav_manyetik-alan-soru_2023_v5.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_88@16-07-2023_21-25-31.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_manyetik-alan-soru_2023_v5.jpg",
+  "size_kb": 24.54296875,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "manyetik alan",
+      "akım yoğunluğu",
+      "lütfen birimi"
+    ],
+    "year_guess": "2023",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "EEM-4 elektromanyetik ders için uygun sınav sorusu. Manyetik alan hesaplama problemi ve çoktan seçmeli sorular mevcut.",
+    "confidence": 0.9,
+    "suggested_filename_hint": "manyetik-alan-soru"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 1430,
+    "output": 232
+  },
+  "processed_at": "2026-03-14T07:01:42.631629",
+  "needs_ocr": true,
+  "docling_info": null
+}

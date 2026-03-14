@@ -1,0 +1,25 @@
+{
+  "mode": "active",
+  "last_event": "2026-03-05T21:13:31.585865",
+  "last_event_type": "file_created",
+  "maintenance_reason": null,
+  "queue_size": 0,
+  "processed_today": 2,
+  "rejected_today": 14,
+  "token_usage_today": 7761,
+  "last_health_check": null,
+  "uptime_start": "2026-03-01T07:11:50.933978",
+  "version": "1.0.0",
+  "pending_files": {
+    "20260302_003759_Lojik Devreler_Ders Notları(1)": "/home/c4kar/Code/ktunDepo/_pending/20260302_003759_Lojik Devreler_Ders Notları(1).pdf",
+    "20260302_004011_Müh. Mek. Final Cevap Anahtarı": "/home/c4kar/Code/ktunDepo/_pending/20260302_004011_Müh. Mek. Final Cevap Anahtarı.pdf",
+    "20260302_012235_Lojik Devreler_Ders Notları(1)": "/home/c4kar/Code/ktunDepo/_pending/20260302_012235_Lojik Devreler_Ders Notları(1).pdf",
+    "20260302_104311_Ders 7 BJT-3": "/home/c4kar/Code/ktunDepo/_pending/20260302_104311_Ders 7 BJT-3.pdf",
+    "20260305_151947_Lojik Devreler_Ders Notları(1)": "/home/c4kar/Code/ktunDepo/_pending/20260305_151947_Lojik Devreler_Ders Notları(1).pdf",
+    "20260305_154008_Lojik Devreler_Ders Notları(1)": "/home/c4kar/Code/ktunDepo/_pending/20260305_154008_Lojik Devreler_Ders Notları(1).pdf",
+    "20260305_181635_Lojik Devreler_Ders Notları(1)": "/home/c4kar/Code/ktunDepo/_pending/20260305_181635_Lojik Devreler_Ders Notları(1).pdf"
+  },
+  "review_files": {
+    "20260305_210844_Lojik Devreler_Ders Notları(1)": "/home/c4kar/Code/ktunDepo/_review/20260305_210844_Lojik Devreler_Ders Notları(1).pdf"
+  }
+}

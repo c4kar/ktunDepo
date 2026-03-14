@@ -1,0 +1,39 @@
+{
+  "original_name": "photo_7@01-05-2023_18-45-49.jpg",
+  "new_name": "cozum_sinav-cozumu-elektrostatik_2023_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_7@01-05-2023_18-45-49.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/cozum_sinav-cozumu-elektrostatik_2023_v1.jpg",
+  "size_kb": 86.0458984375,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_cozumu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "elektrostatik",
+      "elektrik_alan",
+      "potansiyel",
+      "coulomb_kanunu"
+    ],
+    "year_guess": "2023",
+    "has_solutions": true,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "El yazısı sınav çözümü. Elektromanyetik alan teorisi problemleri içeriyor. EEM-4 müfredatına uygun. Formüller ve hesaplamalar net okunabiliyor.",
+    "confidence": 0.9,
+    "suggested_filename_hint": "sinav-cozumu-elektrostatik"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2773,
+    "output": 244
+  },
+  "processed_at": "2026-03-14T06:54:50.874998",
+  "needs_ocr": true,
+  "docling_info": null
+}

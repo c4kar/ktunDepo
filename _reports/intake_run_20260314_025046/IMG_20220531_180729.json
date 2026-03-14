@@ -1,0 +1,39 @@
+{
+  "original_name": "IMG_20220531_180729.jpg",
+  "new_name": "not_transistor-devre-analizi_2022_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/lojik_devre_tasarimi/Tahta Fotoğraflar/IMG_20220531_180729.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/lojik-devre-tasarimi/not_transistor-devre-analizi_2022_v1.jpg",
+  "size_kb": 5630.6005859375,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "ders_notu",
+    "course_name": "lojik-devre-tasarimi",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "transistor devreleri",
+      "lojik kapılar",
+      "gerilim hesaplamaları",
+      "NMOS",
+      "PMOS"
+    ],
+    "year_guess": "2022",
+    "has_solutions": true,
+    "language": "en",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "Lojik devre tasarımı dersi için transistor devre analizleri ve hesaplamaları içeren değerli ders materyali",
+    "confidence": 0.85,
+    "suggested_filename_hint": "transistor-devre-analizi"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2764,
+    "output": 228
+  },
+  "processed_at": "2026-03-14T02:56:28.230263",
+  "needs_ocr": true
+}

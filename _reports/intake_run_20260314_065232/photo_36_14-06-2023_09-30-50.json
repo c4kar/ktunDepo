@@ -1,0 +1,38 @@
+{
+  "original_name": "photo_36@14-06-2023_09-30-50.jpg",
+  "new_name": "sinav_elektromanyetik-sinav-sorusu_2023_v2.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_36@14-06-2023_09-30-50.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-sorusu_2023_v2.jpg",
+  "size_kb": 85.083984375,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "elektromanyetik alan teorisi",
+      "yarım sonsuz ortam",
+      "dielektrik sabitler"
+    ],
+    "year_guess": "2023",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "Elektromanyetik Alan Teorisi I dersi sınav sorusu. Çok seçenekli soru formatında, açık problem tanımı ve seçenekler mevcut. EEM-4 dönemindeki öğrenciler için değerli materyal.",
+    "confidence": 0.85,
+    "suggested_filename_hint": "elektromanyetik-sinav-sorusu"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2773,
+    "output": 260
+  },
+  "processed_at": "2026-03-14T06:57:26.874571",
+  "needs_ocr": true,
+  "docling_info": null
+}

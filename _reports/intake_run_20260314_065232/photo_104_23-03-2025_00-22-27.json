@@ -1,0 +1,38 @@
+{
+  "original_name": "photo_104@23-03-2025_00-22-27.jpg",
+  "new_name": "not_emt1-ders-programi_2025_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_104@23-03-2025_00-22-27.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/not_emt1-ders-programi_2025_v1.jpg",
+  "size_kb": 331.326171875,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "ders_notu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "ders programı",
+      "haftalık plan",
+      "EMT-1"
+    ],
+    "year_guess": "2025",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "EMT-1 dersi için haftalık ders programı tablosu, öğrenciler için yararlı referans materyali",
+    "confidence": 0.9,
+    "suggested_filename_hint": "emt1-ders-programi"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2773,
+    "output": 210
+  },
+  "processed_at": "2026-03-14T07:03:01.160475",
+  "needs_ocr": true,
+  "docling_info": null
+}

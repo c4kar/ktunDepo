@@ -1,0 +1,38 @@
+{
+  "original_name": "Ekran_Goruntusu_2023-07-05.png",
+  "new_name": "sinav_elektromanyetik-sinav-sorusu_2023_v1.png",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Diger/Ekran_Goruntusu_2023-07-05.png",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-sorusu_2023_v1.png",
+  "size_kb": 49.7919921875,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "elektromanyetik alan",
+      "kuvvet hesabı",
+      "yük dağılımı"
+    ],
+    "year_guess": "2023",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "Elektromanyetik alan teorisi sınav sorusu, çoktan seçmeli format, EEM-4 dönemi için değerli materyal",
+    "confidence": 0.95,
+    "suggested_filename_hint": "elektromanyetik-sinav-sorusu"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 1977,
+    "output": 227
+  },
+  "processed_at": "2026-03-14T07:00:48.402953",
+  "needs_ocr": true,
+  "docling_info": null
+}

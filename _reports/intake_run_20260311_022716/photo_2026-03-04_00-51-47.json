@@ -1,0 +1,38 @@
+{
+  "original_name": "photo_2026-03-04_00-51-47.jpg",
+  "new_name": "sinav_ac-devre-sinav-cozumu_tarihsiz_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/devre_analizi_2/images/photo_2026-03-04_00-51-47.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_ac-devre-sinav-cozumu_tarihsiz_v1.jpg",
+  "size_kb": 82.1025390625,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "devre_analizi_2",
+    "semester_guess": "EEM-2",
+    "topics": [
+      "devre_analizi",
+      "ac_devreler",
+      "kompleks_impedans",
+      "nodal_analiz"
+    ],
+    "year_guess": null,
+    "has_solutions": true,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "El yazısı devre analizi sınav soruları ve çözümleri. AC devreler, kompleks impedans hesaplamaları içeren değerli materyal.",
+    "confidence": 0.9,
+    "suggested_filename_hint": "ac-devre-sinav-cozumu"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2766,
+    "output": 225
+  },
+  "processed_at": "2026-03-11T02:33:25.906837",
+  "needs_ocr": true
+}

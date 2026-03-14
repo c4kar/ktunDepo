@@ -1,0 +1,38 @@
+{
+  "original_name": "IMG_20220531_190159.jpg",
+  "new_name": "not_truth-table-notlari_2022_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/lojik_devre_tasarimi/Tahta Fotoğraflar/IMG_20220531_190159.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/lojik-devre-tasarimi/not_truth-table-notlari_2022_v1.jpg",
+  "size_kb": 4658.0126953125,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "ders_notu",
+    "course_name": "lojik-devre-tasarimi",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "truth table",
+      "boolean functions",
+      "logic gates",
+      "combinational circuits"
+    ],
+    "year_guess": "2022",
+    "has_solutions": false,
+    "language": "mixed",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "Lojik devre tasarımı dersi için değerli el yazısı ders notu. Truth table ve boolean fonksiyonlar konularını içeriyor.",
+    "confidence": 0.85,
+    "suggested_filename_hint": "truth-table-notlari"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2764,
+    "output": 212
+  },
+  "processed_at": "2026-03-14T02:57:02.937443",
+  "needs_ocr": true
+}

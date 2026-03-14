@@ -1,0 +1,654 @@
+{
+  "run_id": "intake_run_20260314_065232",
+  "course": "",
+  "started_at": "2026-03-14T07:04:04.979646",
+  "duration_seconds": 692.826716,
+  "total_files": 127,
+  "statistics": {
+    "accepted": 114,
+    "rejected": 10,
+    "review": 3,
+    "ocr_queue": 114
+  },
+  "token_usage": {
+    "input": 276292,
+    "output": 29868
+  },
+  "files": [
+    {
+      "name": "EMT1_Vize_2016.pdf",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_emt1-vize-2016_2016_v1.pdf"
+    },
+    {
+      "name": "EMT1_Vize_2020.pdf",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_emt1-vize-2020_2020_v1.pdf"
+    },
+    {
+      "name": "photo_1@26-04-2021_15-39-09.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-temel-kanunlar_2021_v1.jpg"
+    },
+    {
+      "name": "EMT1_Bolum3_Cozumler_1.pdf",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/cozum_emt1-bolum3-cozumler_tarihsiz_v1.pdf"
+    },
+    {
+      "name": "EMT1_Bolum3_Cozumler_2.pdf",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/cozum_emt1-bolum3-cozumler_tarihsiz_v2.pdf"
+    },
+    {
+      "name": "photo_2@24-06-2021_10-24-01.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_soru-5-opamp_2021_v1.jpg"
+    },
+    {
+      "name": "photo_3@24-06-2021_10-24-01.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_opamp-devre-sorusu_2021_v1.jpg"
+    },
+    {
+      "name": "photo_4@24-06-2021_10-24-01.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/not_elektromanyetik-devre-notu_2021_v1.jpg"
+    },
+    {
+      "name": "photo_5@25-06-2021_11-33-13.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-final-duyuru_2021_v1.jpg"
+    },
+    {
+      "name": "EMT1_Vize_2018.pdf",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_emt1-vize-2018_2018_v1.pdf"
+    },
+    {
+      "name": "Ornek_Sorular.pdf",
+      "decision": "REJECTED",
+      "new_path": null
+    },
+    {
+      "name": "EMT1_Final_2014.pdf",
+      "decision": "REJECTED",
+      "new_path": null
+    },
+    {
+      "name": "EMT1_Final_2016.pdf",
+      "decision": "REJECTED",
+      "new_path": null
+    },
+    {
+      "name": "EMT1_Final_2017.pdf",
+      "decision": "REJECTED",
+      "new_path": null
+    },
+    {
+      "name": "EMT1_Vize_2017.pdf",
+      "decision": "REJECTED",
+      "new_path": null
+    },
+    {
+      "name": "EMT1_Final_2018.pdf",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_emt1-final-2018_2018_v1.pdf"
+    },
+    {
+      "name": "Sorular_Belirsiz.pdf",
+      "decision": "REVIEW",
+      "new_path": null
+    },
+    {
+      "name": "photo_6@01-05-2023_18-08-34.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/cozum_elektrik-alan-cozum_2023_v1.jpg"
+    },
+    {
+      "name": "photo_7@01-05-2023_18-45-49.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/cozum_sinav-cozumu-elektrostatik_2023_v1.jpg"
+    },
+    {
+      "name": "photo_8@01-05-2023_19-40-03.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/cozum_elektromanyetik-soru-cozum_2023_v1.jpg"
+    },
+    {
+      "name": "EMT1_Mazeret_Sinavi.pdf",
+      "decision": "REVIEW",
+      "new_path": null
+    },
+    {
+      "name": "photo_9@09-06-2023_23-15-18.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-2012_2012_v1.jpg"
+    },
+    {
+      "name": "photo_10@09-06-2023_23-15-18.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/cozum_manyetik-alan-cozum_2023_v1.jpg"
+    },
+    {
+      "name": "photo_11@09-06-2023_23-15-18.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/cozum_elektromanyetik-cozum-hesap_2023_v1.jpg"
+    },
+    {
+      "name": "photo_12@09-06-2023_23-15-19.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/cozum_elektromanyetik-soru-cozum_tarihsiz_v1.jpg"
+    },
+    {
+      "name": "photo_13@09-06-2023_23-15-19.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektrik-alan-soru_2021_v1.jpg"
+    },
+    {
+      "name": "photo_14@09-06-2023_23-15-19.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-2012_2012_v2.jpg"
+    },
+    {
+      "name": "photo_15@14-06-2023_09-01-26.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektrik-alan-soru_2023_v1.jpg"
+    },
+    {
+      "name": "photo_16@14-06-2023_09-01-52.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-soru_2023_v1.jpg"
+    },
+    {
+      "name": "photo_17@14-06-2023_09-02-01.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-soru-1_2023_v1.jpg"
+    },
+    {
+      "name": "photo_18@14-06-2023_09-03-12.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektrik-aku-kure-sorusu_2023_v1.jpg"
+    },
+    {
+      "name": "photo_19@14-06-2023_09-03-13.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_sinav-manyetik-akim_2023_v1.jpg"
+    },
+    {
+      "name": "photo_20@14-06-2023_09-03-51.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_manyetik-torku-soru_2023_v1.jpg"
+    },
+    {
+      "name": "photo_21@14-06-2023_09-04-13.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-vektor-aci_2023_v1.jpg"
+    },
+    {
+      "name": "photo_22@14-06-2023_09-04-36.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-soru-2023_2023_v1.jpg"
+    },
+    {
+      "name": "photo_23@14-06-2023_09-06-15.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-sorusu_2023_v1.jpg"
+    },
+    {
+      "name": "photo_24@14-06-2023_09-08-43.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_manyetik-alan-tork-sorusu_2023_v1.jpg"
+    },
+    {
+      "name": "photo_25@14-06-2023_09-11-58.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-sorusu_tarihsiz_v1.jpg"
+    },
+    {
+      "name": "Ekran_Goruntusu_2023-06-14.png",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_potansiyel-hesaplama-soru_2023_v1.png"
+    },
+    {
+      "name": "photo_26@14-06-2023_09-19-46.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-soru_2023_v2.jpg"
+    },
+    {
+      "name": "photo_27@14-06-2023_09-22-53.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_manyetik-aki-soru_2023_v1.jpg"
+    },
+    {
+      "name": "photo_28@14-06-2023_09-23-16.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-soru_2023_v3.jpg"
+    },
+    {
+      "name": "photo_29@14-06-2023_09-23-20.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-aku-teoremi_2023_v1.jpg"
+    },
+    {
+      "name": "photo_30@14-06-2023_09-23-52.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_vektor-aci-soru_2023_v1.jpg"
+    },
+    {
+      "name": "photo_31@14-06-2023_09-24-51.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_toroidal-enduktans-soru_2023_v1.jpg"
+    },
+    {
+      "name": "photo_32@14-06-2023_09-26-23.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-direnc-soru_2023_v1.jpg"
+    },
+    {
+      "name": "photo_33@14-06-2023_09-26-36.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-soru_2023_v4.jpg"
+    },
+    {
+      "name": "photo_34@14-06-2023_09-27-12.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-soru-ozilletke_2023_v1.jpg"
+    },
+    {
+      "name": "photo_35@14-06-2023_09-30-04.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-coktan-secmeli_2023_v1.jpg"
+    },
+    {
+      "name": "photo_36@14-06-2023_09-30-50.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-sorusu_2023_v2.jpg"
+    },
+    {
+      "name": "photo_37@14-06-2023_09-32-45.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektrik-aku-soru_2023_v1.jpg"
+    },
+    {
+      "name": "photo_38@14-06-2023_09-33-22.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektrik-aku-yogunlugu-soru_2023_v1.jpg"
+    },
+    {
+      "name": "photo_39@14-06-2023_09-34-21.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-direnc-sorusu_2023_v1.jpg"
+    },
+    {
+      "name": "photo_40@14-06-2023_09-35-14.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-soru_2023_v5.jpg"
+    },
+    {
+      "name": "photo_41@14-06-2023_09-35-42.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-sorulari_tarihsiz_v1.jpg"
+    },
+    {
+      "name": "photo_42@14-06-2023_09-36-11.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_cizgi-yuk-potansiyel_2023_v1.jpg"
+    },
+    {
+      "name": "photo_43@14-06-2023_09-36-42.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_enerji-yogunlugu-soru_tarihsiz_v1.jpg"
+    },
+    {
+      "name": "photo_44@14-06-2023_09-38-34.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-soru_2023_v6.jpg"
+    },
+    {
+      "name": "photo_45@14-06-2023_09-39-50.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_manyetik-aki-soru_2023_v2.jpg"
+    },
+    {
+      "name": "photo_46@14-06-2023_09-40-19.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/cozum_elektromanyetik-hesaplama-cozu_2023_v1.jpg"
+    },
+    {
+      "name": "photo_47@14-06-2023_09-42-13.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-sorusu_2023_v3.jpg"
+    },
+    {
+      "name": "photo_48@14-06-2023_09-42-21.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-sorusu_2023_v4.jpg"
+    },
+    {
+      "name": "photo_50@14-06-2023_09-46-57.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_manyetik-alan-soru_2023_v1.jpg"
+    },
+    {
+      "name": "photo_51@14-06-2023_09-50-09.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektrik-alan-soru_2023_v2.jpg"
+    },
+    {
+      "name": "photo_52@14-06-2023_09-51-05.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-sorusu_2023_v5.jpg"
+    },
+    {
+      "name": "photo_53@14-06-2023_09-51-12.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektrik-alan-soru_2023_v3.jpg"
+    },
+    {
+      "name": "photo_54@14-06-2023_09-51-26.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_toroidal-enduktans-soru_2023_v2.jpg"
+    },
+    {
+      "name": "photo_55@14-06-2023_09-54-52.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_manyetik-aki-soru_2023_v3.jpg"
+    },
+    {
+      "name": "photo_56@14-06-2023_09-55-00.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_manyetik-aki-soru_2023_v4.jpg"
+    },
+    {
+      "name": "photo_57@14-06-2023_09-55-58.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_vektor-aci-soru_2023_v2.jpg"
+    },
+    {
+      "name": "photo_58@14-06-2023_09-56-31.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektrik-alan-soru_2023_v4.jpg"
+    },
+    {
+      "name": "photo_59@14-06-2023_09-57-00.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-soru_2023_v7.jpg"
+    },
+    {
+      "name": "photo_60@14-06-2023_09-57-25.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_vektor-analizi-test_2023_v1.jpg"
+    },
+    {
+      "name": "photo_61@14-06-2023_09-57-29.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-soru_2023_v8.jpg"
+    },
+    {
+      "name": "photo_62@14-06-2023_09-58-31.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-soru-iletkenli_2023_v1.jpg"
+    },
+    {
+      "name": "photo_63@14-06-2023_10-01-44.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-soru_2023_v9.jpg"
+    },
+    {
+      "name": "photo_64@14-06-2023_10-02-30.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-sorulari_tarihsiz_v2.jpg"
+    },
+    {
+      "name": "photo_66@14-06-2023_10-04-56.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_toroidal-enduktans-soru_2023_v3.jpg"
+    },
+    {
+      "name": "photo_68@14-06-2023_10-05-54.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-soru_2023_v10.jpg"
+    },
+    {
+      "name": "EMT1_Vize_2022-23.pdf",
+      "decision": "REVIEW",
+      "new_path": null
+    },
+    {
+      "name": "photo_70@03-07-2023_21-37-29.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektrostatik-potansiyel-soru_2023_v1.jpg"
+    },
+    {
+      "name": "photo_71@05-07-2023_10-20-14.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_silindirik-koordinat-soru_2023_v1.jpg"
+    },
+    {
+      "name": "photo_72@05-07-2023_10-26-02.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_manyetik-alan-soru_2023_v2.jpg"
+    },
+    {
+      "name": "photo_73@05-07-2023_10-26-58.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-sorusu_2023_v6.jpg"
+    },
+    {
+      "name": "photo_74@05-07-2023_10-27-32.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-soru_2023_v11.jpg"
+    },
+    {
+      "name": "photo_75@05-07-2023_10-28-09.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_manyetik-aki-soru_2023_v5.jpg"
+    },
+    {
+      "name": "photo_76@05-07-2023_10-28-22.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-soru-paralel-p_2023_v1.jpg"
+    },
+    {
+      "name": "photo_77@05-07-2023_10-29-03.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_manyetik-alan-soru_2023_v3.jpg"
+    },
+    {
+      "name": "Ekran_Goruntusu_2023-07-05.png",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-sorusu_2023_v1.png"
+    },
+    {
+      "name": "photo_78@05-07-2023_10-51-06.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-kuresel_2023_v1.jpg"
+    },
+    {
+      "name": "photo_79@05-07-2023_10-52-20.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/LMS/lms_elektromanyetik-lms-sunum_tarihsiz_v1.jpg"
+    },
+    {
+      "name": "photo_80@05-07-2023_10-56-13.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_manyetik-alan-soru_2023_v4.jpg"
+    },
+    {
+      "name": "photo_81@05-07-2023_11-01-00.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_vektor-koordinat-sorusu_2023_v1.jpg"
+    },
+    {
+      "name": "photo_82@05-07-2023_11-01-00.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-soru_2023_v12.jpg"
+    },
+    {
+      "name": "photo_83@05-07-2023_11-02-04.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektrik-alan-sorulari_2023_v1.jpg"
+    },
+    {
+      "name": "photo_84@16-07-2023_21-25-30.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_kuresel-koordinat-integral_2023_v1.jpg"
+    },
+    {
+      "name": "photo_85@16-07-2023_21-25-30.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_vektor-koordinat-soru_2023_v1.jpg"
+    },
+    {
+      "name": "photo_86@16-07-2023_21-25-31.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_paralel-plaka-elektron-ivme_2023_v1.jpg"
+    },
+    {
+      "name": "photo_87@16-07-2023_21-25-31.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_kuresel-koordinat-soru_2023_v1.jpg"
+    },
+    {
+      "name": "photo_88@16-07-2023_21-25-31.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_manyetik-alan-soru_2023_v5.jpg"
+    },
+    {
+      "name": "photo_89@16-07-2023_21-25-31.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_manyetik-gecirgenlik-soru_2023_v1.jpg"
+    },
+    {
+      "name": "photo_90@16-07-2023_21-25-31.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_manyetik-alan-soru_tarihsiz_v1.jpg"
+    },
+    {
+      "name": "photo_91@16-07-2023_21-25-31.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_koaksiyel-kablo-soru_2023_v1.jpg"
+    },
+    {
+      "name": "photo_92@16-07-2023_21-25-31.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-soru_2023_v13.jpg"
+    },
+    {
+      "name": "photo_93@16-07-2023_21-25-31.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-soru_2023_v14.jpg"
+    },
+    {
+      "name": "photo_94@28-01-2024_14-59-25.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-2024_2024_v1.jpg"
+    },
+    {
+      "name": "photo_95@28-01-2024_14-59-41.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-sorulari_2024_v1.jpg"
+    },
+    {
+      "name": "photo_96@03-04-2024_01-07-21.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-sorulari_2024_v2.jpg"
+    },
+    {
+      "name": "photo_98@07-05-2024_17-20-33.jpg",
+      "decision": "REJECTED",
+      "new_path": null
+    },
+    {
+      "name": "photo_99@25-06-2024_16-20-36.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/not_elektromanyetik-ders-notu_tarihsiz_v1.jpg"
+    },
+    {
+      "name": "photo_100@20-03-2025_17-41-05.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/not_elektromanyetik-vektor-analizi_tarihsiz_v1.jpg"
+    },
+    {
+      "name": "photo_101@20-03-2025_17-41-05.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/not_elektromanyetik-formul-notlari_tarihsiz_v1.jpg"
+    },
+    {
+      "name": "photo_102@20-03-2025_17-41-05.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/not_elektromanyetik-alan-notlari_tarihsiz_v1.jpg"
+    },
+    {
+      "name": "photo_103@20-03-2025_17-41-05.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/not_elektromanyetik-formul-notlari_tarihsiz_v2.jpg"
+    },
+    {
+      "name": "photo_104@23-03-2025_00-22-27.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/not_emt1-ders-programi_2025_v1.jpg"
+    },
+    {
+      "name": "photo_105@25-03-2025_02-00-57.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/not_elektromanyetik-yuk-dagilimi_tarihsiz_v1.jpg"
+    },
+    {
+      "name": "photo_106@16-04-2025_15-01-58.jpg",
+      "decision": "REJECTED",
+      "new_path": null
+    },
+    {
+      "name": "photo_107@04-06-2025_22-53-19.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_2017-final-soru5_2017_v1.jpg"
+    },
+    {
+      "name": "photo_108@12-06-2025_20-42-41.jpg",
+      "decision": "REJECTED",
+      "new_path": null
+    },
+    {
+      "name": "photo_109@17-06-2025_22-19-28.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektrostatik-sinav-sorulari_tarihsiz_v1.jpg"
+    },
+    {
+      "name": "photo_110@17-06-2025_22-19-45.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-sorulari_tarihsiz_v3.jpg"
+    },
+    {
+      "name": "photo_111@18-06-2025_21-48-48.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/not_manyetik-alan-hesaplama_tarihsiz_v1.jpg"
+    },
+    {
+      "name": "photo_112@18-06-2025_21-48-48.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/not_manyetik-kuvvet-hesaplama_tarihsiz_v1.jpg"
+    },
+    {
+      "name": "photo_113@18-06-2025_21-48-48.jpg",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/cozum_elektromanyetik-soru-cozum_tarihsiz_v2.jpg"
+    },
+    {
+      "name": "photo_114@19-06-2025_14-39-16.jpg",
+      "decision": "REJECTED",
+      "new_path": null
+    },
+    {
+      "name": "EMT1_Genel_Cozumler.pdf",
+      "decision": "ACCEPTED",
+      "new_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/cozum_cheng-elektromanyetik-cozumler_tarihsiz_v1.pdf"
+    },
+    {
+      "name": "HINT.json",
+      "decision": "REJECTED",
+      "new_path": null
+    }
+  ]
+}

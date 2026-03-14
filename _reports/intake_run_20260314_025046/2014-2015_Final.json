@@ -1,0 +1,41 @@
+{
+  "original_name": "2014-2015 Final.pdf",
+  "new_name": "sinav_2015-final-sinav_2015_v1.pdf",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/lojik_devre_tasarimi/Çıkmışlar/2014-2015 Final.pdf",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/lojik-devre-tasarimi/sinav_2015-final-sinav_2015_v1.pdf",
+  "size_kb": 1600.552734375,
+  "page_count": 4,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "lojik-devre-tasarimi",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "ASM",
+      "durum_diyagrami",
+      "flip_flop",
+      "decoder",
+      "mux",
+      "lojik_devre_tasarimi",
+      "senkron_devreler"
+    ],
+    "year_guess": "2015",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "T.C. Selçuk Üniversitesi Lojik Devre Tasarımı Dersi Final Sınavı - ASM şeması, durum diyagramları, flip-flop ve decoder tasarımı gibi önemli konuları içeren değerli sınav materyali",
+    "confidence": 0.95,
+    "suggested_filename_hint": "2015-final-sinav"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 4294,
+    "output": 281
+  },
+  "processed_at": "2026-03-14T02:58:45.539807",
+  "needs_ocr": true
+}

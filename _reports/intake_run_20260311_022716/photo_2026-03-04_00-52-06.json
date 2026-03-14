@@ -1,0 +1,37 @@
+{
+  "original_name": "photo_2026-03-04_00-52-06.jpg",
+  "new_name": "cozum_ac-devre-cozum_tarihsiz_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/devre_analizi_2/images/photo_2026-03-04_00-52-06.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/cozum_ac-devre-cozum_tarihsiz_v3.jpg",
+  "size_kb": 88.5849609375,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_cozumu",
+    "course_name": "devre_analizi_2",
+    "semester_guess": "EEM-2",
+    "topics": [
+      "ac_devre_analizi",
+      "kompleks_guc",
+      "impedans_hesaplari"
+    ],
+    "year_guess": null,
+    "has_solutions": true,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "El yazısı AC devre analizi çözümü, kompleks güç hesaplamaları ve impedans hesapları içeriyor. EEM-2 Devre Analizi dersi için değerli materyal.",
+    "confidence": 0.9,
+    "suggested_filename_hint": "ac-devre-cozum"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2766,
+    "output": 228
+  },
+  "processed_at": "2026-03-11T02:35:28.788822",
+  "needs_ocr": true
+}

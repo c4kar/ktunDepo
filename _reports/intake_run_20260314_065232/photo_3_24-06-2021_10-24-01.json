@@ -1,0 +1,38 @@
+{
+  "original_name": "photo_3@24-06-2021_10-24-01.jpg",
+  "new_name": "sinav_opamp-devre-sorusu_2021_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_3@24-06-2021_10-24-01.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_opamp-devre-sorusu_2021_v1.jpg",
+  "size_kb": 98.2900390625,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "op-amp",
+      "devre-analizi",
+      "elektrik-devreleri"
+    ],
+    "year_guess": "2021",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "El yazısı op-amp devre sorusu, elektromanyetik ders içeriği ile uyumlu, okunabilir kalitede",
+    "confidence": 0.85,
+    "suggested_filename_hint": "opamp-devre-sorusu"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2405,
+    "output": 216
+  },
+  "processed_at": "2026-03-14T06:53:48.742371",
+  "needs_ocr": true,
+  "docling_info": null
+}

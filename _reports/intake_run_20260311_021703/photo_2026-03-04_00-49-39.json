@@ -1,0 +1,38 @@
+{
+  "original_name": "photo_2026-03-04_00-49-39.jpg",
+  "new_name": "sinav_guc-faktoru-kapasitor_tarihsiz_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/devre_analizi_2/images/photo_2026-03-04_00-49-39.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_guc-faktoru-kapasitor_tarihsiz_v1.jpg",
+  "size_kb": 141.08203125,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "devre_analizi_2",
+    "semester_guess": "EEM-2",
+    "topics": [
+      "güç faktörü",
+      "kapasitör",
+      "AC devreler",
+      "reaktif güç"
+    ],
+    "year_guess": null,
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "AC devre analizi ve güç faktörü düzeltmesi konulu çoktan seçmeli soru. EEM-2 devre analizi dersi için uygun içerik.",
+    "confidence": 0.9,
+    "suggested_filename_hint": "guc-faktoru-kapasitor"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2762,
+    "output": 224
+  },
+  "processed_at": "2026-03-11T02:23:52.981742",
+  "needs_ocr": true
+}

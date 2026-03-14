@@ -1,0 +1,38 @@
+{
+  "original_name": "IMG_20220301_182830.jpg",
+  "new_name": "not_lojik-devre-ders-notu_2022_v2.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/lojik_devre_tasarimi/Tahta Fotoğraflar/IMG_20220301_182830.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/lojik-devre-tasarimi/not_lojik-devre-ders-notu_2022_v2.jpg",
+  "size_kb": 5350.2861328125,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "ders_notu",
+    "course_name": "lojik-devre-tasarimi",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "lojik devreler",
+      "boolean algebra",
+      "karnaugh map",
+      "devre optimizasyonu"
+    ],
+    "year_guess": "2022",
+    "has_solutions": true,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "Lojik devre tasarımı konusunda değerli ders notu. Boolean cebir işlemleri ve Karnaugh harita çözümleri içeriyor. EEM-4 dönemindeki öğrenciler için faydalı materyal.",
+    "confidence": 0.85,
+    "suggested_filename_hint": "lojik-devre-ders-notu"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2764,
+    "output": 252
+  },
+  "processed_at": "2026-03-14T02:53:15.714911",
+  "needs_ocr": true
+}

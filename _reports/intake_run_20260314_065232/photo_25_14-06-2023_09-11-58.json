@@ -1,0 +1,38 @@
+{
+  "original_name": "photo_25@14-06-2023_09-11-58.jpg",
+  "new_name": "sinav_elektromanyetik-sinav-sorusu_tarihsiz_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_25@14-06-2023_09-11-58.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-sorusu_tarihsiz_v1.jpg",
+  "size_kb": 103.53515625,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "elektromanyetik alan teorisi",
+      "vektör alanlar",
+      "çizgisel integral"
+    ],
+    "year_guess": null,
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "Elektromanyetik Alan Teorisi dersi sınav sorusu. EEM-4 dönemine uygun içerik. Tek sayfa olsa da değerli materyal.",
+    "confidence": 0.85,
+    "suggested_filename_hint": "elektromanyetik-sinav-sorusu"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2405,
+    "output": 232
+  },
+  "processed_at": "2026-03-14T06:56:27.810429",
+  "needs_ocr": true,
+  "docling_info": null
+}

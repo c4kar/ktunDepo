@@ -1,0 +1,38 @@
+{
+  "original_name": "photo_2026-03-04_00-49-04.jpg",
+  "new_name": "cozum_delta-y-ac-cozum_2025_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/devre_analizi_2/images/photo_2026-03-04_00-49-04.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/cozum_delta-y-ac-cozum_2025_v1.jpg",
+  "size_kb": 96.9462890625,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_cozumu",
+    "course_name": "devre_analizi_2",
+    "semester_guess": "EEM-2",
+    "topics": [
+      "delta-y dönüşümü",
+      "ac devre analizi",
+      "fazör diyagramları",
+      "karmaşık empedans"
+    ],
+    "year_guess": "2025",
+    "has_solutions": true,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "El yazısıyla çözülmüş devre analizi soruları. Delta-Y dönüşümü, AC devre analizi ve fazör hesaplamaları içeriyor. EEM-2 seviyesinde değerli materyal.",
+    "confidence": 0.95,
+    "suggested_filename_hint": "delta-y-ac-cozum"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2766,
+    "output": 250
+  },
+  "processed_at": "2026-03-11T02:21:56.354527",
+  "needs_ocr": true
+}

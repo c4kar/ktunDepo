@@ -1,0 +1,39 @@
+{
+  "original_name": "photo_47@14-06-2023_09-42-13.jpg",
+  "new_name": "sinav_elektromanyetik-sinav-sorusu_2023_v3.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_47@14-06-2023_09-42-13.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-sorusu_2023_v3.jpg",
+  "size_kb": 22.05859375,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "vektör alanı",
+      "irakama teoremi",
+      "silindirlik koordinatlar",
+      "elektromanyetik alan"
+    ],
+    "year_guess": "2023",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "EEM-4 elektromanyetik alan teorisi dersine ait çoktan seçmeli sınav sorusu. Vektör analizi ve irakama teoremi konularını kapsıyor. Metin net okunabiliyor.",
+    "confidence": 0.95,
+    "suggested_filename_hint": "elektromanyetik-sinav-sorusu"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 1625,
+    "output": 256
+  },
+  "processed_at": "2026-03-14T06:58:23.358290",
+  "needs_ocr": true,
+  "docling_info": null
+}

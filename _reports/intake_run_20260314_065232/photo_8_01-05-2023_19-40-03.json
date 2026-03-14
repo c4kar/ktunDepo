@@ -1,0 +1,39 @@
+{
+  "original_name": "photo_8@01-05-2023_19-40-03.jpg",
+  "new_name": "cozum_elektromanyetik-soru-cozum_2023_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_8@01-05-2023_19-40-03.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/cozum_elektromanyetik-soru-cozum_2023_v1.jpg",
+  "size_kb": 53.865234375,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_cozumu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "elektromanyetik alan",
+      "vektör analizi",
+      "gradyan",
+      "diverjans"
+    ],
+    "year_guess": "2023",
+    "has_solutions": true,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "El yazısı elektromanyetik soru çözümü, vektör analizi ve gradyan hesaplamaları içeriyor, EEM-4 dönemi için değerli",
+    "confidence": 0.85,
+    "suggested_filename_hint": "elektromanyetik-soru-cozum"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2773,
+    "output": 232
+  },
+  "processed_at": "2026-03-14T06:54:55.581272",
+  "needs_ocr": true,
+  "docling_info": null
+}

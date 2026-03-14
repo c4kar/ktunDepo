@@ -1,0 +1,37 @@
+{
+  "original_name": "IMG_20220607_203450.jpg",
+  "new_name": "not_direnc-hesaplama-notlari_2022_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/lojik_devre_tasarimi/Tahta Fotoğraflar/IMG_20220607_203450.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/lojik-devre-tasarimi/not_direnc-hesaplama-notlari_2022_v1.jpg",
+  "size_kb": 6052.736328125,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "ders_notu",
+    "course_name": "lojik-devre-tasarimi",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "direnc hesaplamalari",
+      "seri paralel baglanti",
+      "devre analizi"
+    ],
+    "year_guess": "2022",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "El yazısı ders notu, dirençlerle ilgili hesaplamalar ve devre analizi içeriyor, EEM öğrencileri için değerli",
+    "confidence": 0.85,
+    "suggested_filename_hint": "direnc-hesaplama-notlari"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2764,
+    "output": 223
+  },
+  "processed_at": "2026-03-14T02:57:56.286755",
+  "needs_ocr": true
+}

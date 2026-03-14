@@ -1,0 +1,37 @@
+{
+  "original_name": "photo_5@25-06-2021_11-33-13.jpg",
+  "new_name": "sinav_elektromanyetik-final-duyuru_2021_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_5@25-06-2021_11-33-13.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-final-duyuru_2021_v1.jpg",
+  "size_kb": 151.2353515625,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "elektromanyetik alan teorisi",
+      "final sınavı"
+    ],
+    "year_guess": "2021",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "Elektromanyetik Alan Teorisi-1 dersi final sınav duyurusu ve sınav kuralları. EEM-4 dönemindeki temel derslerden biri için değerli materyal.",
+    "confidence": 0.95,
+    "suggested_filename_hint": "elektromanyetik-final-duyuru"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2424,
+    "output": 234
+  },
+  "processed_at": "2026-03-14T06:53:58.769885",
+  "needs_ocr": true,
+  "docling_info": null
+}

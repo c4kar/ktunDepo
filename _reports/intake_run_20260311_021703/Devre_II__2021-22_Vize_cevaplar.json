@@ -1,0 +1,38 @@
+{
+  "original_name": "Devre II_ 2021-22_Vize cevaplar.pdf",
+  "new_name": "cozum_devre2-vize-cozum_2022_v1.pdf",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/devre_analizi_2/Devre II_ 2021-22_Vize cevaplar.pdf",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/cozum_devre2-vize-cozum_2022_v1.pdf",
+  "size_kb": 500.4599609375,
+  "page_count": 4,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_cozumu",
+    "course_name": "devre_analizi_2",
+    "semester_guess": "EEM-2",
+    "topics": [
+      "devre_analizi",
+      "dugum_analizi",
+      "akım_hesaplaması",
+      "direnç_devreleri"
+    ],
+    "year_guess": "2022",
+    "has_solutions": true,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "Devre Analizi II vize sınavı çözümleri. El yazısı çözümlerle birlikte devre diyagramları ve hesaplamalar açıkça görülebiliyor. Elektrik-Elektronik Mühendisliği müfredatına uygun değerli materyal.",
+    "confidence": 0.95,
+    "suggested_filename_hint": "devre2-vize-cozum"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 4311,
+    "output": 267
+  },
+  "processed_at": "2026-03-11T02:19:48.262773",
+  "needs_ocr": true
+}

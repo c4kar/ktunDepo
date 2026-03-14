@@ -1,0 +1,39 @@
+{
+  "original_name": "IMG_20220310_021912.jpg",
+  "new_name": "not_sonlu-durum-makineleri_2022_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/lojik_devre_tasarimi/Tahta Fotoğraflar/IMG_20220310_021912.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/lojik-devre-tasarimi/not_sonlu-durum-makineleri_2022_v1.jpg",
+  "size_kb": 3814.0,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "ders_notu",
+    "course_name": "lojik-devre-tasarimi",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "sonlu durum makineleri",
+      "FSM",
+      "durum diyagramları",
+      "lojik devreler",
+      "FF uygulamaları"
+    ],
+    "year_guess": "2022",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "EEM-4 Lojik Devre Tasarımı dersi için değerli materyal. Sonlu durum makineleri konusu ve FF uygulamaları içeren ders notu. Metin okunabilir düzeyde.",
+    "confidence": 0.9,
+    "suggested_filename_hint": "sonlu-durum-makineleri"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2764,
+    "output": 260
+  },
+  "processed_at": "2026-03-14T02:53:33.635485",
+  "needs_ocr": true
+}

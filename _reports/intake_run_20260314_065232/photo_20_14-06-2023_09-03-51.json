@@ -1,0 +1,39 @@
+{
+  "original_name": "photo_20@14-06-2023_09-03-51.jpg",
+  "new_name": "sinav_manyetik-torku-soru_2023_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_20@14-06-2023_09-03-51.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_manyetik-torku-soru_2023_v1.jpg",
+  "size_kb": 35.8037109375,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "manyetik alan",
+      "dikdörtgen döngü",
+      "manyetik akı yoğunluğu",
+      "torku hesabı"
+    ],
+    "year_guess": "2023",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "EEM-4 Elektromanyetik Alan Teorisi dersi için değerli sınav sorusu. Manyetik alan ve torku hesapları içeren çoktan seçmeli soru formatında.",
+    "confidence": 0.95,
+    "suggested_filename_hint": "manyetik-torku-soru"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 1569,
+    "output": 253
+  },
+  "processed_at": "2026-03-14T06:56:02.628657",
+  "needs_ocr": true,
+  "docling_info": null
+}

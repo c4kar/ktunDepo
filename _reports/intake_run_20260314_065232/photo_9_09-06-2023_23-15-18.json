@@ -1,0 +1,38 @@
+{
+  "original_name": "photo_9@09-06-2023_23-15-18.jpg",
+  "new_name": "sinav_elektromanyetik-sinav-2012_2012_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_9@09-06-2023_23-15-18.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-2012_2012_v1.jpg",
+  "size_kb": 55.146484375,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "elektromanyetik alanlar",
+      "vektör analizi",
+      "Maxwell denklemleri"
+    ],
+    "year_guess": "2012",
+    "has_solutions": true,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "Elektromanyetik Alan Teorisi dersi için el yazısı sınav sorusu. 2012 tarihli. Matematik formüller ve çözüm adımları içeriyor. EEM-4 seviyesine uygun.",
+    "confidence": 0.9,
+    "suggested_filename_hint": "elektromanyetik-sinav-2012"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2221,
+    "output": 248
+  },
+  "processed_at": "2026-03-14T06:55:08.274794",
+  "needs_ocr": true,
+  "docling_info": null
+}

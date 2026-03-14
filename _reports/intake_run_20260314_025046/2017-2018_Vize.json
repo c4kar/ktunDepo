@@ -1,0 +1,38 @@
+{
+  "original_name": "2017-2018 Vize.pdf",
+  "new_name": "sinav_2018-vize-alu_2018_v1.pdf",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/lojik_devre_tasarimi/Çıkmışlar/2017-2018 Vize.pdf",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/lojik-devre-tasarimi/sinav_2018-vize-alu_2018_v1.pdf",
+  "size_kb": 1599.43359375,
+  "page_count": 4,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "lojik-devre-tasarimi",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "ALU tasarımı",
+      "lojik işlemciler",
+      "aritmetik işlemciler",
+      "kombinasyonel devreler"
+    ],
+    "year_guess": "2018",
+    "has_solutions": true,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "Selçuk Üniversitesi EEM bölümü Lojik Devre Tasarım dersi vize sınavı. Çözümlü ALU tasarım soruları içeriyor. El yazısı çözümler net ve okunabilir. Öğrenciler için çok değerli materyal.",
+    "confidence": 0.95,
+    "suggested_filename_hint": "2018-vize-alu"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 4320,
+    "output": 276
+  },
+  "processed_at": "2026-03-14T03:00:06.946950",
+  "needs_ocr": true
+}

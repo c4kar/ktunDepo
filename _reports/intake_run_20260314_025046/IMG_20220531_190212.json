@@ -1,0 +1,37 @@
+{
+  "original_name": "IMG_20220531_190212.jpg",
+  "new_name": "not_blok-diyagram-akis_2022_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/lojik_devre_tasarimi/Tahta Fotoğraflar/IMG_20220531_190212.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/lojik-devre-tasarimi/not_blok-diyagram-akis_2022_v1.jpg",
+  "size_kb": 5320.134765625,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "ders_notu",
+    "course_name": "lojik-devre-tasarimi",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "blok_diyagramlar",
+      "sinyal_akisi",
+      "lojik_devreler"
+    ],
+    "year_guess": "2022",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "EEM-4 lojik devre tasarımı dersi için relevant beyaz tahta çizimi. Blok diyagramlar ve sinyal akış şemaları görülüyor. El yazısı okunabilir düzeyde.",
+    "confidence": 0.85,
+    "suggested_filename_hint": "blok-diyagram-akis"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2764,
+    "output": 239
+  },
+  "processed_at": "2026-03-14T02:56:56.997560",
+  "needs_ocr": true
+}

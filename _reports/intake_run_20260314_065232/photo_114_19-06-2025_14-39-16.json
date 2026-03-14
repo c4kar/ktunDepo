@@ -1,0 +1,35 @@
+{
+  "original_name": "photo_114@19-06-2025_14-39-16.jpg",
+  "new_name": null,
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_114@19-06-2025_14-39-16.jpg",
+  "final_path": null,
+  "size_kb": 52.2529296875,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "diger",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [],
+    "year_guess": null,
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": false,
+    "legibility": "poor",
+    "decision": "REJECTED",
+    "decision_reason": "Görüntü sadece telefon cihazının arkası ve parmakları göstermekte, hiçbir ders materyali içeriği bulunmuyor",
+    "confidence": 1.0,
+    "suggested_filename_hint": "telefon-foto"
+  },
+  "duplicate_check": null,
+  "final_decision": "REJECTED",
+  "token_usage": {
+    "input": 2175,
+    "output": 191
+  },
+  "processed_at": "2026-03-14T07:03:59.441535",
+  "needs_ocr": false,
+  "docling_info": null,
+  "error": "LLM red: Görüntü sadece telefon cihazının arkası ve parmakları göstermekte, hiçbir ders materyali içeriği bulunmuyor"
+}

@@ -1,0 +1,38 @@
+{
+  "original_name": "IMG_20220405_175312.jpg",
+  "new_name": "not_karnaugh-boolean-devre_2022_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/lojik_devre_tasarimi/Tahta Fotoğraflar/IMG_20220405_175312.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/lojik-devre-tasarimi/not_karnaugh-boolean-devre_2022_v1.jpg",
+  "size_kb": 4931.8134765625,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "ders_notu",
+    "course_name": "lojik-devre-tasarimi",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "lojik devreler",
+      "karnaugh haritası",
+      "boolean cebir",
+      "devre analizi"
+    ],
+    "year_guess": "2022",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "Lojik devre tasarımı ile ilgili önemli ders materyali. Karnaugh haritaları, boolean ifadeler ve lojik devre çizimleri içeriyor. EEM-4 döneminde çok değerli.",
+    "confidence": 0.9,
+    "suggested_filename_hint": "karnaugh-boolean-devre"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2764,
+    "output": 248
+  },
+  "processed_at": "2026-03-14T02:52:07.619598",
+  "needs_ocr": true
+}

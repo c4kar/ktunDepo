@@ -1,0 +1,38 @@
+{
+  "original_name": "photo_71@05-07-2023_10-20-14.jpg",
+  "new_name": "sinav_silindirik-koordinat-soru_2023_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_71@05-07-2023_10-20-14.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_silindirik-koordinat-soru_2023_v1.jpg",
+  "size_kb": 32.822265625,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "silindirik koordinatlar",
+      "elektrik alan",
+      "yuk dagilimlari"
+    ],
+    "year_guess": "2023",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "Elektromanyetik Alan Teorisi dersine ait sınav sorusu. Silindirik koordinatlarda elektrik alan hesabı içeren değerli bir materyal.",
+    "confidence": 0.85,
+    "suggested_filename_hint": "silindirik-koordinat-soru"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 1991,
+    "output": 227
+  },
+  "processed_at": "2026-03-14T07:00:14.010081",
+  "needs_ocr": true,
+  "docling_info": null
+}

@@ -1,0 +1,41 @@
+{
+  "original_name": "2018-2019 Final Cevaplar.pdf",
+  "new_name": "cozum_2018-final-cozumlu_2018_v1.pdf",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/lojik_devre_tasarimi/Çıkmışlar/2018-2019 Final Cevaplar.pdf",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/lojik-devre-tasarimi/cozum_2018-final-cozumlu_2018_v1.pdf",
+  "size_kb": 1545.3486328125,
+  "page_count": 4,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_cozumu",
+    "course_name": "lojik-devre-tasarimi",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "ASM",
+      "kontrol_unitesi",
+      "FF_tasarimi",
+      "kod_cozucu",
+      "MUX",
+      "durum_diyagrami",
+      "lojik_devreler"
+    ],
+    "year_guess": "2018",
+    "has_solutions": true,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "2018-2019 Final sınavının çözümlü versiyonu. ASM şeması, kontrol ünitesi tasarımı, FF ve MUX kullanımı gibi lojik devre tasarımının temel konularını içeriyor. El yazısı çözümler öğrenciler için çok değerli.",
+    "confidence": 0.95,
+    "suggested_filename_hint": "2018-final-cozumlu"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 4310,
+    "output": 291
+  },
+  "processed_at": "2026-03-14T02:58:31.510298",
+  "needs_ocr": true
+}

@@ -1,0 +1,39 @@
+{
+  "original_name": "photo_14@09-06-2023_23-15-19.jpg",
+  "new_name": "sinav_elektromanyetik-sinav-2012_2012_v2.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_14@09-06-2023_23-15-19.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-2012_2012_v2.jpg",
+  "size_kb": 91.0439453125,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "elektrik alan",
+      "gauss yasası",
+      "elektrostatik",
+      "kapasitör"
+    ],
+    "year_guess": "2012",
+    "has_solutions": true,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "El yazısı çözümlü sınav soruları. EEM-4 elektromanyetik dersi için değerli materyal. Elektrostatik problemleri açık şekilde görülebiliyor.",
+    "confidence": 0.9,
+    "suggested_filename_hint": "elektromanyetik-sinav-2012"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2221,
+    "output": 238
+  },
+  "processed_at": "2026-03-14T06:55:32.124742",
+  "needs_ocr": true,
+  "docling_info": null
+}

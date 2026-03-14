@@ -1,0 +1,38 @@
+{
+  "original_name": "photo_2026-03-04_00-52-37.jpg",
+  "new_name": "sinav_devre-analizi-sinav-2008_2008_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/devre_analizi_2/images/photo_2026-03-04_00-52-37.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_devre-analizi-sinav-2008_2008_v1.jpg",
+  "size_kb": 125.1708984375,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "devre_analizi_2",
+    "semester_guess": "EEM-2",
+    "topics": [
+      "devre_analizi",
+      "indukto_bobinli_devreler",
+      "ac_devre_analizi",
+      "guc_hesaplari"
+    ],
+    "year_guess": "2008",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "30 Nisan 2008 tarihli Devre Analizi II sınav soruları. Devrelerde indüktörlü AC analiz sorularını içeren değerli akademik materyal.",
+    "confidence": 0.9,
+    "suggested_filename_hint": "devre-analizi-sinav-2008"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2766,
+    "output": 245
+  },
+  "processed_at": "2026-03-11T02:37:43.034675",
+  "needs_ocr": true
+}

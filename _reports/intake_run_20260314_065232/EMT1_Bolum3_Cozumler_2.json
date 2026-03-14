@@ -1,0 +1,38 @@
+{
+  "original_name": "EMT1_Bolum3_Cozumler_2.pdf",
+  "new_name": "cozum_emt1-bolum3-cozumler_tarihsiz_v2.pdf",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Cozumler/EMT1_Bolum3_Cozumler_2.pdf",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/cozum_emt1-bolum3-cozumler_tarihsiz_v2.pdf",
+  "size_kb": 2299.728515625,
+  "page_count": 5,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_cozumu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "elektromanyetik alan",
+      "matematiksel çözümler",
+      "denklem çözümleri"
+    ],
+    "year_guess": null,
+    "has_solutions": true,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "Elektromanyetik alan teorisi dersi için çözümlü problemler içeren değerli materyal. El yazısı okunabilir, matematiksel formüller ve çözüm adımları mevcut.",
+    "confidence": 0.9,
+    "suggested_filename_hint": "emt1-bolum3-cozumler"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 4349,
+    "output": 241
+  },
+  "processed_at": "2026-03-14T06:53:39.116877",
+  "needs_ocr": true,
+  "docling_info": null
+}

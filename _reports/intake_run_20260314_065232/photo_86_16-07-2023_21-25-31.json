@@ -1,0 +1,38 @@
+{
+  "original_name": "photo_86@16-07-2023_21-25-31.jpg",
+  "new_name": "sinav_paralel-plaka-elektron-ivme_2023_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_86@16-07-2023_21-25-31.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_paralel-plaka-elektron-ivme_2023_v1.jpg",
+  "size_kb": 22.046875,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "elektron ivmesi",
+      "paralel plakalar",
+      "elektrik alan"
+    ],
+    "year_guess": "2023",
+    "has_solutions": true,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "Elektromanyetik alan teorisi dersi için paralel plakalar arası elektron ivmesi sorusu. Çoktan seçmeli soru formatında, çözümlü. EEM-4 dönemi için uygun içerik.",
+    "confidence": 0.9,
+    "suggested_filename_hint": "paralel-plaka-elektron-ivme"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 1413,
+    "output": 243
+  },
+  "processed_at": "2026-03-14T07:01:33.307132",
+  "needs_ocr": true,
+  "docling_info": null
+}

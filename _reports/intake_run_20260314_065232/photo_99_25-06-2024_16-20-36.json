@@ -1,0 +1,39 @@
+{
+  "original_name": "photo_99@25-06-2024_16-20-36.jpg",
+  "new_name": "not_elektromanyetik-ders-notu_tarihsiz_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_99@25-06-2024_16-20-36.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/not_elektromanyetik-ders-notu_tarihsiz_v1.jpg",
+  "size_kb": 210.8115234375,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "ders_notu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "elektromanyetik",
+      "vektör alanları",
+      "manyetik vektör",
+      "dipolar mıknatıs"
+    ],
+    "year_guess": null,
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "El yazısı elektromanyetik alan teorisi ders notu, çizimler ve formüllerle. EEM-4 için değerli materyal.",
+    "confidence": 0.9,
+    "suggested_filename_hint": "elektromanyetik-ders-notu"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2773,
+    "output": 231
+  },
+  "processed_at": "2026-03-14T07:02:34.938432",
+  "needs_ocr": true,
+  "docling_info": null
+}

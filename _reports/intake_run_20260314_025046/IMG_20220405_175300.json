@@ -1,0 +1,39 @@
+{
+  "original_name": "IMG_20220405_175300.jpg",
+  "new_name": "not_lojik-devre-ders-notu_2022_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/lojik_devre_tasarimi/Tahta Fotoğraflar/IMG_20220405_175300.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/lojik-devre-tasarimi/not_lojik-devre-ders-notu_2022_v1.jpg",
+  "size_kb": 4194.4833984375,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "ders_notu",
+    "course_name": "lojik-devre-tasarimi",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "lojik devreler",
+      "truth table",
+      "karnaugh map",
+      "boolean algebra",
+      "devre analizi"
+    ],
+    "year_guess": "2022",
+    "has_solutions": false,
+    "language": "mixed",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "Lojik devre tasarımı dersi için değerli el yazısı ders notu. Tablolar, devre şemaları ve boolean ifadeler içeriyor.",
+    "confidence": 0.85,
+    "suggested_filename_hint": "lojik-devre-ders-notu"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2764,
+    "output": 230
+  },
+  "processed_at": "2026-03-14T02:51:49.307785",
+  "needs_ocr": true
+}

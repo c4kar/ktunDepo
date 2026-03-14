@@ -1,0 +1,40 @@
+{
+  "original_name": "EMT1_Vize_2020.pdf",
+  "new_name": "sinav_emt1-vize-2020_2020_v1.pdf",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Sinavlar/Vize/EMT1_Vize_2020.pdf",
+  "final_path": null,
+  "size_kb": 671.8984375,
+  "page_count": 20,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-2",
+    "topics": [
+      "elektrik yük",
+      "dipol moment",
+      "elektrik alan",
+      "Coulomb yasası"
+    ],
+    "year_guess": "2020",
+    "has_solutions": true,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "Elektromanyetik Alan Teorisi 1 dersi vize sınavı soruları ve el yazısı çözümleri içeren değerli materyal",
+    "confidence": 0.95,
+    "suggested_filename_hint": "emt1-vize-2020"
+  },
+  "duplicate_check": null,
+  "final_decision": "REVIEW",
+  "token_usage": {
+    "input": 4308,
+    "output": 224
+  },
+  "processed_at": "2026-03-14T06:50:47.770737",
+  "needs_ocr": true,
+  "docling_info": null,
+  "error": "Yol belirlenemedi: Ders eşleştirilemedi: 'elektromanyetik-alan-teorisi-1' (dönem: EEM-2)"
+}

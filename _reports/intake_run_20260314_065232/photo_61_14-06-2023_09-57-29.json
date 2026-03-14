@@ -1,0 +1,38 @@
+{
+  "original_name": "photo_61@14-06-2023_09-57-29.jpg",
+  "new_name": "sinav_elektromanyetik-sinav-soru_2023_v8.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_61@14-06-2023_09-57-29.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-soru_2023_v8.jpg",
+  "size_kb": 77.5830078125,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "elektromanyetik alan",
+      "vektör analizi",
+      "çoktan seçmeli sorular"
+    ],
+    "year_guess": "2023",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "EEM-4 Elektromanyetik Alan Teorisi I dersine ait çoktan seçmeli sınav sorusu. Online sınav platformundan alınmış görünüyor. Elektrik-elektronik mühendisliği müfredatına uygun değerli materyal.",
+    "confidence": 0.9,
+    "suggested_filename_hint": "elektromanyetik-sinav-soru"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2773,
+    "output": 264
+  },
+  "processed_at": "2026-03-14T06:59:30.877209",
+  "needs_ocr": true,
+  "docling_info": null
+}

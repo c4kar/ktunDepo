@@ -1,0 +1,38 @@
+{
+  "original_name": "IMG_20220315_183856.jpg",
+  "new_name": "not_durum-diyagrami-flipflop_2022_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/lojik_devre_tasarimi/Tahta Fotoğraflar/IMG_20220315_183856.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/lojik-devre-tasarimi/not_durum-diyagrami-flipflop_2022_v1.jpg",
+  "size_kb": 4186.185546875,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "ders_notu",
+    "course_name": "lojik-devre-tasarimi",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "durum_diyagrami",
+      "sekansiyel_devreler",
+      "flip_flop",
+      "durum_geçisleri"
+    ],
+    "year_guess": "2022",
+    "has_solutions": false,
+    "language": "mixed",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "EEM-4 lojik devre tasarımı dersine ait durum diyagramı ve flip-flop tasarımı içeren el yazısı ders notu. Sekansiyel devrelerin anlatıldığı değerli materyal.",
+    "confidence": 0.85,
+    "suggested_filename_hint": "durum-diyagrami-flipflop"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2764,
+    "output": 257
+  },
+  "processed_at": "2026-03-14T02:53:09.774436",
+  "needs_ocr": true
+}

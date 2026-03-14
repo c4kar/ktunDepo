@@ -1,0 +1,39 @@
+{
+  "original_name": "photo_29@14-06-2023_09-23-20.jpg",
+  "new_name": "sinav_elektromanyetik-aku-teoremi_2023_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_29@14-06-2023_09-23-20.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-aku-teoremi_2023_v1.jpg",
+  "size_kb": 89.9833984375,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "vektör alanları",
+      "akı teoremi",
+      "silindirik koordinatlar",
+      "elektromanyetik alanlar"
+    ],
+    "year_guess": "2023",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "Elektromanyetik Alan Teorisi dersi için çoktan seçmeli sınav sorusu. Vektör alanları ve akı teoremi konularını içeren değerli materyal.",
+    "confidence": 0.9,
+    "suggested_filename_hint": "elektromanyetik-aku-teoremi"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2037,
+    "output": 244
+  },
+  "processed_at": "2026-03-14T06:56:51.762762",
+  "needs_ocr": true,
+  "docling_info": null
+}

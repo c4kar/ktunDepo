@@ -1,0 +1,41 @@
+{
+  "original_name": "photo_1@23-04-2021_17-22-26.jpg",
+  "new_name": "not_kirchhoff-yasalari-devre_2021_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/06_Gorseller/photo_1@23-04-2021_17-22-26.jpg",
+  "final_path": null,
+  "size_kb": 53.76171875,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "ders_notu",
+    "course_name": "Devre Analizi",
+    "semester_guess": "EEM-2",
+    "topics": [
+      "Kirchhoff yasaları",
+      "devre analizi",
+      "AC devreler",
+      "kapasitör",
+      "direnç"
+    ],
+    "year_guess": "2021",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "Devre analizi konusunda Kirchhoff yasalarını kapsayan değerli ders notu materyali. Şekil ES.13 ile devre diyagramı ve açıklamaları içeriyor.",
+    "confidence": 0.9,
+    "suggested_filename_hint": "kirchhoff-yasalari-devre"
+  },
+  "duplicate_check": null,
+  "final_decision": "REVIEW",
+  "token_usage": {
+    "input": 2280,
+    "output": 240
+  },
+  "processed_at": "2026-03-14T04:15:29.156247",
+  "needs_ocr": true,
+  "docling_info": null,
+  "error": "Yol belirlenemedi: Ders eşleştirilemedi: 'Devre Analizi' (dönem: EEM-2)"
+}

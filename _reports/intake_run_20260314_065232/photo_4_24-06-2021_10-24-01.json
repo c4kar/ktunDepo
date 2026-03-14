@@ -1,0 +1,38 @@
+{
+  "original_name": "photo_4@24-06-2021_10-24-01.jpg",
+  "new_name": "not_elektromanyetik-devre-notu_2021_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_4@24-06-2021_10-24-01.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/not_elektromanyetik-devre-notu_2021_v1.jpg",
+  "size_kb": 133.294921875,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "ders_notu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "elektromagnetik",
+      "devre analizi",
+      "elektrik devreleri"
+    ],
+    "year_guess": "2021",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "El yazısı ders notu, elektromanyetik alan teorisi dersiyle ilgili devre şemaları ve açıklamalar içeriyor. EEM-4 dönemine uygun teknik içerik.",
+    "confidence": 0.85,
+    "suggested_filename_hint": "elektromanyetik-devre-notu"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2405,
+    "output": 233
+  },
+  "processed_at": "2026-03-14T06:53:53.756356",
+  "needs_ocr": true,
+  "docling_info": null
+}

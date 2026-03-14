@@ -1,0 +1,38 @@
+{
+  "original_name": "photo_80@05-07-2023_10-56-13.jpg",
+  "new_name": "sinav_manyetik-alan-soru_2023_v4.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_80@05-07-2023_10-56-13.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_manyetik-alan-soru_2023_v4.jpg",
+  "size_kb": 22.7451171875,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "manyetik alan",
+      "akı hesaplama",
+      "manyetik alan şiddeti"
+    ],
+    "year_guess": "2023",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "Elektromanyetik Alan Teorisi dersi için manyetik alan hesaplama sorusu. EEM-4 müfredatına uygun, öğrenciler için değerli materyal.",
+    "confidence": 0.9,
+    "suggested_filename_hint": "manyetik-alan-soru"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 1682,
+    "output": 234
+  },
+  "processed_at": "2026-03-14T07:01:03.698398",
+  "needs_ocr": true,
+  "docling_info": null
+}

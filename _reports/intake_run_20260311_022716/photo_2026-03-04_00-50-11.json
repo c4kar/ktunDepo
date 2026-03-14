@@ -1,0 +1,38 @@
+{
+  "original_name": "photo_2026-03-04_00-50-11.jpg",
+  "new_name": "sinav_ac-devre-soru_tarihsiz_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/devre_analizi_2/images/photo_2026-03-04_00-50-11.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_ac-devre-soru_tarihsiz_v2.jpg",
+  "size_kb": 22.65625,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "devre_analizi_2",
+    "semester_guess": "EEM-2",
+    "topics": [
+      "AC devre analizi",
+      "indüktör",
+      "kapasitör",
+      "RLC devre"
+    ],
+    "year_guess": null,
+    "has_solutions": true,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "AC devre analizi konusunda çoktan seçmeli sınav sorusu, devre şeması ve çözüm seçenekleri mevcut",
+    "confidence": 0.9,
+    "suggested_filename_hint": "ac-devre-soru"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 1601,
+    "output": 216
+  },
+  "processed_at": "2026-03-11T02:27:46.352818",
+  "needs_ocr": true
+}

@@ -1,0 +1,38 @@
+{
+  "original_name": "photo_82@05-07-2023_11-01-00.jpg",
+  "new_name": "sinav_elektromanyetik-sinav-soru_2023_v12.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_82@05-07-2023_11-01-00.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-soru_2023_v12.jpg",
+  "size_kb": 24.693359375,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "küresel koordinatlar",
+      "akım yoğunluğu",
+      "manyetik alan"
+    ],
+    "year_guess": "2023",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "Elektromanyetik alan teorisi dersi sınav sorusu, çoktan seçmeli format, EEM-4 dönemine uygun içerik",
+    "confidence": 0.9,
+    "suggested_filename_hint": "elektromanyetik-sinav-soru"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 1749,
+    "output": 224
+  },
+  "processed_at": "2026-03-14T07:01:13.836920",
+  "needs_ocr": true,
+  "docling_info": null
+}

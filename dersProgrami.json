@@ -1,0 +1,158 @@
+{
+  "Guz": [
+    {
+      "Ders_Adi": "Matematik 1-A",
+      "Donem_Bilgisi": "1. Yarıyıl (1. Sınıf)",
+      "Donem_Tipi": "Güz",
+      "Hocasi": "Prof. Dr. Nurettin IRMAK",
+      "Oda": "C-102",
+      "Kaynak": "[cite: 1]"
+    },
+    {
+      "Ders_Adi": "Fizik 1-A",
+      "Donem_Bilgisi": "1. Yarıyıl (1. Sınıf)",
+      "Donem_Tipi": "Güz",
+      "Hocasi": "Doç. Dr. Sevda ENGİN",
+      "Oda": "C-102",
+      "Kaynak": "[cite: 1]"
+    },
+    {
+      "Ders_Adi": "Elektrik-Elektronik Mühendisliğine Giriş A",
+      "Donem_Bilgisi": "1. Yarıyıl (1. Sınıf)",
+      "Donem_Tipi": "Güz",
+      "Hocasi": "Doç. Dr. Mümtaz MUTLUER",
+      "Oda": "C-102",
+      "Kaynak": "[cite: 1]"
+    },
+    {
+      "Ders_Adi": "Devre Analizi 1-A",
+      "Donem_Bilgisi": "3. Yarıyıl (2. Sınıf)",
+      "Donem_Tipi": "Güz",
+      "Hocasi": "Prof. Dr. Salih GÜNEŞ",
+      "Oda": "D-102",
+      "Kaynak": "[cite: 1]"
+    },
+    {
+      "Ders_Adi": "Elektronik 1-A",
+      "Donem_Bilgisi": "3. Yarıyıl (2. Sınıf)",
+      "Donem_Tipi": "Güz",
+      "Hocasi": "Prof. Dr. Seral ÖZŞEN",
+      "Oda": "D-102",
+      "Kaynak": "[cite: 1]"
+    },
+    {
+      "Ders_Adi": "Lojik Devreler A",
+      "Donem_Bilgisi": "3. Yarıyıl (2. Sınıf)",
+      "Donem_Tipi": "Güz",
+      "Hocasi": "Prof. Dr. Rahime CEYLAN",
+      "Oda": "D-102",
+      "Kaynak": "[cite: 1]"
+    },
+    {
+      "Ders_Adi": "Elektromanyetik Alan Teorisi 1-A",
+      "Donem_Bilgisi": "5. Yarıyıl (3. Sınıf)",
+      "Donem_Tipi": "Güz",
+      "Hocasi": "Dr. Öğr. Üyesi İbrahim ŞEFLEK",
+      "Oda": "D-104",
+      "Kaynak": "[cite: 1]"
+    },
+    {
+      "Ders_Adi": "Elektrik Makinaları 1-A",
+      "Donem_Bilgisi": "5. Yarıyıl (3. Sınıf)",
+      "Donem_Tipi": "Güz",
+      "Hocasi": "Doç. Dr. Mümtaz MUTLUER",
+      "Oda": "D-104",
+      "Kaynak": "[cite: 1]"
+    },
+    {
+      "Ders_Adi": "Filtre Tasarımı",
+      "Donem_Bilgisi": "7. Yarıyıl (4. Sınıf)",
+      "Donem_Tipi": "Güz",
+      "Hocasi": "Prof. Dr. Rahime CEYLAN",
+      "Oda": "D-105",
+      "Kaynak": "[cite: 1]"
+    },
+    {
+      "Ders_Adi": "Yüksek Gerilim Tekniği",
+      "Donem_Bilgisi": "7. Yarıyıl (4. Sınıf)",
+      "Donem_Tipi": "Güz",
+      "Hocasi": "Doç. Dr. Halil ÇİMEN",
+      "Oda": "D-102",
+      "Kaynak": "[cite: 1]"
+    }
+  ],
+  "Bahar": [
+    {
+      "Ders_Adi": "Matematik II-A",
+      "Donem_Bilgisi": "2. Yarıyıl (1. Sınıf)",
+      "Donem_Tipi": "Bahar",
+      "Hocasi": "N. IRMAK",
+      "Oda": "C-203",
+      "Kaynak": "[cite: 12]"
+    },
+    {
+      "Ders_Adi": "Bilgisayar Programlama II-A",
+      "Donem_Bilgisi": "2. Yarıyıl (1. Sınıf)",
+      "Donem_Tipi": "Bahar",
+      "Hocasi": "A. SOLAK",
+      "Oda": "C-211",
+      "Kaynak": "[cite: 12]"
+    },
+    {
+      "Ders_Adi": "Devre Analizi II-A",
+      "Donem_Bilgisi": "4. Yarıyıl (2. Sınıf)",
+      "Donem_Tipi": "Bahar",
+      "Hocasi": "S. GÜNEŞ / K. ERDOĞAN / Y. EZGİNCİ",
+      "Oda": "D-208(L3)",
+      "Kaynak": "[cite: 12]"
+    },
+    {
+      "Ders_Adi": "Elektronik II-B",
+      "Donem_Bilgisi": "4. Yarıyıl (2. Sınıf)",
+      "Donem_Tipi": "Bahar",
+      "Hocasi": "M. CEYLAN",
+      "Oda": "D-103",
+      "Kaynak": "[cite: 12]"
+    },
+    {
+      "Ders_Adi": "Lojik Devre Tasarımı A",
+      "Donem_Bilgisi": "4. Yarıyıl (2. Sınıf)",
+      "Donem_Tipi": "Bahar",
+      "Hocasi": "R. CEYLAN / H. KOYUNCU",
+      "Oda": "C-102",
+      "Kaynak": "[cite: 12]"
+    },
+    {
+      "Ders_Adi": "Otomatik Kontrol II",
+      "Donem_Bilgisi": "6. Yarıyıl (3. Sınıf)",
+      "Donem_Tipi": "Bahar",
+      "Hocasi": "Ö. AYDOĞDU / A. DURDU",
+      "Oda": "D-209(L4)",
+      "Kaynak": "[cite: 12]"
+    },
+    {
+      "Ders_Adi": "Sayısal Haberleşme Sistemleri 1-A",
+      "Donem_Bilgisi": "6. Yarıyıl (3. Sınıf)",
+      "Donem_Tipi": "Bahar",
+      "Hocasi": "A. E. CANBİLEN",
+      "Oda": "D-104",
+      "Kaynak": "[cite: 12]"
+    },
+    {
+      "Ders_Adi": "İleri Sayısal Sistemler",
+      "Donem_Bilgisi": "8. Yarıyıl (4. Sınıf)",
+      "Donem_Tipi": "Bahar",
+      "Hocasi": "H. KOYUNCU",
+      "Oda": "C-201",
+      "Kaynak": "[cite: 12]"
+    },
+    {
+      "Ders_Adi": "Yapay Zekaya Giriş",
+      "Donem_Bilgisi": "8. Yarıyıl (4. Sınıf)",
+      "Donem_Tipi": "Bahar",
+      "Hocasi": "M. CİHAN",
+      "Oda": "C-204",
+      "Kaynak": "[cite: 12]"
+    }
+  ]
+}

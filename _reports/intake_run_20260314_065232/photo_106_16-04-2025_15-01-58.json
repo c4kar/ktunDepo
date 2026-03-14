@@ -1,0 +1,39 @@
+{
+  "original_name": "photo_106@16-04-2025_15-01-58.jpg",
+  "new_name": null,
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_106@16-04-2025_15-01-58.jpg",
+  "final_path": null,
+  "size_kb": 82.0654296875,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "diger",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "etkinlik",
+      "web3",
+      "blockchain"
+    ],
+    "year_guess": null,
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": false,
+    "legibility": "good",
+    "decision": "REJECTED",
+    "decision_reason": "Web3 Talks etkinlik afişi. Elektrik-Elektronik Mühendisliği müfredatıyla doğrudan ilgili değil. Ders materyali değil, etkinlik duyurusu.",
+    "confidence": 0.95,
+    "suggested_filename_hint": "web3-talks-etkinlik"
+  },
+  "duplicate_check": null,
+  "final_decision": "REJECTED",
+  "token_usage": {
+    "input": 2727,
+    "output": 224
+  },
+  "processed_at": "2026-03-14T07:03:12.101139",
+  "needs_ocr": false,
+  "docling_info": null,
+  "error": "LLM red: Web3 Talks etkinlik afişi. Elektrik-Elektronik Mühendisliği müfredatıyla doğrudan ilgili değil. Ders materyali değil, etkinlik duyurusu."
+}

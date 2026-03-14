@@ -1,0 +1,42 @@
+{
+  "original_name": "photo_1@26-04-2021_15-39-09.jpg",
+  "new_name": "sinav_elektromanyetik-sinav-sorusu_2021_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_1@26-04-2021_15-39-09.jpg",
+  "final_path": null,
+  "size_kb": 10.203125,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-2",
+    "topics": [
+      "elektrik alanlar",
+      "ters-kare ilkesi",
+      "coulomb ilkesi",
+      "magnetik alanlar",
+      "ampere ilkesi",
+      "faraday ilkesi"
+    ],
+    "year_guess": "2021",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "Elektromanyetik alan teorisi dersine ait sınav sorusu. Temel elektrik ve manyetik alan ilkelerini kapsayan değerli materyal.",
+    "confidence": 0.95,
+    "suggested_filename_hint": "elektromanyetik-sinav-sorusu"
+  },
+  "duplicate_check": null,
+  "final_decision": "REVIEW",
+  "token_usage": {
+    "input": 1357,
+    "output": 253
+  },
+  "processed_at": "2026-03-14T06:50:52.786188",
+  "needs_ocr": true,
+  "docling_info": null,
+  "error": "Yol belirlenemedi: Ders eşleştirilemedi: 'elektromanyetik-alan-teorisi-1' (dönem: EEM-2)"
+}

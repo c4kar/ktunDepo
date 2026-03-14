@@ -1,0 +1,38 @@
+{
+  "original_name": "IMG_20220405_181129.jpg",
+  "new_name": "not_lojik-devre-notlari_2022_v2.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/lojik_devre_tasarimi/Tahta Fotoğraflar/IMG_20220405_181129.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/lojik-devre-tasarimi/not_lojik-devre-notlari_2022_v2.jpg",
+  "size_kb": 3193.19921875,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "ders_notu",
+    "course_name": "lojik-devre-tasarimi",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "lojik devreleri",
+      "boolean cebir",
+      "truth table",
+      "karnaugh map"
+    ],
+    "year_guess": "2022",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "Lojik devre tasarımı dersi için el yazısı ders notu. Truth table, Karnaugh haritası gibi temel konuları içeriyor. EEM-4 öğrencileri için değerli materyal.",
+    "confidence": 0.85,
+    "suggested_filename_hint": "lojik-devre-notlari"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2764,
+    "output": 242
+  },
+  "processed_at": "2026-03-14T02:51:26.865597",
+  "needs_ocr": true
+}

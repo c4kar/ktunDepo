@@ -1,0 +1,38 @@
+{
+  "original_name": "IMG_20220531_180715.jpg",
+  "new_name": "cozum_lojik-devre-cozum_2022_v2.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/lojik_devre_tasarimi/Tahta Fotoğraflar/IMG_20220531_180715.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/lojik-devre-tasarimi/cozum_lojik-devre-cozum_2022_v2.jpg",
+  "size_kb": 4797.0859375,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_cozumu",
+    "course_name": "lojik-devre-tasarimi",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "lojik devreleri",
+      "akım hesaplaması",
+      "gerilim analizi",
+      "devre çözümü"
+    ],
+    "year_guess": "2022",
+    "has_solutions": true,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "Lojik devre tasarımı dersine ait detaylı çözümlü hesaplamalar içeren tahta yazısı. EEM-4 döneminde değerli kaynak.",
+    "confidence": 0.85,
+    "suggested_filename_hint": "lojik-devre-cozum"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2764,
+    "output": 238
+  },
+  "processed_at": "2026-03-14T02:55:01.703370",
+  "needs_ocr": true
+}

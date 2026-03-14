@@ -1,0 +1,53 @@
+{
+  "original_name": "Sorular_Belirsiz.pdf",
+  "new_name": null,
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Diger/Sorular_Belirsiz.pdf",
+  "final_path": null,
+  "size_kb": 268.4658203125,
+  "page_count": 1,
+  "has_text_layer": true,
+  "analysis_mode": "text",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "stokes-teoremi",
+      "elektrik-alan",
+      "dielektrik-ortam",
+      "potansiyel",
+      "kapasite"
+    ],
+    "year_guess": null,
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": false,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "EEM-4 elektromanyetik dersi arasınav soruları, 5 adet kapsayıcı soru içeriyor. Stokes teoremi, elektrik alan, dielektrik ortamlar gibi temel konuları kapsıyor.",
+    "confidence": 0.95,
+    "suggested_filename_hint": "arasinav-sorulari"
+  },
+  "duplicate_check": {
+    "similarity": 0.78292644,
+    "similar_docs": [
+      {
+        "id": "3ec3476f-6d4b-5249-724f-f3d5f6a36920",
+        "similarity": 0.78292644,
+        "semester": "EEM-4",
+        "course": "elektromanyetik-alan-teorisi-1",
+        "filename": "sinav_emt1-vize-2016_2016_v1.pdf",
+        "path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_emt1-vize-2016_2016_v1.pdf"
+      }
+    ]
+  },
+  "final_decision": "REVIEW",
+  "token_usage": {
+    "input": 1982,
+    "output": 245
+  },
+  "processed_at": "2026-03-14T06:54:39.448122",
+  "needs_ocr": false,
+  "docling_info": null,
+  "error": "Benzer dosya mevcut: Benzer doküman mevcut (benzerlik: 78.29%)"
+}

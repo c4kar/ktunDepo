@@ -1,0 +1,39 @@
+{
+  "original_name": "photo_2026-03-04_00-52-36.jpg",
+  "new_name": "sinav_devre-analizi-ara-sinav_2015_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/devre_analizi_2/images/photo_2026-03-04_00-52-36.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_devre-analizi-ara-sinav_2015_v1.jpg",
+  "size_kb": 101.076171875,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "devre_analizi_2",
+    "semester_guess": "EEM-2",
+    "topics": [
+      "devre_analizi",
+      "thevenin_esdeegeri",
+      "guc_faktoru",
+      "ac_devreler",
+      "goz_denklemleri"
+    ],
+    "year_guess": "2015",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "Devre Analizi II ara sınav soruları - EEM-2 dönemi için değerli materyal",
+    "confidence": 0.95,
+    "suggested_filename_hint": "devre-analizi-ara-sinav"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2766,
+    "output": 227
+  },
+  "processed_at": "2026-03-11T02:37:37.316993",
+  "needs_ocr": true
+}

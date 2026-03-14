@@ -1,0 +1,40 @@
+{
+  "original_name": "photo_24@14-06-2023_09-08-43.jpg",
+  "new_name": "sinav_manyetik-alan-tork-sorusu_2023_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_24@14-06-2023_09-08-43.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_manyetik-alan-tork-sorusu_2023_v1.jpg",
+  "size_kb": 37.109375,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "manyetik alan",
+      "elektromanyetik alan",
+      "dikdörtgen şeklinde iletken döngü",
+      "akım yoğunluğu",
+      "tork hesabı"
+    ],
+    "year_guess": "2023",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "Elektromanyetik alan teorisi dersi için çoktan seçmeli sınav sorusu. Manyetik alan ve tork hesapları içeren teknik problem. EEM-4 dönemine uygun içerik.",
+    "confidence": 0.95,
+    "suggested_filename_hint": "manyetik-alan-tork-sorusu"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 1965,
+    "output": 271
+  },
+  "processed_at": "2026-03-14T06:56:23.101843",
+  "needs_ocr": true,
+  "docling_info": null
+}

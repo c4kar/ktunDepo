@@ -1,0 +1,668 @@
+[
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_rlc-devre-sinav_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_reaktif-guc-soru_tarihsiz_v2.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_uc-fazli-guc-sorusu_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_guc-faktoru-3faz-soru_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_ac-devre-soru_tarihsiz_v2.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_guc-ucgeni-soru_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_devre-analizi-sinav-soru_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_devre-analizi-sinav_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_reaktif-guc-hesabi_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_devre-analizi-soru_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_reaktif-guc-soru_tarihsiz_v3.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_ac-guc-soru_tarihsiz_v2.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_reaktif-guc-sorusu_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_uc-fazli-guc-faktoru_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_rlc-kalite-faktoru_tarihsiz_v2.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_ac-devre-cozumlu_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_ac-devre-reaktif-guc_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_rlc-kalite-faktoru_tarihsiz_v3.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_ac-devre-sinav_tarihsiz_v2.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_ac-devre-rlc_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_reaktif-guc-soru_tarihsiz_v4.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_ac-devre-soru6_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_ac-devre-sinav_tarihsiz_v3.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_ac-devre-soru_tarihsiz_v3.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/cozum_kompleks-phasor-cozum_tarihsiz_v1.jpg",
+    "material_type": "sinav_cozumu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_fazor-akim-soru_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_rlc-kalite-faktoru_tarihsiz_v4.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_ac-devre-reaktif-guc_tarihsiz_v2.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_devre-analizi-sinav-rlc_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_uc-fazli-sistem-soru_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_devre-analizi-sinav-sorusu_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_ac-devre-analizi-soru_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_ac-devre-soru_tarihsiz_v4.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_rlc-kalite-faktoru_tarihsiz_v5.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_rlc-devre-soru_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_rlc-devre-analizi_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_3-fazli-sistem-guc_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_y-delta-aktif-guc_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_guc-hesaplama-soru_tarihsiz_v2.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_ac-devre-coktan-secmeli_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_rlc-devre-kapasitor_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_uc-fazli-guc-sorusu_tarihsiz_v2.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_devre-analizi-sinav-ac_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_ac-guc-soru_tarihsiz_v3.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_devre-analizi-sinav-sorusu_tarihsiz_v2.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_reaktif-guc-soru_tarihsiz_v5.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_guc-hesabi-soru_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_rlc-devre-ac-analiz_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_rlc-devre-sinav_tarihsiz_v2.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_rlc-kalite-faktoru_tarihsiz_v6.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_ac-guc-soru_tarihsiz_v4.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_3-fazli-guc-sorusu_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_3fazli-guc-faktoru-soru_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_ac-devre-guc-sorusu_tarihsiz_v2.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_guc-hesaplama-sorulari_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_guc-ucgeni-soru_tarihsiz_v2.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_rlc-kalite-faktoru_tarihsiz_v7.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_transistor-devre-sorusu_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_rlc-devre-sinav_tarihsiz_v3.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_devre2-final-2021_2021_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_final-butunleme-konular_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/not_devre-analizi-ac-cozumler_tarihsiz_v1.jpg",
+    "material_type": "ders_notu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_devre-analizi-sinav-sorulari_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_gdw-devre-analizi-sinav_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/cozum_limit-hesaplamalari-cozum_tarihsiz_v1.jpg",
+    "material_type": "sinav_cozumu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_ac-devre-sinav-cozumu_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_devre-analizi-cozumler_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/not_s-alani-devre-elemanlari_tarihsiz_v1.jpg",
+    "material_type": "ders_notu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_fourier-laplace-sorular_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_rlc-rezonans-sorulari_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/cozum_ac-devre-rezonans-cozum_tarihsiz_v1.jpg",
+    "material_type": "sinav_cozumu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/not_paralel-rezonans-notu_tarihsiz_v1.jpg",
+    "material_type": "ders_notu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/not_rezonans-devre-analizi_tarihsiz_v1.jpg",
+    "material_type": "ders_notu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/not_ac-guc-hesaplamalari_tarihsiz_v1.jpg",
+    "material_type": "ders_notu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/cozum_enduktor-ac-devre-cozum_tarihsiz_v1.jpg",
+    "material_type": "sinav_cozumu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_devre-analizi-soru_tarihsiz_v2.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/not_devre-analizi-notlar_tarihsiz_v1.jpg",
+    "material_type": "ders_notu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/not_devre-analizi-akim-hesaplama_tarihsiz_v1.jpg",
+    "material_type": "ders_notu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/not_karsilkli-induktans-notu_tarihsiz_v1.jpg",
+    "material_type": "ders_notu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/not_3-fazli-sistemler-guc_tarihsiz_v1.jpg",
+    "material_type": "ders_notu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/cozum_guc-kompanzasyon-cozum_tarihsiz_v1.jpg",
+    "material_type": "sinav_cozumu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/cozum_ac-devre-cozum_tarihsiz_v2.jpg",
+    "material_type": "sinav_cozumu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/cozum_uc-fazli-guc-cozum_tarihsiz_v1.jpg",
+    "material_type": "sinav_cozumu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/cozum_ac-devre-cozum_tarihsiz_v3.jpg",
+    "material_type": "sinav_cozumu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/cozum_delta-baglanti-cozum_tarihsiz_v1.jpg",
+    "material_type": "sinav_cozumu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/cozum_devre-akim-cozum_tarihsiz_v1.jpg",
+    "material_type": "sinav_cozumu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/cozum_devre-analizi-cozum_tarihsiz_v2.jpg",
+    "material_type": "sinav_cozumu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/cozum_ac-devre-cozum_tarihsiz_v4.jpg",
+    "material_type": "sinav_cozumu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/cozum_devre-analizi-cozum_tarihsiz_v3.jpg",
+    "material_type": "sinav_cozumu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/not_dengeli-sistemler-akimlar_tarihsiz_v1.jpg",
+    "material_type": "ders_notu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/not_ac-devre-fazor-analiz_tarihsiz_v1.jpg",
+    "material_type": "ders_notu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/not_3-fazli-sistemler_tarihsiz_v1.jpg",
+    "material_type": "ders_notu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_ac-devre-sinav_tarihsiz_v4.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/cozum_ac-devre-guc-hesap_tarihsiz_v1.jpg",
+    "material_type": "sinav_cozumu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/cozum_ac-devre-cozum_tarihsiz_v5.jpg",
+    "material_type": "sinav_cozumu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/cozum_ac-devre-cozum_tarihsiz_v6.jpg",
+    "material_type": "sinav_cozumu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/not_kompleks-guc-notlari_tarihsiz_v1.jpg",
+    "material_type": "ders_notu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/cozum_ac-guc-cozum_tarihsiz_v1.jpg",
+    "material_type": "sinav_cozumu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/cozum_ac-devre-guc-hesaplama_tarihsiz_v1.jpg",
+    "material_type": "sinav_cozumu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/cozum_ac-devre-guc-hesabi_tarihsiz_v2.jpg",
+    "material_type": "sinav_cozumu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/not_empedans-guc-notlari_tarihsiz_v1.jpg",
+    "material_type": "ders_notu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/not_guc-hesaplamalari-rms_tarihsiz_v1.jpg",
+    "material_type": "ders_notu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/cozum_ac-guc-hesaplama_tarihsiz_v1.jpg",
+    "material_type": "sinav_cozumu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/not_kapasitor-ac-analiz_tarihsiz_v1.jpg",
+    "material_type": "ders_notu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/not_ac-devreler-guc_tarihsiz_v1.jpg",
+    "material_type": "ders_notu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_devre-analizi-vize-sorulari_2013_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_devre-analizi-ara-sinav_2015_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_devre-analizi-sinav-2008_2008_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/not_devre-analizi-notlar_tarihsiz_v2.jpg",
+    "material_type": "ders_notu",
+    "course": "devre_analizi_2",
+    "legibility": "medium"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_vize-sinavi-sorulari_tarihsiz_v1.jpg",
+    "material_type": "sinav_sorusu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  },
+  {
+    "file": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/not_kirchhoff-yasalari-devre_tarihsiz_v1.jpg",
+    "material_type": "ders_notu",
+    "course": "devre_analizi_2",
+    "legibility": "good"
+  }
+]

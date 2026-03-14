@@ -1,0 +1,37 @@
+{
+  "original_name": "IMG_20220531_182213.jpg",
+  "new_name": "sinav_lojik-devre-sinav_2022_v2.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/lojik_devre_tasarimi/Tahta Fotoğraflar/IMG_20220531_182213.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/lojik-devre-tasarimi/sinav_lojik-devre-sinav_2022_v2.jpg",
+  "size_kb": 3410.0908203125,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "lojik-devre-tasarimi",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "lojik devreler",
+      "boolean cebir",
+      "devre tasarımı"
+    ],
+    "year_guess": "2022",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "El yazısı lojik devre tasarımı sınav sorusu, EEM-4 müfredatına uygun, değerli materyal",
+    "confidence": 0.85,
+    "suggested_filename_hint": "lojik-devre-sinav"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2764,
+    "output": 214
+  },
+  "processed_at": "2026-03-14T02:56:15.212417",
+  "needs_ocr": true
+}

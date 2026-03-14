@@ -1,0 +1,38 @@
+{
+  "original_name": "photo_2026-03-04_00-52-29.jpg",
+  "new_name": "cozum_ac-devre-guc-hesabi_tarihsiz_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/devre_analizi_2/images/photo_2026-03-04_00-52-29.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/cozum_ac-devre-guc-hesabi_tarihsiz_v2.jpg",
+  "size_kb": 75.0341796875,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_cozumu",
+    "course_name": "devre_analizi_2",
+    "semester_guess": "EEM-2",
+    "topics": [
+      "AC devre analizi",
+      "güç hesaplamaları",
+      "RMS değerler",
+      "karmaşık güç"
+    ],
+    "year_guess": null,
+    "has_solutions": true,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "El yazısı AC devre analizi çözümleri, güç hesaplamaları ve karmaşık sayılar içeren değerli sınav çözümü materyali",
+    "confidence": 0.9,
+    "suggested_filename_hint": "ac-devre-guc-hesabi"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2766,
+    "output": 230
+  },
+  "processed_at": "2026-03-11T02:36:58.594564",
+  "needs_ocr": true
+}

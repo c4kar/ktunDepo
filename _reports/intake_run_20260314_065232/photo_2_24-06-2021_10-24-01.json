@@ -1,0 +1,38 @@
+{
+  "original_name": "photo_2@24-06-2021_10-24-01.jpg",
+  "new_name": "sinav_soru-5-opamp_2021_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_2@24-06-2021_10-24-01.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_soru-5-opamp_2021_v1.jpg",
+  "size_kb": 64.869140625,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "op-amp devreler",
+      "dalga formları",
+      "elektrik devre analizi"
+    ],
+    "year_guess": "2021",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "El yazısı sınav sorusu, op-amp devresi ve dalga formu analizi içeriyor, EEM müfredatına uygun",
+    "confidence": 0.9,
+    "suggested_filename_hint": "soru-5-opamp"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2405,
+    "output": 218
+  },
+  "processed_at": "2026-03-14T06:53:44.337016",
+  "needs_ocr": true,
+  "docling_info": null
+}

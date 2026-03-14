@@ -1,0 +1,39 @@
+{
+  "original_name": "IMG_20220310_021940.jpg",
+  "new_name": "not_d-flip-flop-ders_2022_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/lojik_devre_tasarimi/Tahta Fotoğraflar/IMG_20220310_021940.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/lojik-devre-tasarimi/not_d-flip-flop-ders_2022_v1.jpg",
+  "size_kb": 3527.1240234375,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "ders_notu",
+    "course_name": "lojik-devre-tasarimi",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "flip-flop",
+      "d-flip-flop",
+      "durum-tablosu",
+      "karnaugh-haritasi",
+      "boolean-cebir"
+    ],
+    "year_guess": "2022",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "Lojik devre tasarımı dersine ait D flip-flop konusunu kapsayan detaylı ders notu. Durum tabloları, Karnaugh haritaları ve Boolean denklemler içeriyor. EEM-4 dönem için değerli materyal.",
+    "confidence": 0.95,
+    "suggested_filename_hint": "d-flip-flop-ders"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2764,
+    "output": 267
+  },
+  "processed_at": "2026-03-14T02:53:27.696585",
+  "needs_ocr": true
+}

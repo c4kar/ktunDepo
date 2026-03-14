@@ -1,0 +1,39 @@
+{
+  "original_name": "CamScanner 03-26-2023 22.16.pdf",
+  "new_name": "cozum_ac-devre-sinav-cozumu_2021_v1.pdf",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/devre_analizi_2/CamScanner 03-26-2023 22.16.pdf",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/cozum_ac-devre-sinav-cozumu_2021_v1.pdf",
+  "size_kb": 670.2861328125,
+  "page_count": 2,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_cozumu",
+    "course_name": "devre_analizi_2",
+    "semester_guess": "EEM-2",
+    "topics": [
+      "AC devre analizi",
+      "karmaşık sayılar",
+      "reaktans",
+      "kirchhoff kanunları",
+      "fazör analizi"
+    ],
+    "year_guess": "2021",
+    "has_solutions": true,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "AC devre analizi konusunda detaylı çözümler içeren el yazısı sınav çözümü. EEM-2 devre analizi dersi için çok değerli materyal.",
+    "confidence": 0.95,
+    "suggested_filename_hint": "ac-devre-sinav-cozumu"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 4308,
+    "output": 239
+  },
+  "processed_at": "2026-03-11T02:18:46.842416",
+  "needs_ocr": true
+}

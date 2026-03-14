@@ -1,0 +1,38 @@
+{
+  "original_name": "photo_2026-03-04_00-52-28.jpg",
+  "new_name": "cozum_ac-devre-guc-hesaplama_tarihsiz_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/devre_analizi_2/images/photo_2026-03-04_00-52-28.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/cozum_ac-devre-guc-hesaplama_tarihsiz_v1.jpg",
+  "size_kb": 74.3515625,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_cozumu",
+    "course_name": "devre_analizi_2",
+    "semester_guess": "EEM-2",
+    "topics": [
+      "AC devre analizi",
+      "güç hesaplamaları",
+      "fazör analizi",
+      "empedans"
+    ],
+    "year_guess": null,
+    "has_solutions": true,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "El yazısı AC devre analizi sınav çözümü. Güç hesaplamaları, fazör diyagramları ve detaylı matematiksel çözümler içeriyor. EEM-2 devre analizi dersi için değerli materyal.",
+    "confidence": 0.9,
+    "suggested_filename_hint": "ac-devre-guc-hesaplama"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2766,
+    "output": 246
+  },
+  "processed_at": "2026-03-11T02:36:53.578709",
+  "needs_ocr": true
+}

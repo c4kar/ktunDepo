@@ -1,0 +1,39 @@
+{
+  "original_name": "IMG_20220310_021902.jpg",
+  "new_name": "not_flip-flop-durum-analizi_2022_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/lojik_devre_tasarimi/Tahta Fotoğraflar/IMG_20220310_021902.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/lojik-devre-tasarimi/not_flip-flop-durum-analizi_2022_v1.jpg",
+  "size_kb": 3820.6123046875,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "ders_notu",
+    "course_name": "lojik-devre-tasarimi",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "flip-flop",
+      "sira-devreler",
+      "durum-tablosu",
+      "karnaugh-haritasi",
+      "lojik-devre-analizi"
+    ],
+    "year_guess": "2022",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "Lojik devre tasarımı dersi için değerli ders notu materyali. Flip-flop devreler, durum tabloları, Karnaugh haritaları gibi temel konuları içeriyor. El yazısı okunaklı.",
+    "confidence": 0.9,
+    "suggested_filename_hint": "flip-flop-durum-analizi"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2764,
+    "output": 267
+  },
+  "processed_at": "2026-03-14T02:53:47.560586",
+  "needs_ocr": true
+}

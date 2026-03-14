@@ -1,0 +1,39 @@
+{
+  "original_name": "photo_105@25-03-2025_02-00-57.jpg",
+  "new_name": "not_elektromanyetik-yuk-dagilimi_tarihsiz_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_105@25-03-2025_02-00-57.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/not_elektromanyetik-yuk-dagilimi_tarihsiz_v1.jpg",
+  "size_kb": 73.7666015625,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "ders_notu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "elektromanyetik alan",
+      "yük dağılımı",
+      "küresel koordinatlar",
+      "elektron yoğunluğu"
+    ],
+    "year_guess": null,
+    "has_solutions": true,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "EEM-4 elektromanyetik ders notları. Matematik formüller, problem çözümü ve açıklamalar içeriyor. Değerli ders materyali.",
+    "confidence": 0.9,
+    "suggested_filename_hint": "elektromanyetik-yuk-dagilimi"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2773,
+    "output": 241
+  },
+  "processed_at": "2026-03-14T07:03:06.681383",
+  "needs_ocr": true,
+  "docling_info": null
+}

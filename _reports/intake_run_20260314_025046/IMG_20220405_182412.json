@@ -1,0 +1,37 @@
+{
+  "original_name": "IMG_20220405_182412.jpg",
+  "new_name": "not_lojik-kapilari-ders-notu_2022_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/lojik_devre_tasarimi/Tahta Fotoğraflar/IMG_20220405_182412.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/lojik-devre-tasarimi/not_lojik-kapilari-ders-notu_2022_v1.jpg",
+  "size_kb": 4902.689453125,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "ders_notu",
+    "course_name": "lojik-devre-tasarimi",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "lojik kapıları",
+      "devre şemaları",
+      "boolean mantığı"
+    ],
+    "year_guess": "2022",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "EEM-4 lojik devre tasarımı dersi için el yazısı ders notu. Lojik kapıları ve devre şemaları içeriyor, değerli materyal.",
+    "confidence": 0.85,
+    "suggested_filename_hint": "lojik-kapilari-ders-notu"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2764,
+    "output": 230
+  },
+  "processed_at": "2026-03-14T02:51:44.077338",
+  "needs_ocr": true
+}

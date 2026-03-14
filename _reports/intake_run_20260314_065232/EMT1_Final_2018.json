@@ -1,0 +1,40 @@
+{
+  "original_name": "EMT1_Final_2018.pdf",
+  "new_name": "sinav_emt1-final-2018_2018_v1.pdf",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Sinavlar/Final/EMT1_Final_2018.pdf",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_emt1-final-2018_2018_v1.pdf",
+  "size_kb": 152.9462890625,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "elektrik alan",
+      "manyetik alan",
+      "elektrostatik",
+      "yük yoğunluğu",
+      "akım yoğunluğu"
+    ],
+    "year_guess": "2018",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "EMT-1 2018 final sınavı soruları. El yazısı okunabilir, elektromanyetik konularını içeriyor, EEM-4 dönemine uygun",
+    "confidence": 0.9,
+    "suggested_filename_hint": "emt1-final-2018"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2752,
+    "output": 248
+  },
+  "processed_at": "2026-03-14T06:54:31.424033",
+  "needs_ocr": true,
+  "docling_info": null
+}

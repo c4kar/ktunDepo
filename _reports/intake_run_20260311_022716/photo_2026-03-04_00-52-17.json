@@ -1,0 +1,38 @@
+{
+  "original_name": "photo_2026-03-04_00-52-17.jpg",
+  "new_name": "cozum_ac-devre-guc-hesap_tarihsiz_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/devre_analizi_2/images/photo_2026-03-04_00-52-17.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/cozum_ac-devre-guc-hesap_tarihsiz_v1.jpg",
+  "size_kb": 94.2685546875,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_cozumu",
+    "course_name": "devre_analizi_2",
+    "semester_guess": "EEM-2",
+    "topics": [
+      "ac_devre_analizi",
+      "guc_hesaplamalari",
+      "rms_degerler",
+      "thevenin_eşdeğeri"
+    ],
+    "year_guess": null,
+    "has_solutions": true,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "El yazısı AC devre analizi sınav çözümü. RMS değerler, güç hesaplamaları, Thevenin eşdeğeri gibi önemli konuları içeriyor. EEM-2 Devre Analizi dersi için değerli materyal.",
+    "confidence": 0.9,
+    "suggested_filename_hint": "ac-devre-guc-hesap"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2766,
+    "output": 263
+  },
+  "processed_at": "2026-03-11T02:36:27.420634",
+  "needs_ocr": true
+}

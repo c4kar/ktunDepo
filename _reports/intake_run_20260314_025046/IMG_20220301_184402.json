@@ -1,0 +1,37 @@
+{
+  "original_name": "IMG_20220301_184402.jpg",
+  "new_name": "not_durum-diyagrami-ornegi_2022_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/lojik_devre_tasarimi/Tahta Fotoğraflar/IMG_20220301_184402.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/lojik-devre-tasarimi/not_durum-diyagrami-ornegi_2022_v1.jpg",
+  "size_kb": 4541.560546875,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "ders_notu",
+    "course_name": "lojik-devre-tasarimi",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "state diagram",
+      "durum diyagramı",
+      "sonlu durum makinesi"
+    ],
+    "year_guess": "2022",
+    "has_solutions": false,
+    "language": "mixed",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "Lojik devre tasarımı dersi için değerli durum diyagramı çizimi, EEM-4 seviyesine uygun içerik",
+    "confidence": 0.9,
+    "suggested_filename_hint": "durum-diyagrami-ornegi"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2764,
+    "output": 220
+  },
+  "processed_at": "2026-03-14T02:52:58.102087",
+  "needs_ocr": true
+}

@@ -1,0 +1,39 @@
+{
+  "original_name": "photo_2026-03-04_00-48-58.jpg",
+  "new_name": "sinav_2016-but-uc-fazli_2016_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/devre_analizi_2/images/photo_2026-03-04_00-48-58.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_2016-but-uc-fazli_2016_v1.jpg",
+  "size_kb": 128.2197265625,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "devre_analizi_2",
+    "semester_guess": "EEM-2",
+    "topics": [
+      "üç fazlı sistemler",
+      "empedans",
+      "yıldız bağlantı",
+      "üçgen bağlantı",
+      "aktif güç"
+    ],
+    "year_guess": "2016",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "2016 BÜT sınavı sorusu, üç fazlı devre analizi konusu, EEM-2 seviyesi için uygun, çoktan seçmeli sınav soruları değerli materyal",
+    "confidence": 0.95,
+    "suggested_filename_hint": "2016-but-uc-fazli"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2628,
+    "output": 256
+  },
+  "processed_at": "2026-03-11T02:21:18.472199",
+  "needs_ocr": true
+}

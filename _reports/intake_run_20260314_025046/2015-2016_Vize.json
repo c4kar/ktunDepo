@@ -1,0 +1,39 @@
+{
+  "original_name": "2015-2016 Vize.pdf",
+  "new_name": "sinav_2016-vize-cozumlu_2016_v1.pdf",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/lojik_devre_tasarimi/Çıkmışlar/2015-2016 Vize.pdf",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/lojik-devre-tasarimi/sinav_2016-vize-cozumlu_2016_v1.pdf",
+  "size_kb": 1604.23828125,
+  "page_count": 4,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "lojik-devre-tasarimi",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "ALU tasarımı",
+      "lojik devreler",
+      "aritmetik işlemler",
+      "doğruluk tablosu",
+      "karnaugh haritası"
+    ],
+    "year_guess": "2016",
+    "has_solutions": true,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "Selçuk Üniversitesi Lojik Devre Tasarımı dersi VIZE sınavı. El yazısıyla çözülmüş, ALU tasarımı ve lojik devreler konularını kapsayan değerli sınav materyali. EEM-4 dönemi için uygun içerik.",
+    "confidence": 0.95,
+    "suggested_filename_hint": "2016-vize-cozumlu"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 4320,
+    "output": 290
+  },
+  "processed_at": "2026-03-14T02:59:32.744320",
+  "needs_ocr": true
+}

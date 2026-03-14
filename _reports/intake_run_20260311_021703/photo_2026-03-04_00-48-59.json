@@ -1,0 +1,38 @@
+{
+  "original_name": "photo_2026-03-04_00-48-59.jpg",
+  "new_name": "sinav_2019-final-soru_2019_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/devre_analizi_2/images/photo_2026-03-04_00-48-59.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-2/devre-analizi-2/sinav_2019-final-soru_2019_v1.jpg",
+  "size_kb": 93.6376953125,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "devre_analizi_2",
+    "semester_guess": "EEM-2",
+    "topics": [
+      "ac_devre_analizi",
+      "uc_fazli_sistemler",
+      "kompleks_guc",
+      "empedans"
+    ],
+    "year_guess": "2019",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "good",
+    "decision": "ACCEPTED",
+    "decision_reason": "2019 final sınavı sorusu. AC devre analizi ve üç fazlı sistemler konuları içeriyor. EEM-2 devre analizi dersi için değerli materyal.",
+    "confidence": 0.95,
+    "suggested_filename_hint": "2019-final-soru"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2398,
+    "output": 233
+  },
+  "processed_at": "2026-03-11T02:21:25.227570",
+  "needs_ocr": true
+}

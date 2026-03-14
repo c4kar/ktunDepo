@@ -1,0 +1,38 @@
+{
+  "original_name": "photo_68@14-06-2023_10-05-54.jpg",
+  "new_name": "sinav_elektromanyetik-sinav-soru_2023_v10.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_68@14-06-2023_10-05-54.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-soru_2023_v10.jpg",
+  "size_kb": 74.80078125,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "elektrik potansiyel",
+      "çizgi yük",
+      "elektromanyetik alan"
+    ],
+    "year_guess": "2023",
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "Elektromanyetik Alan Teorisi dersi sınav sorusu, çoktan seçmeli soru formatında, EEM-4 dönemine uygun içerik",
+    "confidence": 0.9,
+    "suggested_filename_hint": "elektromanyetik-sinav-soru"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2405,
+    "output": 230
+  },
+  "processed_at": "2026-03-14T06:59:54.647889",
+  "needs_ocr": true,
+  "docling_info": null
+}

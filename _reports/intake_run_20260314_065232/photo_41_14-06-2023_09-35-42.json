@@ -1,0 +1,38 @@
+{
+  "original_name": "photo_41@14-06-2023_09-35-42.jpg",
+  "new_name": "sinav_elektromanyetik-sinav-sorulari_tarihsiz_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_41@14-06-2023_09-35-42.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_elektromanyetik-sinav-sorulari_tarihsiz_v1.jpg",
+  "size_kb": 97.4619140625,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "elektromanyetik",
+      "alan teorisi",
+      "çoktan seçmeli sorular"
+    ],
+    "year_guess": null,
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "Elektromanyetik Alan Teorisi dersi için çoktan seçmeli sınav sorusu. EEM-4 dönemine uygun içerik. OCR ile okunabilir durumda.",
+    "confidence": 0.85,
+    "suggested_filename_hint": "elektromanyetik-sinav-sorulari"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2175,
+    "output": 236
+  },
+  "processed_at": "2026-03-14T06:57:52.668227",
+  "needs_ocr": true,
+  "docling_info": null
+}

@@ -1,0 +1,38 @@
+{
+  "original_name": "IMG_20220405_175255.jpg",
+  "new_name": "not_state-machine-flipflop-notu_2022_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/lojik_devre_tasarimi/Tahta Fotoğraflar/IMG_20220405_175255.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/lojik-devre-tasarimi/not_state-machine-flipflop-notu_2022_v1.jpg",
+  "size_kb": 5286.736328125,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "ders_notu",
+    "course_name": "lojik-devre-tasarimi",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "state machine",
+      "flip flop",
+      "sequential circuits",
+      "logic design"
+    ],
+    "year_guess": "2022",
+    "has_solutions": false,
+    "language": "mixed",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "Lojik devre tasarımı dersi için değerli tahta notu. State machine diyagramları, flip-flop devreleri ve sekansiyel devre tasarımı konularını içeriyor. EEM-4 döneminde bu ders için faydalı materyal.",
+    "confidence": 0.85,
+    "suggested_filename_hint": "state-machine-flipflop-notu"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2764,
+    "output": 246
+  },
+  "processed_at": "2026-03-14T02:52:13.661436",
+  "needs_ocr": true
+}

@@ -1,0 +1,40 @@
+{
+  "original_name": "photo_102@20-03-2025_17-41-05.jpg",
+  "new_name": "not_elektromanyetik-alan-notlari_tarihsiz_v1.jpg",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Fotograflar/photo_102@20-03-2025_17-41-05.jpg",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/not_elektromanyetik-alan-notlari_tarihsiz_v1.jpg",
+  "size_kb": 152.60546875,
+  "page_count": 1,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "ders_notu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "elektromanyetik alan",
+      "Maxwell denklemleri",
+      "vektör analizi",
+      "elektrik alan",
+      "manyetik alan"
+    ],
+    "year_guess": null,
+    "has_solutions": false,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "Elektromanyetik alan teorisi dersi için el yazısı ders notları. Maxwell denklemleri, vektör operatörleri ve elektromanyetik alan hesapları içeriyor. EEM-4 öğrencileri için değerli materyal.",
+    "confidence": 0.9,
+    "suggested_filename_hint": "elektromanyetik-alan-notlari"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 2405,
+    "output": 261
+  },
+  "processed_at": "2026-03-14T07:02:51.048310",
+  "needs_ocr": true,
+  "docling_info": null
+}

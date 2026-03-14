@@ -1,0 +1,38 @@
+{
+  "original_name": "Image to PDF 20250510 130627pdf_250510_130831.pdf",
+  "new_name": "cozum_final-2022-cozumlu_2022_v1.pdf",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/lojik_devre_tasarimi/Diğer/Image to PDF 20250510 130627pdf_250510_130831.pdf",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/lojik-devre-tasarimi/cozum_final-2022-cozumlu_2022_v1.pdf",
+  "size_kb": 30226.4560546875,
+  "page_count": 52,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_cozumu",
+    "course_name": "lojik-devre-tasarimi",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "transistor-analizi",
+      "lojik-devreler",
+      "nand-kapisi",
+      "akim-gerilim-hesaplamalari"
+    ],
+    "year_guess": "2022",
+    "has_solutions": true,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "52 sayfalık el yazısı çözümlü sınav materyali. Transistör analizi, lojik devre hesaplamaları ve NAND kapısı konularını içeriyor. EEM-4 Lojik Devre Tasarımı dersi için değerli bir kaynak.",
+    "confidence": 0.9,
+    "suggested_filename_hint": "final-2022-cozumlu"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 4314,
+    "output": 272
+  },
+  "processed_at": "2026-03-14T03:00:20.366047",
+  "needs_ocr": true
+}

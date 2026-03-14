@@ -1,0 +1,39 @@
+{
+  "original_name": "EMT1_Vize_2020.pdf",
+  "new_name": "sinav_emt1-vize-2020_2020_v1.pdf",
+  "original_path": "/home/c4kar/Code/ktunDepo/_intake/Sinavlar/Vize/EMT1_Vize_2020.pdf",
+  "final_path": "/home/c4kar/Code/ktunDepo/EEM-4/elektromanyetik-alan-teorisi-1/sinav_emt1-vize-2020_2020_v1.pdf",
+  "size_kb": 671.8984375,
+  "page_count": 20,
+  "has_text_layer": false,
+  "analysis_mode": "vision",
+  "llm_analysis": {
+    "material_type": "sinav_sorusu",
+    "course_name": "elektromanyetik-alan-teorisi-1",
+    "semester_guess": "EEM-4",
+    "topics": [
+      "elektrostatik",
+      "dipol moment",
+      "yuk dagilimi",
+      "kuvvet hesaplamalari"
+    ],
+    "year_guess": "2020",
+    "has_solutions": true,
+    "language": "tr",
+    "needs_ocr": true,
+    "legibility": "medium",
+    "decision": "ACCEPTED",
+    "decision_reason": "EMT1 vize sınavı soruları ve çözümleri - EEM öğrencileri için son derece değerli materyal",
+    "confidence": 0.95,
+    "suggested_filename_hint": "emt1-vize-2020"
+  },
+  "duplicate_check": null,
+  "final_decision": "ACCEPTED",
+  "token_usage": {
+    "input": 4308,
+    "output": 225
+  },
+  "processed_at": "2026-03-14T06:53:21.206741",
+  "needs_ocr": true,
+  "docling_info": null
+}
