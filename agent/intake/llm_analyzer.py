@@ -22,39 +22,43 @@ logger = logging.getLogger(__name__)
 
 
 # System prompt — ktunDepo baş editörü
-SYSTEM_PROMPT = """Sen ktunDepo'nun baş editörüsün. Konya Teknik Üniversitesi Mühendislik
-Fakültesi'nin dijital ders materyali deposunu yönetiyorsun.
+SYSTEM_PROMPT = """You are a content screener for ktunDepo, a course material repository for Electrical-Electronics Engineering students at Konya Technical University (Turkey).
 
-Görevin: Sana gönderilen materyali inceleyip depoya alınmaya değer olup
-olmadığına karar vermek.
+Evaluate the submitted material and return ONLY a JSON object. No explanation, no markdown.
 
-DEPO HAKKINDA:
-- Dönem bazlı organize: EEM-1, EEM-2, EEM-3, EEM-4 (8 dönem)
-- Her dönemde: Fizik I/II, Matematik I/II, Lineer Cebir, Kimya, Devre Analizi,
-  Elektronik, Lojik Devreler, Mühendislik Mekaniği, Diferansiyel Denklemler,
-  Bilgisayar Programlama, Sinyal ve Sistemler, Elektromanyetik, vb.
-- Hedef kitle: Elektrik-Elektronik Mühendisliği öğrencileri
-- Değer verilen materyaller: Sınav soruları (çözümlü veya çözümsüz),
-  ders notları (el yazısı dahil), formül özetleri, LMS sunumları,
-  laboratuvar föyleri
+OUTPUT SCHEMA:
+{
+  "decision": "ACCEPT" | "REVIEW" | "REJECT",
+  "quality_score": 1 | 2 | 3 | 4 | 5,
+  "category": "<semester>/<course>/<type>",
+  "reason": "<max 10 words in Turkish>",
+  "flags": []
+}
 
-KRİTİK KARAR KURALLARI:
-1. Tek sayfalık bir materyal bile değerli olabilir. Sayfa sayısına göre
-   karar verme. El yazısıyla yazılmış tek sayfa sınav sorusu paha biçilmezdir.
+SEMESTERS: EEM-1 through EEM-8
+COURSES: Fizik I/II, Matematik I/II, Lineer Cebir, Kimya, Devre Analizi, Elektronik, Lojik Devreler, Mühendislik Mekaniği, Diferansiyel Denklemler, Bilgisayar Programlama, Sinyal ve Sistemler, Elektromanyetik
+TYPES: Sınav Sorusu, Ders Notu, Formül Özeti, Lab Föyü, Sunum
+FLAGS: el_yazisi, dusuk_cozunurluk, baska_universite, telif_riski
 
-2. Metin okunamıyor olsa bile (taranmış, el yazısı, düşük çözünürlük)
-   içerik anlaşılabiliyorsa kabul et. OCR sonradan yapılacak.
+DECISION RULES:
+- REJECT: completely irrelevant (ads, personal photos, blank), or technically unreadable
+- REVIEW: score 1-2, or genuinely ambiguous content
+- ACCEPT: score 3-5 and clearly EEM-related
 
-3. Dil Türkçe veya İngilizce olabilir. İkisi de kabul edilir.
+QUALITY SCORE:
+5 = solved exam, clean notes, official slides
+4 = unsolved exam, legible handwritten notes, formula sheet
+3 = partial content, low-res but readable, other-university material with transfer value
+2 = mostly unreadable or highly incomplete
+1 = nearly unusable
 
-4. Red kararı için güçlü gerekçe lazım:
-   - Tamamen alakasız içerik (reklam, kişisel fotoğraf, boş sayfa)
-   - Başka üniversiteye ait ve hiç transfer değeri olmayan materyal
-   - Teknik olarak okunamaz düzeyde bozuk görüntü
-
-5. Emin olamıyorsan REVIEW seç. Hatalı red, hatalı kabulden daha kötüdür.
-
-SADECE JSON döndür. Hiçbir açıklama ekleme."""
+RULES:
+- Page count does not affect score. A single handwritten exam page can score 5.
+- Low image quality alone is not grounds for REJECT if content is understandable.
+- When in doubt, choose REVIEW. Wrong rejection is worse than wrong acceptance.
+- Add "el_yazisi" flag for handwritten or scanned content.
+- Add "dusuk_cozunurluk" flag for low-res images.
+- reason field must be in Turkish."""
 
 
 @dataclass
@@ -65,6 +69,7 @@ class AnalysisResult:
     decision: str = "REVIEW"  # ACCEPTED | REJECTED | REVIEW
     confidence: float = 0.5
     decision_reason: str = ""
+    quality_score: int = 3  # 1-5 yildiz/puan sistemi
 
     # Materyal bilgisi
     material_type: str = "diger"  # ders_notu, lms_sunumu, sinav_sorusu, sinav_cozumu, laboratuvar_foyu, ozet, video_ders, diger
@@ -101,9 +106,9 @@ class LLMAnalyzer:
     """
 
     # Model seçimi
-    MODEL_TEXT = "claude-sonnet-4-20250514"  # Metin analizi
-    MODEL_VISION = "claude-sonnet-4-20250514"  # Vision analizi
-    MODEL_METADATA = "claude-haiku-3-5-20241022"  # Sadece metadata (video)
+    MODEL_TEXT = "claude-haiku-4-5-20251001"  # Metin analizi
+    MODEL_VISION = "claude-haiku-4-5-20251001"  # Vision analizi
+    MODEL_METADATA = "claude-haiku-4-5-20251001"  # Sadece metadata (video)
 
     MAX_TOKENS = 600
 
@@ -131,7 +136,10 @@ class LLMAnalyzer:
         return self._client
 
     def analyze(
-        self, scan_result: ScanResult, prepared_content: PreparedContent, hint: Optional[IntakeHint] = None
+        self,
+        scan_result: ScanResult,
+        prepared_content: PreparedContent,
+        hint: Optional[IntakeHint] = None,
     ) -> AnalysisResult:
         """
         Materyali analiz et.
@@ -168,7 +176,7 @@ class LLMAnalyzer:
                         ),
                         error=f"Payload size: {total_b64_size} bytes",
                     )
-            
+
             if prepared_content.mode == ContentMode.TEXT:
                 return self._analyze_text(scan_result, prepared_content, hint)
             elif prepared_content.mode == ContentMode.VISION:
@@ -180,7 +188,7 @@ class LLMAnalyzer:
             # 400 Bad Request hatasını ayrıntılı logla
             logger.error(
                 f"API 400 Bad Request for {scan_result.filename_original}: {e.message}",
-                exc_info=True
+                exc_info=True,
             )
             return AnalysisResult(
                 decision="REVIEW",
@@ -194,7 +202,7 @@ class LLMAnalyzer:
             # Diğer API hataları
             logger.error(
                 f"API error {e.status_code} for {scan_result.filename_original}: {e.message}",
-                exc_info=True
+                exc_info=True,
             )
             return AnalysisResult(
                 decision="REVIEW",
@@ -204,7 +212,7 @@ class LLMAnalyzer:
         except Exception as e:
             logger.error(
                 f"Unexpected error analyzing {scan_result.filename_original}: {e}",
-                exc_info=True
+                exc_info=True,
             )
             return AnalysisResult(
                 decision="REVIEW",
@@ -215,7 +223,7 @@ class LLMAnalyzer:
     def _get_hint_prompt(self, hint: Optional[IntakeHint]) -> str:
         if not hint or (not hint.semester and not hint.course):
             return ""
-        
+
         hint_str = "\nÖNEMLİ KESİN BİLGİ (HINT):\nBu materyalin nereye ait olduğu kullanıcı tarafından KESİN olarak belirtilmiştir:\n"
         if hint.semester:
             hint_str += f"- Dönem: {hint.semester}\n"
@@ -225,7 +233,10 @@ class LLMAnalyzer:
         return hint_str
 
     def _analyze_text(
-        self, scan: ScanResult, content: PreparedContent, hint: Optional[IntakeHint] = None
+        self,
+        scan: ScanResult,
+        content: PreparedContent,
+        hint: Optional[IntakeHint] = None,
     ) -> AnalysisResult:
         """Metin modu analizi."""
         client = self._get_client()
@@ -256,6 +267,7 @@ Lütfen şunları belirle ve SADECE JSON döndür:
   "decision": "ACCEPTED | REJECTED | REVIEW",
   "decision_reason": "Kararın 1-2 cümle Türkçe gerekçesi",
   "confidence": 0.0-1.0,
+  "quality_score": 1, 2, 3, 4 veya 5,
   "suggested_filename_hint": "kısa dosya adı ipucu (maks 3 kelime, tireli)"
 }}
 """
@@ -270,7 +282,10 @@ Lütfen şunları belirle ve SADECE JSON döndür:
         return self._parse_response(response, self.MODEL_TEXT, hint)
 
     def _analyze_vision(
-        self, scan: ScanResult, content: PreparedContent, hint: Optional[IntakeHint] = None
+        self,
+        scan: ScanResult,
+        content: PreparedContent,
+        hint: Optional[IntakeHint] = None,
     ) -> AnalysisResult:
         """Vision modu analizi."""
         client = self._get_client()
@@ -315,6 +330,7 @@ Görüntüye bakarak şunları belirle ve SADECE JSON döndür:
   "decision": "ACCEPTED | REJECTED | REVIEW",
   "decision_reason": "Gerekçe",
   "confidence": 0.0-1.0,
+  "quality_score": 1, 2, 3, 4 veya 5,
   "suggested_filename_hint": "kısa dosya adı ipucu (maks 3 kelime, tireli)"
 }}
 """
@@ -331,7 +347,10 @@ Görüntüye bakarak şunları belirle ve SADECE JSON döndür:
         return self._parse_response(response, self.MODEL_VISION, hint)
 
     def _analyze_metadata(
-        self, scan: ScanResult, content: PreparedContent, hint: Optional[IntakeHint] = None
+        self,
+        scan: ScanResult,
+        content: PreparedContent,
+        hint: Optional[IntakeHint] = None,
     ) -> AnalysisResult:
         """Sadece metadata ile analiz (video dosyaları)."""
         client = self._get_client()
@@ -360,6 +379,7 @@ Sadece dosya adına ve boyutuna bakarak şunları belirle ve SADECE JSON döndü
   "decision": "ACCEPTED | REJECTED | REVIEW",
   "decision_reason": "Gerekçe",
   "confidence": 0.0-1.0,
+  "quality_score": 1, 2, 3, 4 veya 5,
   "suggested_filename_hint": "kısa dosya adı ipucu (maks 3 kelime, tireli)"
 }}
 
@@ -376,7 +396,9 @@ NOT: Video içeriğini göremiyorum, sadece dosya adı ve boyutuna göre karar v
 
         return self._parse_response(response, self.MODEL_METADATA, hint)
 
-    def _parse_response(self, response, model: str, hint: Optional[IntakeHint] = None) -> AnalysisResult:
+    def _parse_response(
+        self, response, model: str, hint: Optional[IntakeHint] = None
+    ) -> AnalysisResult:
         """API yanıtını parse et."""
         tokens_used = {
             "input": response.usage.input_tokens,
@@ -420,7 +442,7 @@ NOT: Video içeriğini göremiyorum, sadece dosya adı ve boyutuna göre karar v
         # Override with hint if available
         final_semester = data.get("semester_guess", "belirsiz")
         final_course = data.get("course_name", "")
-        
+
         if hint:
             if hint.semester:
                 final_semester = hint.semester
@@ -441,6 +463,7 @@ NOT: Video içeriğini göremiyorum, sadece dosya adı ve boyutuna göre karar v
             needs_ocr=data.get("needs_ocr", False),
             legibility=data.get("legibility", "good"),
             suggested_filename_hint=data.get("suggested_filename_hint", ""),
+            quality_score=data.get("quality_score", 3),
             tokens_used=tokens_used,
             model_used=model,
         )

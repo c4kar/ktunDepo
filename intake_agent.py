@@ -331,46 +331,28 @@ class IntakeAgent:
                     )
                 return result
 
-            # === Step 3: LLM Analysis ===
+            # === Step 3: Semantic Cache & Duplicate Check ===
             if self.verbose:
-                console.print(f"  [dim]3/6 LLM analizi...[/dim]")
-
-            analysis = self.analyzer.analyze(scan_result, prepared, hint=hint)
-            result.analysis = analysis
-
-            # Check if rejected by LLM
-            if analysis.decision == "REJECTED":
-                result.status = ProcessingStatus.REJECTED
-                result.error_message = f"LLM red: {analysis.decision_reason}"
-
-                if not self.dry_run:
-                    self._move_to_rejected(file_path, "llm_rejected")
-                    self.report_writer.add_file_result(
-                        scan_result=scan_result,
-                        analysis_result=analysis,
-                        final_decision="REJECTED",
-                        new_filename=None,
-                        final_path=None,
-                        analysis_mode=prepared.mode.value,
-                        error=result.error_message,
-                        docling_info=result.docling_info,
-                    )
-
-                return result
-
-            # === Step 4: Duplicate Check ===
-            if self.verbose:
-                console.print(f"  [dim]4/6 Duplicate kontrolü...[/dim]")
+                console.print(f"  [dim]3/6 Duplicate ve Semantic Cache kontrolü...[/dim]")
+                
+            dup_result = None
+            semantic_cache_hit = False
 
             if (
                 self.duplicate_detector
                 and prepared.text_content
                 and HAS_DUPLICATE_DETECTOR
             ):
+                # Önce globalsız arama yapıyoruz (sadece metin benzerliği ile)
+                # LLM henüz çalışmadığı için semester ve course bilmiyoruz
+                # Hint'te semester ve course var ise onları filtre olarak ver
+                semester_filter = hint.semester if hint else None
+                course_filter = hint.course if hint else None
+                
                 dup_result = self.duplicate_detector.check_duplicate(
                     text=prepared.text_content[:5000],  # İlk 5000 karakter
-                    semester=analysis.semester_guess,
-                    course=analysis.course_name,
+                    semester=semester_filter, 
+                    course=course_filter,
                 )
 
                 if dup_result.decision == _DuplicateDecision.DUPLICATE:
@@ -385,7 +367,7 @@ class IntakeAgent:
                         self._move_to_rejected(file_path, "duplicate")
                         self.report_writer.add_file_result(
                             scan_result=scan_result,
-                            analysis_result=analysis,
+                            analysis_result=None,
                             final_decision="REJECTED",
                             new_filename=None,
                             final_path=None,
@@ -397,10 +379,80 @@ class IntakeAgent:
 
                     return result
 
-                elif dup_result.decision == _DuplicateDecision.SIMILAR:
-                    # Manuel inceleme gerekiyor
+                elif dup_result.decision == _DuplicateDecision.SIMILAR and dup_result.similarity >= 0.85:
+                    # Semantic Cache HIT! Çok benzer bir dosya var, LLM'e gitmeden önce verilerini alalım
+                    semantic_cache_hit = True
+                    top_match = dup_result.similar_documents[0]
+                    
+                    analysis = AnalysisResult(
+                        decision="ACCEPTED",
+                        confidence=1.0,
+                        decision_reason=f"Semantic Cache Hit (benzerlik: {dup_result.similarity:.2f})",
+                        semester_guess=top_match.get("semester", "belirsiz"),
+                        course_name=top_match.get("course", "Bilinmeyen Ders"),
+                        material_type=top_match.get("material_type", "diger"),
+                        year_guess=top_match.get("year", None),
+                        model_used="qdrant-semantic-cache",
+                        tokens_used={"input": 0, "output": 0}
+                    )
+                    result.analysis = analysis
+                    
+                    # Eğer çok yüksek oranda (%85+) eşleşme olmasına rağmen halen aynı dosyayı atıyorsa
+                    # REVIEW'e almak isteyebiliriz ama şimdilik "SIMILAR" dosyaları kabul ediyoruz.
+
+            # === Step 4: LLM Analysis (Semantic Cache Miss) ===
+            if not semantic_cache_hit:
+                if self.verbose:
+                    console.print(f"  [dim]4/6 LLM analizi...[/dim]")
+
+                analysis = self.analyzer.analyze(scan_result, prepared, hint=hint)
+                result.analysis = analysis
+
+                # Check if rejected by LLM
+                if analysis.decision == "REJECTED":
+                    result.status = ProcessingStatus.REJECTED
+                    result.error_message = f"LLM red: {analysis.decision_reason}"
+
+                    if not self.dry_run:
+                        self._move_to_rejected(file_path, "llm_rejected")
+                        self.report_writer.add_file_result(
+                            scan_result=scan_result,
+                            analysis_result=analysis,
+                            final_decision="REJECTED",
+                            new_filename=None,
+                            final_path=None,
+                            analysis_mode=prepared.mode.value,
+                            error=result.error_message,
+                            docling_info=result.docling_info,
+                        )
+
+                    return result
+                
+                # Check if LLM says REVIEW
+                if analysis.decision == "REVIEW":
                     result.status = ProcessingStatus.REVIEW
-                    result.error_message = f"Benzer dosya mevcut: {dup_result.reason}"
+                    result.error_message = f"Manuel inceleme: {analysis.decision_reason}"
+
+                    if not self.dry_run:
+                        self._move_to_review(file_path)
+                        self.report_writer.add_file_result(
+                            scan_result=scan_result,
+                            analysis_result=analysis,
+                            final_decision="REVIEW",
+                            new_filename=None,
+                            final_path=None,
+                            analysis_mode=prepared.mode.value,
+                            error=result.error_message,
+                            docling_info=result.docling_info,
+                        )
+
+                    return result
+                    
+                # LLM yeni veriler üretti, eğer dup_result var ve 0.75 < similarity < 0.85 ise
+                # yine de bir benzer dosyaya atıf yapabiliriz
+                if dup_result and dup_result.decision == _DuplicateDecision.SIMILAR:
+                    result.status = ProcessingStatus.REVIEW
+                    result.error_message = f"Düşük oranda benzer dosya mevcut (%{dup_result.similarity*100:.0f}): {dup_result.reason}"
                     result.duplicate_info = {
                         "similarity": dup_result.similarity,
                         "similar_docs": dup_result.similar_documents,
@@ -422,33 +474,13 @@ class IntakeAgent:
 
                     return result
 
-            # Check if LLM says REVIEW
-            if analysis.decision == "REVIEW":
-                result.status = ProcessingStatus.REVIEW
-                result.error_message = f"Manuel inceleme: {analysis.decision_reason}"
-
-                if not self.dry_run:
-                    self._move_to_review(file_path)
-                    self.report_writer.add_file_result(
-                        scan_result=scan_result,
-                        analysis_result=analysis,
-                        final_decision="REVIEW",
-                        new_filename=None,
-                        final_path=None,
-                        analysis_mode=prepared.mode.value,
-                        error=result.error_message,
-                        docling_info=result.docling_info,
-                    )
-
-                return result
-
             # === Step 5: Filename Generation ===
             if self.verbose:
                 console.print(f"  [dim]5/6 Dosya adı üretimi...[/dim]")
 
             # Geçici hedef klasör (path resolver sonra kesin belirleyecek)
             temp_target_dir = str(
-                REPO_ROOT / analysis.semester_guess / analysis.course_name
+                REPO_ROOT / "EEM" / analysis.semester_guess / analysis.course_name
             )
 
             generated_name = self.filename_gen.generate(
@@ -516,6 +548,7 @@ class IntakeAgent:
                             "filename": generated_name,
                             "path": str(target_path),
                             "material_type": analysis.material_type,
+                            "quality_score": analysis.quality_score,
                         },
                     )
 
@@ -716,7 +749,8 @@ def run(
 
             # Output
             if result.status == ProcessingStatus.SUCCESS:
-                console.print(f"  {status_str} {f.name}")
+                qs_str = f"({result.analysis.quality_score}⭐) " if result.analysis else ""
+                console.print(f"  {status_str} {qs_str}{f.name}")
                 if result.final_path:
                     rel_path = result.final_path.relative_to(REPO_ROOT)
                     console.print(f"       -> {rel_path}")

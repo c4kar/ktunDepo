@@ -55,7 +55,7 @@ class FilenameGenerator:
         year = analysis.year_guess or "tarihsiz"
 
         # Temel isim
-        base = f"{prefix}_{topic_slug}_{year}"
+        base = f"{prefix}_{topic_slug}_{year}_{analysis.quality_score}Star"
 
         # Versiyon kontrolü
         version = 1

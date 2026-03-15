@@ -250,6 +250,8 @@ class DuplicateDetector:
                             "course": r.payload.get("course"),
                             "filename": r.payload.get("filename"),
                             "path": r.payload.get("path"),
+                            "material_type": r.payload.get("material_type"),
+                            "year": r.payload.get("year"),
                         }
                     )
 
@@ -417,6 +419,8 @@ class DuplicateDetector:
                     "course": r.payload.get("course"),
                     "filename": r.payload.get("filename"),
                     "path": r.payload.get("path"),
+                    "material_type": r.payload.get("material_type"),
+                    "year": r.payload.get("year"),
                     "text_preview": r.payload.get("text_preview", ""),
                 }
                 for r in results

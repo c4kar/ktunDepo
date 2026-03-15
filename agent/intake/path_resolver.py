@@ -89,9 +89,9 @@ class PathResolver:
 
         # 3. Alt klasör belirleme
         if analysis.material_type == "lms_sunumu":
-            target_dir = self.repo_root / semester / course / "LMS"
+            target_dir = self.repo_root / "EEM" / semester / course / "LMS"
         else:
-            target_dir = self.repo_root / semester / course
+            target_dir = self.repo_root / "EEM" / semester / course
 
         # Klasörü oluştur
         target_dir.mkdir(parents=True, exist_ok=True)
@@ -180,7 +180,7 @@ class PathResolver:
 
         # Her dönemde hangi derslerin olduğunu kontrol et
         for semester in self.SEMESTERS:
-            semester_path = self.repo_root / semester
+            semester_path = self.repo_root / "EEM" / semester
             if semester_path.exists():
                 courses = self.list_courses(semester)
                 for existing_course in courses:
@@ -240,7 +240,7 @@ class PathResolver:
 
     def list_courses(self, semester: str) -> List[str]:
         """Bir dönemdeki mevcut ders klasörlerini listele."""
-        semester_path = self.repo_root / semester
+        semester_path = self.repo_root / "EEM" / semester
         if not semester_path.exists():
             return []
 

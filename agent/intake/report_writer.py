@@ -143,6 +143,7 @@ class ReportWriter:
                 "decision": analysis_result.decision,
                 "decision_reason": analysis_result.decision_reason,
                 "confidence": analysis_result.confidence,
+                "quality_score": analysis_result.quality_score,
                 "suggested_filename_hint": analysis_result.suggested_filename_hint,
             }
 

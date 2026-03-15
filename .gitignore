@@ -41,6 +41,7 @@ env/
 # Logs
 agent/logs/*.log
 *.log
+_reports/
 
 # Qdrant lokal veritabanı
 vector_db/storage/
@@ -71,3 +72,5 @@ models/
 # Test coverage
 .coverage
 htmlcov/
+
+md/
