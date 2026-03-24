@@ -9,10 +9,12 @@ Her dosya (teknik olarak bozuk olanlar hariç) LLM tarafından görülür.
 import os
 import json
 import logging
+import httpx
+import time
 from dataclasses import dataclass, field
 from typing import Optional, Dict, Any, List
 
-import anthropic
+# import anthropic  # ← Anthropic API commented out, using OpenRouter instead
 
 from agent.intake.file_scanner import ScanResult
 from agent.intake.content_preparer import PreparedContent, ContentMode
@@ -20,6 +22,11 @@ from agent.intake.hint_loader import IntakeHint
 
 logger = logging.getLogger(__name__)
 
+
+# OpenRouter API Configuration
+OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
+MODEL = "anthropic/claude-3-haiku"  # Vision-capable, affordable. Diğerleri olmadı. İleride Mistral OCR araya koyup daha ucuza halledebilriiz
+MAX_TOKENS = 600
 
 # System prompt — ktunDepo baş editörü
 SYSTEM_PROMPT = """You are a content screener for ktunDepo, a course material repository for Electrical-Electronics Engineering students at Konya Technical University (Turkey).
@@ -43,7 +50,7 @@ FLAGS: el_yazisi, dusuk_cozunurluk, baska_universite, telif_riski
 DECISION RULES:
 - REJECT: completely irrelevant (ads, personal photos, blank), or technically unreadable
 - REVIEW: score 1-2, or genuinely ambiguous content
-- ACCEPT: score 3-5 and clearly EEM-related
+- ACCEPT: score 3-5 and clearly class related
 
 QUALITY SCORE:
 5 = solved exam, clean notes, official slides
@@ -97,7 +104,7 @@ class AnalysisResult:
 
 class LLMAnalyzer:
     """
-    Claude API ile materyal analizi.
+    OpenRouter API ile materyal analizi (OpenAI GPT OSS modeli).
 
     Tek LLM çağrısı ile:
     - Materyalin ne olduğunu anlar
@@ -105,35 +112,49 @@ class LLMAnalyzer:
     - Dosya adı ve yol için ipuçları üretir
     """
 
-    # Model seçimi
-    MODEL_TEXT = "claude-haiku-4-5-20251001"  # Metin analizi
-    MODEL_VISION = "claude-haiku-4-5-20251001"  # Vision analizi
-    MODEL_METADATA = "claude-haiku-4-5-20251001"  # Sadece metadata (video)
-
-    MAX_TOKENS = 600
-
     def __init__(self, api_key: Optional[str] = None):
         """
         LLMAnalyzer başlat.
 
         Args:
-            api_key: Anthropic API key (None ise env'den alınır)
+            api_key: OpenRouter API key (None ise env'den alınır: OPENROUTER_API_KEY)
         """
-        self.api_key = api_key or os.getenv("ANTHROPIC_API_KEY")
-        self._client = None
+        self.api_key = api_key or os.getenv("OPENROUTER_API_KEY")
 
-    def _get_client(self):
-        """Anthropic client'ı lazy load et."""
-        if self._client is None:
-            try:
-                import anthropic
+    def _call_openrouter(
+        self, messages: List[Dict[str, Any]], max_tokens: int = MAX_TOKENS
+    ) -> dict:
+        """
+        OpenRouter API'ye httpx ile çağrı yap.
 
-                self._client = anthropic.Anthropic(api_key=self.api_key)
-            except ImportError:
-                raise ImportError(
-                    "anthropic kütüphanesi yüklü değil: pip install anthropic"
-                )
-        return self._client
+        Args:
+            messages: Messages array (system + user)
+            max_tokens: Max token sayısı
+
+        Returns:
+            API yanıtı dict
+        """
+        if not self.api_key:
+            raise ValueError("OPENROUTER_API_KEY ayarlanmamış")
+
+        headers = {
+            "Authorization": f"Bearer {self.api_key}",
+            "Content-Type": "application/json",
+            "HTTP-Referer": "https://github.com/c4kar/ktunDepo",
+            "X-Title": "ktunDepo Intake Agent",
+        }
+
+        payload = {
+            "model": MODEL,
+            "messages": messages,
+            "max_tokens": max_tokens,
+            "temperature": 0.1,
+        }
+
+        with httpx.Client(timeout=60) as client:
+            response = client.post(OPENROUTER_API_URL, headers=headers, json=payload)
+            response.raise_for_status()
+            return response.json()
 
     def analyze(
         self,
@@ -154,7 +175,7 @@ class LLMAnalyzer:
         if not self.api_key:
             return AnalysisResult(
                 decision="REVIEW",
-                decision_reason="ANTHROPIC_API_KEY ayarlanmamış",
+                decision_reason="OPENROUTER_API_KEY ayarlanmamış",
                 error="API key missing",
             )
 
@@ -162,7 +183,7 @@ class LLMAnalyzer:
             # Vision modu için payload boyutu kontrolü
             if prepared_content.mode == ContentMode.VISION:
                 total_b64_size = sum(len(img) for img in prepared_content.images_base64)
-                # Base64 verisi yaklaşık 3MB'dan büyükse, Anthropic API sorun yaşayabilir
+                # Base64 verisi yaklaşık 3MB'dan büyükse, OpenRouter API sorun yaşayabilir
                 if total_b64_size > 15_000_000:  # 15MB base64 = ~11MB binary
                     logger.warning(
                         f"Vision payload too large: {total_b64_size:,} bytes for {scan_result.filename_original}. "
@@ -184,30 +205,33 @@ class LLMAnalyzer:
             else:  # METADATA_ONLY
                 return self._analyze_metadata(scan_result, prepared_content, hint)
 
-        except anthropic.BadRequestError as e:
-            # 400 Bad Request hatasını ayrıntılı logla
+        except httpx.HTTPStatusError as e:
+            # HTTP hataları
             logger.error(
-                f"API 400 Bad Request for {scan_result.filename_original}: {e.message}",
+                f"OpenRouter API HTTP error {e.response.status_code} for {scan_result.filename_original}",
                 exc_info=True,
             )
+
+            # 404 hatası vision mode'da ise text mode'a geç
+            if (
+                e.response.status_code == 404
+                and prepared_content.mode == ContentMode.VISION
+            ):
+                logger.warning(
+                    f"Vision mode failed with 404 for {scan_result.filename_original}. "
+                    "Falling back to text mode."
+                )
+                # Metin moduna geçiş yap
+                if prepared_content.text_content:
+                    return self._analyze_text(scan_result, prepared_content, hint)
+                else:
+                    # Text içeriği yok ise metadata moduna geç
+                    return self._analyze_metadata(scan_result, prepared_content, hint)
+
             return AnalysisResult(
                 decision="REVIEW",
-                decision_reason=(
-                    f"LLM API hatası (400): Dosya yapısı veya boyutu uygun olmayabilir. "
-                    f"Hata: {str(e.message)[:200]}"
-                ),
-                error=f"BadRequestError: {str(e.message)[:500]}",
-            )
-        except anthropic.APIStatusError as e:
-            # Diğer API hataları
-            logger.error(
-                f"API error {e.status_code} for {scan_result.filename_original}: {e.message}",
-                exc_info=True,
-            )
-            return AnalysisResult(
-                decision="REVIEW",
-                decision_reason=f"LLM API hatası ({e.status_code}): {str(e.message)[:150]}",
-                error=f"APIStatusError {e.status_code}: {str(e.message)[:500]}",
+                decision_reason=f"LLM API hatası ({e.response.status_code}): {str(e)[:150]}",
+                error=f"HTTP {e.response.status_code}: {str(e)[:500]}",
             )
         except Exception as e:
             logger.error(
@@ -239,8 +263,6 @@ class LLMAnalyzer:
         hint: Optional[IntakeHint] = None,
     ) -> AnalysisResult:
         """Metin modu analizi."""
-        client = self._get_client()
-
         hint_prompt = self._get_hint_prompt(hint)
 
         user_prompt = f"""{hint_prompt}
@@ -272,14 +294,14 @@ Lütfen şunları belirle ve SADECE JSON döndür:
 }}
 """
 
-        response = client.messages.create(
-            model=self.MODEL_TEXT,
-            max_tokens=self.MAX_TOKENS,
-            system=SYSTEM_PROMPT,
-            messages=[{"role": "user", "content": user_prompt}],
+        response_data = self._call_openrouter(
+            messages=[
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": user_prompt},
+            ]
         )
 
-        return self._parse_response(response, self.MODEL_TEXT, hint)
+        return self._parse_response(response_data, MODEL, hint)
 
     def _analyze_vision(
         self,
@@ -288,21 +310,15 @@ Lütfen şunları belirle ve SADECE JSON döndür:
         hint: Optional[IntakeHint] = None,
     ) -> AnalysisResult:
         """Vision modu analizi."""
-        client = self._get_client()
-
         hint_prompt = self._get_hint_prompt(hint)
 
-        # Görüntüleri messages array'ine ekle
+        # Görüntüleri OpenAI format'ına dönüştür (base64 data URL)
         image_content = []
         for img_b64 in content.images_base64:
             image_content.append(
                 {
-                    "type": "image",
-                    "source": {
-                        "type": "base64",
-                        "media_type": content.media_type,
-                        "data": img_b64,
-                    },
+                    "type": "image_url",
+                    "image_url": {"url": f"data:{content.media_type};base64,{img_b64}"},
                 }
             )
 
@@ -337,14 +353,14 @@ Görüntüye bakarak şunları belirle ve SADECE JSON döndür:
 
         image_content.append({"type": "text", "text": text_prompt})
 
-        response = client.messages.create(
-            model=self.MODEL_VISION,
-            max_tokens=self.MAX_TOKENS,
-            system=SYSTEM_PROMPT,
-            messages=[{"role": "user", "content": image_content}],
+        response_data = self._call_openrouter(
+            messages=[
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": image_content},
+            ]
         )
 
-        return self._parse_response(response, self.MODEL_VISION, hint)
+        return self._parse_response(response_data, MODEL, hint)
 
     def _analyze_metadata(
         self,
@@ -353,8 +369,6 @@ Görüntüye bakarak şunları belirle ve SADECE JSON döndür:
         hint: Optional[IntakeHint] = None,
     ) -> AnalysisResult:
         """Sadece metadata ile analiz (video dosyaları)."""
-        client = self._get_client()
-
         hint_prompt = self._get_hint_prompt(hint)
 
         user_prompt = f"""{hint_prompt}
@@ -387,25 +401,39 @@ NOT: Video içeriğini göremiyorum, sadece dosya adı ve boyutuna göre karar v
 Şüphe varsa REVIEW seç.
 """
 
-        response = client.messages.create(
-            model=self.MODEL_METADATA,
+        response_data = self._call_openrouter(
+            messages=[
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": user_prompt},
+            ],
             max_tokens=400,
-            system=SYSTEM_PROMPT,
-            messages=[{"role": "user", "content": user_prompt}],
         )
 
-        return self._parse_response(response, self.MODEL_METADATA, hint)
+        return self._parse_response(response_data, MODEL, hint)
 
     def _parse_response(
-        self, response, model: str, hint: Optional[IntakeHint] = None
+        self, data: dict, model: str, hint: Optional[IntakeHint] = None
     ) -> AnalysisResult:
-        """API yanıtını parse et."""
+        """OpenRouter API yanıtını parse et."""
+        # OpenRouter format: data["usage"]["prompt_tokens"] ve data["usage"]["completion_tokens"]
+        usage = data.get("usage", {})
         tokens_used = {
-            "input": response.usage.input_tokens,
-            "output": response.usage.output_tokens,
+            "input": usage.get("prompt_tokens", 0),
+            "output": usage.get("completion_tokens", 0),
         }
 
-        raw = response.content[0].text.strip()
+        # OpenRouter format: data["choices"][0]["message"]["content"]
+        content = data.get("choices", [{}])[0].get("message", {}).get("content")
+        if content is None:
+            return AnalysisResult(
+                decision="REVIEW",
+                decision_reason="LLM boş yanıt döndürdü",
+                tokens_used=tokens_used,
+                model_used=model,
+                error="API returned null content",
+            )
+
+        raw = content.strip()
 
         # JSON bloğunu çıkar
         raw = raw.replace("```json", "").replace("```", "").strip()

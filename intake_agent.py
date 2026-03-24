@@ -689,9 +689,9 @@ def run(
     )
 
     # API key kontrolü
-    if not os.environ.get("ANTHROPIC_API_KEY"):
-        console.print("[red]ANTHROPIC_API_KEY environment variable gerekli![/red]")
-        console.print("  export ANTHROPIC_API_KEY=sk-ant-...")
+    if not os.environ.get("OPENROUTER_API_KEY"):
+        console.print("[red]OPENROUTER_API_KEY environment variable gerekli![/red]")
+        console.print("  export OPENROUTER_API_KEY=sk-or-...")
         raise typer.Exit(1)
 
     # Dosya listesi

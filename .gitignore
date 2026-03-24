@@ -42,10 +42,16 @@ env/
 agent/logs/*.log
 *.log
 _reports/
+_incoming/
+_rejected/
+_intake/
+_pending/
+_failed/
+_archived/
+_review/
 
 # Qdrant lokal veritabanı
-vector_db/storage/
-vector_db/*.db
+vector_db/
 
 # Geçici dosyalar
 _incoming/*
