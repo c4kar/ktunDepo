@@ -51,6 +51,8 @@ from scripts.course_resolver import get_course_resolver, CourseNotFoundError
 from scripts.git_manager import get_git_manager, get_maintenance_checker
 from scripts.ocr_pipeline import get_ocr_pipeline, get_markdown_formatter
 from agent.llm_evaluator import get_llm_evaluator
+from agent.core_processor import MaterialProcessor
+from agent.models import ProcessingContext
 
 
 logger = get_logger("pipeline")
@@ -177,6 +179,7 @@ class MaterialPipeline:
             model=self.config.llm_quality_model,
             prompts_path=self.config.prompts_path,
         )
+        self.core_processor = MaterialProcessor()
 
         # Watchdog observer
         self._observer: Optional[Observer] = None
@@ -352,6 +355,15 @@ class MaterialPipeline:
         metadata = self._read_metadata(file_path_obj)
 
         logger.info(f"İşleniyor: {file_path_obj.name}")
+
+        # Scaffolding for core processor migration
+        context = ProcessingContext(
+            file_path=file_path_obj,
+            source="telegram" if metadata and "chat_id" in metadata else "directory",
+            metadata=metadata or {},
+        )
+        _core_result = self.core_processor.process(context)
+        # TODO: Handle core_result when fully migrated
 
         # ===== AŞAMA 1: Kalite Kontrolü =====
         quality_result = self.quality_checker.check_file(str(file_path))
