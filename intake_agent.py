@@ -235,8 +235,9 @@ class IntakeAgent:
             hint = self.hint_loader.load_hint(file_path)
 
             # Scaffolding for core processor migration
-            # context = ProcessingContext(file_path=file_path, source="cli", hint=hint, dry_run=self.dry_run)
-            # core_result = self.core_processor.process(context)
+            context = ProcessingContext(file_path=file_path, source="cli", hint=hint, dry_run=self.dry_run)
+            _core_result = self.core_processor.process(context)
+            # TODO: Handle core_result when fully migrated
 
             # === Step 1: Technical Scan ===
             if self.verbose:
