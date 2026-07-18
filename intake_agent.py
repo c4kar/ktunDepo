@@ -49,6 +49,8 @@ from agent.intake import (
 from agent.intake.hint_loader import HintLoader
 from agent.config_loader import get_config
 from agent.intake.content_preparer import ContentMode
+from agent.core_processor import MaterialProcessor
+from agent.models import ProcessingContext
 
 # Duplicate detector import (optional - Qdrant olmayabilir)
 HAS_DUPLICATE_DETECTOR = False
@@ -175,6 +177,7 @@ class IntakeAgent:
         self.path_resolver = PathResolver(repo_root=str(REPO_ROOT))
         self.report_writer = ReportWriter(reports_base=str(REPORTS_DIR))
         self.hint_loader = HintLoader(intake_root=str(INTAKE_DIR))
+        self.core_processor = MaterialProcessor()
 
         self.docling_gateway: Optional[DoclingGateway] = None
         if self.config.docling_enabled:
@@ -230,6 +233,10 @@ class IntakeAgent:
 
         try:
             hint = self.hint_loader.load_hint(file_path)
+
+            # Scaffolding for core processor migration
+            # context = ProcessingContext(file_path=file_path, source="cli", hint=hint, dry_run=self.dry_run)
+            # core_result = self.core_processor.process(context)
 
             # === Step 1: Technical Scan ===
             if self.verbose:
