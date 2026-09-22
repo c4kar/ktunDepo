@@ -371,6 +371,43 @@ Ben KTÜN Elektrik-Elektronik Mühendisliği ders materyali deposunu yönetiyoru
             parse_mode="Markdown",
         )
 
+    async def magnum_command(self, update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+        """/magnum <ders_kodu> komutu."""
+        if not context.args:
+            await update.message.reply_text("Kullanım: `/magnum <ders_kodu>`\nÖrnek: `/magnum EEM-202`", parse_mode="Markdown")
+            return
+            
+        course = context.args[0].upper()
+        user_id = str(update.effective_user.id)
+        
+        try:
+            from agent.economy import spend_credit
+            if spend_credit(user_id, 1):
+                pdf_path = Path(f"../ktunot/public/magnum/{course}_MAGNUM.pdf")
+                if pdf_path.exists():
+                    await update.message.reply_document(document=open(pdf_path, 'rb'), caption=f"İşte {course} MAGNUM paketi! Başarılar.")
+                else:
+                    # Refund credit
+                    from agent.economy import add_credit
+                    add_credit(user_id, 1)
+                    await update.message.reply_text(f"⚠️ {course} için MAGNUM paketi henüz oluşturulmamış. Kredin iade edildi.")
+            else:
+                await update.message.reply_text("⚠️ Yetersiz kredi. Bir Magnum paketi indirmek için sisteme 1 adet yüksek kaliteli (>= 65 puan) materyal yüklemelisin.")
+        except Exception as e:
+            self.logger.error(f"Magnum command error: {e}")
+            await update.message.reply_text("⚠️ Bir hata oluştu.")
+
+    async def kredi_command(self, update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+        """/kredi komutu."""
+        user_id = str(update.effective_user.id)
+        try:
+            from agent.economy import get_credits
+            credits = get_credits(user_id)
+            await update.message.reply_text(f"💳 **Mevcut Magnum Kredin:** {credits}\n\nYeni kredi kazanmak için `/upload` ile materyal yükleyebilirsin.", parse_mode="Markdown")
+        except Exception as e:
+            self.logger.error(f"Kredi command error: {e}")
+            await update.message.reply_text("⚠️ Bir hata oluştu.")
+
     async def resume_command(
         self, update: Update, context: ContextTypes.DEFAULT_TYPE
     ) -> None:
@@ -1015,6 +1052,8 @@ Ben KTÜN Elektrik-Elektronik Mühendisliği ders materyali deposunu yönetiyoru
         self.application.add_handler(CommandHandler("stats", self.stats_command))
         self.application.add_handler(CommandHandler("upload", self.upload_command))
         self.application.add_handler(CommandHandler("request", self.request_command))
+        self.application.add_handler(CommandHandler("magnum", self.magnum_command))
+        self.application.add_handler(CommandHandler("kredi", self.kredi_command))
         self.application.add_handler(CommandHandler("resume", self.resume_command))
         self.application.add_handler(
             CommandHandler("pending_list", self.pending_list_command)

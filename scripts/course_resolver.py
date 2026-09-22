@@ -5,8 +5,9 @@ Fuzzy matching ile öğrenci girdilerini mevcut klasör yapısıyla eşleştirir
 """
 
 import os
+import json
 from pathlib import Path
-from typing import Optional, List, Tuple
+from typing import Optional, List, Tuple, Dict, Any
 from dataclasses import dataclass
 
 # Fuzzy matching için lazy import
@@ -93,22 +94,74 @@ class CourseResolver:
             base_path: Depo kök dizini
         """
         self.base_path = Path(base_path)
-        self._course_cache: dict = {}
+        self._course_cache: Dict[str, List[str]] = {}
+        self._course_paths: Dict[Tuple[str, str], str] = {}
         self._refresh_cache()
 
     def _refresh_cache(self) -> None:
         """Mevcut ders klasörlerini önbelleğe al."""
         self._course_cache = {}
+        self._course_paths = {}
 
-        # EEM-X klasörlerini tara
-        for semester_dir in self.base_path.iterdir():
-            if semester_dir.is_dir() and semester_dir.name.startswith("EEM-"):
-                semester = semester_dir.name
-                self._course_cache[semester] = []
+        candidate_roots = [self.base_path]
+        if (self.base_path / "EEM").is_dir():
+            candidate_roots.append(self.base_path / "EEM")
+        if (self.base_path / "storage" / "materials").is_dir():
+            candidate_roots.append(self.base_path / "storage" / "materials")
+        if (self.base_path.parent / "storage" / "materials").is_dir():
+            candidate_roots.append(self.base_path.parent / "storage" / "materials")
 
-                for course_dir in semester_dir.iterdir():
-                    if course_dir.is_dir():
-                        self._course_cache[semester].append(course_dir.name)
+        # 1. Dosya sistemi taraması
+        for root in candidate_roots:
+            if not root.exists():
+                continue
+            for item in root.rglob("*"):
+                if item.is_dir() and item.name.startswith("EEM-"):
+                    semester = item.name
+                    if semester not in self._course_cache:
+                        self._course_cache[semester] = []
+                    try:
+                        for course_dir in item.iterdir():
+                            if course_dir.is_dir() and not course_dir.name.startswith(".") and course_dir.name != "thumbs":
+                                course_name = course_dir.name
+                                if course_name not in self._course_cache[semester]:
+                                    self._course_cache[semester].append(course_name)
+                                self._course_paths[(semester, course_name)] = str(course_dir.resolve())
+                    except OSError:
+                        pass
+
+        # 2. manifest.json desteği
+        manifest_candidates = [
+            self.base_path / "manifest.json",
+            self.base_path.parent / "ktunDepo" / "manifest.json",
+            self.base_path / "ktunDepo" / "manifest.json",
+        ]
+        for mpath in manifest_candidates:
+            if mpath.exists():
+                try:
+                    with open(mpath, "r", encoding="utf-8") as f:
+                        mdata = json.load(f)
+                        for file_info in mdata.get("files", []):
+                            sem = file_info.get("semester", "")
+                            cname = file_info.get("course", "")
+                            rel_path = file_info.get("path", "")
+                            if sem and cname:
+                                if sem not in self._course_cache:
+                                    self._course_cache[sem] = []
+                                if cname not in self._course_cache[sem]:
+                                    self._course_cache[sem].append(cname)
+                                if (sem, cname) not in self._course_paths and rel_path:
+                                    parent_dir = (self.base_path / rel_path).parent
+                                    self._course_paths[(sem, cname)] = str(parent_dir.resolve())
+                except Exception:
+                    pass
+                break
+
+    def _get_full_path(self, semester: str, course: str) -> str:
+        """Ders için tam dosya yolunu döndür."""
+        if (semester, course) in self._course_paths:
+            return self._course_paths[(semester, course)]
+        return str(self.base_path / semester / course)
 
     def _normalize_text(self, text: str) -> str:
         """Türkçe karakterleri ve büyük/küçük harfleri normalize et."""
@@ -185,7 +238,7 @@ class CourseResolver:
                         return CourseMatch(
                             course_name=course,
                             semester=sem,
-                            full_path=str(self.base_path / sem / course),
+                            full_path=self._get_full_path(sem, course),
                             confidence=100.0,
                             is_exact=True,
                         )
@@ -202,7 +255,7 @@ class CourseResolver:
                             best_match = CourseMatch(
                                 course_name=course,
                                 semester=sem,
-                                full_path=str(self.base_path / sem / course),
+                                full_path=self._get_full_path(sem, course),
                                 confidence=score,
                                 is_exact=False,
                             )
@@ -223,7 +276,7 @@ class CourseResolver:
                             best_match = CourseMatch(
                                 course_name=courses[idx],
                                 semester=sem,
-                                full_path=str(self.base_path / sem / courses[idx]),
+                                full_path=self._get_full_path(sem, courses[idx]),
                                 confidence=score,
                                 is_exact=False,
                             )
@@ -244,7 +297,7 @@ class CourseResolver:
                             best_match = CourseMatch(
                                 course_name=courses[idx],
                                 semester=sem,
-                                full_path=str(self.base_path / sem / courses[idx]),
+                                full_path=self._get_full_path(sem, courses[idx]),
                                 confidence=adjusted_score,
                                 is_exact=False,
                             )
@@ -266,7 +319,7 @@ class CourseResolver:
                                 best_match = CourseMatch(
                                     course_name=courses[idx],
                                     semester=sem,
-                                    full_path=str(self.base_path / sem / courses[idx]),
+                                    full_path=self._get_full_path(sem, courses[idx]),
                                     confidence=score,
                                     is_exact=False,
                                 )

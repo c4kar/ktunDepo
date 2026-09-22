@@ -317,6 +317,7 @@ class DuplicateDetector:
                     **metadata,
                     "content_hash": content_hash,
                     "text_preview": text[:500],  # İlk 500 karakter
+                    "text": text[:50000],  # ktunMagnum sentezi için tam metin (max 50k char)
                 },
             )
 

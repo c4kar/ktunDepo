@@ -80,3 +80,8 @@ models/
 htmlcov/
 
 md/
+
+# CodeGraph and Agent Skills
+.codegraph/
+.agents/
+skills-lock.json
